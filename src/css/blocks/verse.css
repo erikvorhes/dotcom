@@ -1,0 +1,15 @@
+.verse {
+  display: table;
+  inline-size: auto;
+  margin-inline: auto;
+  font-family: var(--font-family-serif);
+}
+
+.verse h2 {
+  text-align: center;
+}
+
+.verse pre {
+  font-family: inherit;
+  font-variant-ligatures: inherit;
+}

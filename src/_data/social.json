@@ -1,0 +1,73 @@
+[
+  {
+    "name": "CodePen",
+    "url": "https://codepen.io/erikvorhes/",
+    "desc": "Sometimes I play with code."
+  },
+  {
+    "name": "Dribbble",
+    "url": "https://dribbble.com/erikvorhes",
+    "desc": "I used to be active here, but not in years. Maybe again some day!"
+  },
+  {
+    "name": "Facebook",
+    "url": "https://www.facebook.com/erikvorhes",
+    "desc": "My former employer!",
+    "rel": "me"
+  },
+  {
+    "name": "Flickr",
+    "url": "https://www.flickr.com/photos/erikvorhes",
+    "desc": "I keep forgetting to share new photos here, but somehow I still love this old site.",
+    "rel": "me"
+  },
+  {
+    "name": "GitHub",
+    "url": "https://github.com/erikvorhes",
+    "desc": "Most of my public stuff here is either for kicks or stuff I might do at some point, maybe.",
+    "rel": "me"
+  },
+  {
+    "name": "Instagram",
+    "url": "https://www.instagram.com/erikvorhes/",
+    "desc": "Square photos (mostly)!"
+  },
+  {
+    "name": "Letterboxd",
+    "url": "https://letterboxd.com/erikvorhes/",
+    "desc": "I like movies."
+  },
+  {
+    "name": "LinkedIn",
+    "url": "https://www.linkedin.com/in/erikvorhes",
+    "desc": "Inspiration for the best-ever New Yorker cartoon caption.",
+    "rel": "me"
+  },
+  {
+    "name": "Mastodon",
+    "url": "https://mastodon.social/@erikvorhes",
+    "desc": "I'm somewhat active over here; maybe it will be the successor to Twitter.",
+    "rel": "me"
+  },
+  {
+    "name": "Pinboard",
+    "url": "https://pinboard.in/u:ebv/",
+    "desc": "I bookmark a lot of stuff that I find interesting and want to find later. Pinboard also pulls down URLs in tweets (and maybe someday toots) I like."
+  },
+  {
+    "name": "The StoryGraph",
+    "url": "https://app.thestorygraph.com/profile/erikvorhes",
+    "desc": "I like books and feel like tracking what I read could motivate me to read more."
+  },
+  {
+    "name": "Tumblr",
+    "url": "https://www.tumblr.com/blog/erikvorhes",
+    "desc": "I lost access to my very old account, but it only had one post on it. This one is mostly just cross-posts from Instagram, at least for now."
+  },
+  {
+    "name": "Twitter",
+    "url": "https://twitter.com/erikvorhes",
+    "desc": "I owe a lot of my career to Twitter, and its current direction saddens me.",
+    "rel": "me"
+  }
+]

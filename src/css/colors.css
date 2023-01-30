@@ -1,0 +1,16 @@
+body {
+  color: var(--color-dark);
+  background-color: var(--color-light);
+}
+
+::selection {
+  color: var(--color-light);
+  background-color: var(--color-dark);
+}
+
+@media print {
+  body {
+    color: #000 !important;
+    background-color: #fff !important;
+  }
+}

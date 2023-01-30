@@ -1,0 +1,15 @@
+/* -block: height, -inline: width */
+@import "config.css";
+
+:root {
+  --gutter: var(--space-s-m);
+  --border-radius: var(--size-step-0);
+}
+
+@import "reset.css";
+@import "colors.css";
+@import "typography.css";
+
+@import-glob 'utils/*.css';
+@import-glob 'blocks/*.css';
+@import-glob 'components/*.css';

@@ -1,0 +1,21 @@
+<nav class="nav">
+  <ul class="nav__list">
+    <li class="nav__item">
+      <a href="/" class="nav__link__home"{{ ' aria-current="page"' if page.url == '/' | safe }}>
+        {% include "partials/components/icon.njk" %}
+      </a>
+    </li>
+    <li class="nav__item">
+      <a href="/is"{{ ' aria-current="page"' if page.url == '/is' | safe }}>About</a>
+    </li>
+    <li class="nav__item">
+      <a href="/was"{{ ' aria-current="page"' if page.url == '/was' | safe }}>Archive</a>
+    </li>
+    <li class="nav__item">
+      <a href="/notes"{{ ' aria-current="page"' if page.url == '/notes' | safe }}>Notes</a>
+    </li>
+    <li class="nav__item">
+      <a href="/has"{{ ' aria-current="page"' if page.url == '/has' | safe }}>Search</a>
+    </li>
+  </ul>
+</nav>

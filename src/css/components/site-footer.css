@@ -1,0 +1,12 @@
+.site-footer {
+  border-block-start: 1px dashed var(--color-shadow);
+}
+
+.site-footer__content h2 {
+  font-size:  var(--size-step-1);
+  font-style: italic;
+}
+
+.site-footer__content p {
+  font-size:  var(--size-step-0);
+}

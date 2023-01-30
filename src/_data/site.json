@@ -1,0 +1,20 @@
+{
+  "name": "Erik Vorhes",
+  "shortDesc": "Erik Vorhes has been a purveyor of quality hypertext products since 2003. This is his personal site.",
+  "url": "https://erikvorhes.com",
+  "authorEmail": "erik@erikanderica.org",
+  "authorHandle": "erikvorhes",
+  "authorName": "Erik Vorhes",
+  "maxPostsPerPage": 7,
+  "fontLicenseKey": "WF-013255-001872",
+  "feed": {
+    "subtitle": "Writing and other things by Erik Vorhes",
+    "filename": "feed.xml",
+    "path": "/feed/feed.xml",
+    "id": "https://erikvorhes.com/"
+  },
+  "jsonFeed": {
+    "path": "/feed/feed.json",
+    "url": "https://erikvorhes.com/feed/feed.json"
+  }
+}

@@ -1,0 +1,11 @@
+<footer role="contentinfo" class="site-footer">
+  <div class="wrapper">
+    <article class="site-footer__content">
+      <h2>About this site</h2>
+      {{ site.shortDesc | markdownFilter | safe}}
+      <p>Copyright &copy; {% currentYear %} {{ site.authorName }}.</p>
+      <p><a href="https://www.11ty.dev/" rel="external">Powered by Eleventy</a> &amp; <a href="https://www.netlify.com/" rel="external">hosted by Netlify</a></p>
+      <p>You can <a href="https://github.com/erikvorhes/dotcom/blob/main/{{ page.inputPath }}" rel="external">edit this page on GitHub</a>, if you want.</p>
+    </article>
+  </div>
+</footer>

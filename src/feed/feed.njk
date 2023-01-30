@@ -1,0 +1,28 @@
+---
+permalink: "{{ site.feed.path }}"
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>{{ site.title }}</title>
+  <subtitle>{{ site.feed.subtitle }}</subtitle>
+  {% set absoluteUrl %}{{ site.feed.path | url | absoluteUrl(site.url) }}{% endset %}
+  <link href="{{ absoluteUrl }}" rel="self"/>
+  <link href="{{ site.url }}"/>
+  <updated>{{ collections.feedNotes | rssLastUpdatedDate }}</updated>
+  <id>{{ site.feed.id }}</id>
+  <author>
+    <name>{{ site.author.name }}</name>
+    <email>{{ site.author.email }}</email>
+  </author>
+  {%- for note in collections.feedNotes | reverse %}
+  {% set absoluteNoteUrl %}{{ note.url | url | absoluteUrl(site.url) }}{% endset %}
+  <entry>
+    <title>{{ note.data.title }}</title>
+    <link href="{{ absoluteNoteUrl }}"/>
+    <updated>{{ note.date | rssDate }}</updated>
+    <id>{{ absoluteNoteUrl }}</id>
+    <content type="html">{{ note.templateContent | htmlToAbsoluteUrls(absoluteNoteUrl) }}</content>
+  </entry>
+  {%- endfor %}
+</feed>

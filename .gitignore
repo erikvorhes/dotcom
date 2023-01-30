@@ -1,3 +1,5 @@
+.DS_Store
+
 # Logs
 logs
 *.log
@@ -40,6 +42,7 @@ build/Release
 # Dependency directories
 node_modules/
 jspm_packages/
+dist/
 
 # TypeScript v1 declaration files
 typings/
@@ -102,3 +105,12 @@ dist
 
 # TernJS port file
 .tern-port
+
+# Nova
+.nova
+
+# Sass
+*.scssc
+
+# Compiled stuff
+src/css/config.css

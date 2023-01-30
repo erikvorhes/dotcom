@@ -1,0 +1,3 @@
+.entry__body figure {
+  max-inline-size: var(--measure);
+}

@@ -1,0 +1,7 @@
+/*
+FLOW UTILITY
+Like the Every Layout stack: https://every-layout.dev/layouts/stack/
+*/
+.flow > * + * {
+  margin-block-start: var(--flow-space, 1em);
+}

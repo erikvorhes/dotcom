@@ -1,0 +1,6 @@
+<header class="intro flow">
+  <h1 class="intro__heading">{{ introHeading }}</h1>
+  {% if introSummary %}
+    <div class="intro__summary flow">{{ introSummary | markdownFilter | safe }}</div>
+  {% endif %}
+</header>

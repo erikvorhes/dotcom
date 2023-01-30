@@ -1,0 +1,49 @@
+{
+  "color": {
+    "dark": "#212121",
+    "mid": "#aaa",
+    "light": "#ffe",
+    "highlight": "#f9dc9a",
+    "primary": "#f04a00",
+    "primary-shade": "#8b0f09",
+    "primary-glare": "#f2443a",
+    "shadow": "hsla(0, 0%, 13%, 0.25)",
+    "code-text": "#d6deeb",
+    "code-background": "#011627"
+  },
+  "fontFamily": {
+    "emoji": "\"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+    "mono": "\"Fedra Mono Screen\", Gintronic, \"Source Code Pro\", Consolas, Menlo, Monaco, \"Roboto Mono\", monospace, monospace",
+    "sans": "\"Fedra Sans Screen\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+    "serif": "\"Fedra Serif Screen 2\", Georgia, serif"
+  },
+  "measure": "72ch",
+  "spacing": {
+    "xs": [12, 15],
+    "s": [16, 20],
+    "m": [24, 30],
+    "l": [32, 40],
+    "xl": [48, 60],
+    "2xl": [64, 80],
+    "3xl": [96, 120],
+    "xs-s": [12, 20],
+    "s-m": [20, 30],
+    "m-l": [24, 40],
+    "l-xl": [32, 60],
+    "xl-2xl": [48, 80],
+    "2xl-3xl": [64, 120]
+  },
+  "textSize": {
+    "0": [16, 20],
+    "1": [19, 28],
+    "2": [23, 40],
+    "3": [28, 57],
+    "4": [33, 80],
+    "5": [40, 113],
+    "6": [48, 159]
+  },
+  "viewport": {
+    "min": 320,
+    "max": 1350
+  }
+}

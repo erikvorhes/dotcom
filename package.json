@@ -1,0 +1,49 @@
+{
+  "name": "erikvorhes.com",
+  "version": "0.0.1",
+  "description": "about dot me",
+  "main": "index.js",
+  "scripts": {
+    "css:tokens": "node src/utils/designTokens.js",
+    "css": "postcss src/css/global.css -o dist/css/global.css",
+    "css:dev": "npm run css:tokens && npm run css -- --watch",
+    "css:prod": "npm run css:tokens && cross-env NODE_ENV=production npm run css",
+    "start": "concurrently 'npm run serve' 'npm run css:dev'",
+    "serve": "npx eleventy --serve",
+    "production": "cross-env NODE_ENV=production npx eleventy && npm run css:prod"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erikvorhes/dotcom.git"
+  },
+  "keywords": [],
+  "author": "erikvorhes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/erikvorhes/dotcom/issues"
+  },
+  "homepage": "https://github.com/erikvorhes/dotcom#readme",
+  "dependencies": {
+    "@11ty/eleventy": "^2.0.0-beta.1",
+    "@11ty/eleventy-plugin-rss": "^1.2.0",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^4.2.0",
+    "@tbranyen/jsdom": "^13.0.0",
+    "concurrently": "^7.6.0",
+    "cross-env": "^7.0.3",
+    "cssnano": "^5.1.14",
+    "html-minifier": "^4.0.0",
+    "markdown-it-attrs": "^4.1.6",
+    "markdown-it-container": "^3.0.0",
+    "markdown-it-deflist": "^2.1.0",
+    "markdown-it-footnote": "^3.0.3",
+    "postcss-cli": "^10.1.0",
+    "postcss-import": "^15.1.0",
+    "postcss-import-ext-glob": "^2.1.1",
+    "slugify": "^1.6.5"
+  },
+  "devDependencies": {
+    "chokidar-cli": "^3.0.0",
+    "make-dir-cli": "^3.0.0",
+    "prettier": "^2.8.2"
+  }
+}

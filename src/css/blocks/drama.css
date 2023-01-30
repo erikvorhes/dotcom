@@ -1,0 +1,11 @@
+dt::after {
+  content: ": "
+}
+
+dt + dd {
+  display: inline;
+}
+
+dd + dt {
+  margin-block-start: var(--flow-space, 1em);
+}
