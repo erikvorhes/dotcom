@@ -17,7 +17,7 @@
   <entry>
     <title>{{ item.date | fullDateFilter }}</title>
     <link href="{{ absoluteItemUrl }}"/>
-    <updated>{{ item.date | schedulePubDateFilter | rssDate }}</updated>
+    <updated>{{ item.pubDate | rssDate }}</updated>
     <id>{{ absoluteItemUrl }}</id>
     <content type="html">{{ item.templateContent | htmlToAbsoluteUrls(site.url) }}</content>
   </entry>

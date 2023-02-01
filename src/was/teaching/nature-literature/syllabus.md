@@ -12,7 +12,7 @@ Room
   ~ Cudahy Science 313
 
 Time
-  ~ Tuesdays & Thursdays, 8:30--9:45 a.m.
+  ~ Tuesdays & Thursdays, 8:30 -- 9:45 a.m.
 
 Instructor
   ~ Erik Vorhes

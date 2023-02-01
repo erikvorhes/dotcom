@@ -40,11 +40,11 @@ Later the poet describes the reaction to "her" appearance:
     As lyttel byfore þerto watz wonte.
     To calle hyr lyste con me enchace,
     Bot baysment gef myn hert a brunt.
-    I seȝ hyr in so strange a place—
+    I seȝ hyr in so strange a place ---
     Such a burre myȝt make myn herte blunt.
 :::
 
-> The more I sought her fair face, when I had perceived her fine form, such rejoicing glory began to glide to me as little before then was accustomed. Desire to call her began to provoke me, but confusion gave my heart a shock. I saw her in so strange a place—such a shock could stop my heart. (169-76)
+> The more I sought her fair face, when I had perceived her fine form, such rejoicing glory began to glide to me as little before then was accustomed. Desire to call her began to provoke me, but confusion gave my heart a shock. I saw her in so strange a place --- such a shock could stop my heart. (169-76)
 
 While Borroff's translation is good, nothing is quite as good as the original. For example, line 41 refers to the "garden" where the pearl is buried as a *huyle*{lang="enm"}, which connotes both a grouping of plants and a grave mound. If you read Borroff's introduction, you'll note that the poem is packed with vicious word-play, especially surrounding the theme of death.
 

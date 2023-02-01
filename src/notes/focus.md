@@ -1,6 +1,6 @@
 ---
 title: Focus!
-date: 2023-02-01
+date: 2023-02-08
 summary: A bit of JavaScript to ensure your page’s IDs can be focused, even when you forget to do the work in the HTML.
 tags:
   - accessibility

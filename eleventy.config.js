@@ -1,7 +1,7 @@
 const rssPlugin = require('@11ty/eleventy-plugin-rss');
 const pluginSyntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
 
-const {dateFilter, fullDateFilter, schedulePubDateFilter, w3cDateFilter} = require('./src/filters/date-filters.js');
+const {dateFilter, fullDateFilter, w3cDateFilter} = require('./src/filters/date-filters.js');
 const markdownFilter = require('./src/filters/markdown-filter.js');
 const taglistFilter = require('./src/filters/taglist-filter.js');
 
@@ -20,7 +20,6 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addFilter('dateFilter', dateFilter);
   eleventyConfig.addFilter('fullDateFilter', fullDateFilter);
   eleventyConfig.addFilter('markdownFilter', markdownFilter);
-  eleventyConfig.addFilter('schedulePubDateFilter', schedulePubDateFilter);
   eleventyConfig.addFilter('taglistFilter', taglistFilter);
   eleventyConfig.addFilter('w3cDateFilter', w3cDateFilter);
 

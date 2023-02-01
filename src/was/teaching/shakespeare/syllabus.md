@@ -12,7 +12,7 @@ Room
   ~ Damen 736
 
 Time
-  ~ Mondays, Wednesdays, & Fridays, 8:15--9:05 a.m.
+  ~ Mondays, Wednesdays, & Fridays, 8:15 -- 9:05 a.m.
 
 Instructor
   ~ Erik Vorhes
@@ -44,7 +44,7 @@ You are expected to attend every class session and actively participate in class
 
 Each writing assignment is due at the beginning of the class period. All writing assignments should be typed, double-spaced, and in a reasonable font (e.g., 12 point "Times New Roman"); they should also have one-inch margins and follow the citation standards set forth in the <cite>MLA Handbook for Writers of Research Papers</cite> (6th <abbr title="edition">ed.</abbr>).
 
-Electronic submissions of written work are not accepted; late submissions will be lowered a grade for each day they are late (e.g., a B+ will become a B)
+Electronic submissions of written work are not accepted; late submissions will be lowered a grade for each day they are late (e.g., a B+ will become a B).
 
 ## Grading
 

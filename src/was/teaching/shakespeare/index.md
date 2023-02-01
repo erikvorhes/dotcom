@@ -7,6 +7,14 @@ tags:
   - shakespeare
   - drama
   - poetry
+  - macbeth
+  - midsummer-nights-dream
+  - much-ado
+  - othello
+  - richard-iii
+  - titus-andronicus
+  - winters-tale
+  - king-lear
 ---
 
 William Shakespeare has remained a cultural and literary force for over 400 years. In this course we will study eight of his plays --- <cite>King Lear</cite>, <cite>Macbeth</cite>, <cite>A Midsummer Night's Dream</cite>, <cite>Much Ado About Nothing</cite>, <cite>Othello</cite>, <cite>Richard III</cite>, <cite>Titus Andronicus</cite>, and <cite>The Winter's Tale</cite> --- and his poetry, in order to develop a greater critical understanding of and familiarity with Shakespeare's writing and its influence.
@@ -15,7 +23,7 @@ Of special concern in this course will be his portrayal of community and social 
 
 For additional expectations, learning outcomes, and class policies, consult the [syllabus](./syllabus).
 
-## Required Texts
+## Required texts
 
 * Greenblatt, Stephen, <abbr title="and others">et al.</abbr>, <abbr title="editors">eds.</abbr> <cite>The Norton Shakespeare: Based on the Oxford Edition</cite>. New York: Norton, 1997.
 * McDonald, Russ. <cite>The Bedford Companion to Shakespeare: An Introduction with Documents</cite>. 2nd <abbr title="edition">ed.</abbr>. New York: Bedford -- St. Martin's, 2001.
@@ -24,4 +32,4 @@ The main text for this course is <cite>The Norton Shakespeare</cite>; you are re
 
 In addition to these texts, you are expected to consult this site, which will contain additional reading materials, [schedule updates, and class notes](./schedule).
 
-<!-- Include notes tagged `shakespeare` and `class-handout` -->
+<!-- "Additional materials": Include notes tagged `shakespeare` and `class-handout` -->

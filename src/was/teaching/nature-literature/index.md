@@ -15,7 +15,7 @@ The natural world has offered fertile imaginative ground for as long as people h
 
 For additional expectations, learning outcomes, and class policies, consult the [syllabus](./syllabus).
 
-## Required Texts
+## Required texts
 
   * Anderson, Lorraine, <abbr title="and others">et al.</abbr>, <abbr title="editors">eds.</abbr> <cite>Literature and the Environment: A Reader on Nature and Culture</cite>. Longman, 1999.
   * Borroff, Marie, <abbr title="translator">trans.</abbr> <cite>Sir Gawain and the Green Knight, Patience, Pearl: Verse Translations</cite>. New York: Norton, 2001.
@@ -24,4 +24,4 @@ For additional expectations, learning outcomes, and class policies, consult the 
 
 The above books will be available at Beck's only. In addition to these texts, you are expected to consult this site, which will contain additional reading materials, [schedule updates, and class notes](./schedule).
 
-<!-- Include notes tagged `nature-literature` and `class-handout` -->
+<!-- "Additional materials": Include notes tagged `nature-literature` and `class-handout` -->

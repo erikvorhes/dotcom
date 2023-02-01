@@ -2,7 +2,7 @@
 title: "Introduction to Shakespeare: Schedule"
 date: 2006-01-17
 introSummary: English 274-086 --- Spring 2006, Loyola University Chicago
-summary: Class schedule for a spring 2006 course at Loyola University Chicago on the plays and poems of William Shakespeare
+summary: Class meeting schedule for a spring 2006 course at Loyola University Chicago on the plays and poems of William Shakespeare
 tags:
   - shakespeare
   - schedule
