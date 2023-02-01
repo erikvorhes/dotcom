@@ -1,5 +1,6 @@
 ---
 title: "Nature in Literature: Schedule"
+date: 2007-08-27
 introSummary: English 288-081 --- Fall 2007, Loyola University Chicago
 summary: Class schedule for a fall 2007 course at Loyola University Chicago on English literature and the natural world
 tags:

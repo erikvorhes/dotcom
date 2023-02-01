@@ -27,7 +27,7 @@ Marie Borroff's translation of Pearl is useful enough for our purposes; but if y
     Of þat pryuy perle withouten spot.
 :::
 
-The letter that looks like a weird *3* is the Middle English letter *[yogh](http://en.wikipedia.org/wiki/Yogh)*, which we no longer use. Here's a translation for you:
+The letter that looks like a weird *3* is the Middle English letter *[yogh] (https://en.wikipedia.org/wiki/Yogh)*, which we no longer use. Here's a translation for you:
 
 > Pleasing pearl, pleasing to princes, so purely set in fair gold: out of the Orient, I dare say, I never found one equal her value. So round, so noble in any setting, so small, so smooth her sides were; wherever I judged bright gems I set her apart singularly. Alas! I lost her in a garden; it ran from me, through the grass, to the ground. Languishing, I was grievously wounded from the love-loss of that special pearl without a spot. (1-12)
 
@@ -50,7 +50,7 @@ While Borroff's translation is good, nothing is quite as good as the original. F
 
 The richness of the original is even clearer in line 905: "<span lang="enm">I am bot mokke and mul among</span>" 'I am only muck mixed with dust.' Borroff translates this as "I am of mire and mere mankind," which is perfectly serviceable, but isn't as stark when the dreamer then describes the pearl-maiden as a rose forever blooming. (The dreamer expresses, among other things, his own insufficiency since the pearl/rose *didn't* flourish under his care.)
 
-This handout only gives you a taste of this difficult Middle English dialect, which John Bowers and others believe to originate near [Cheshire](http://maps.google.com/maps?f=q&hl=en&geocode=&q=cheshire,+england&sll=41.911751,-88.306688&sspn=0.00784,0.016072&ie=UTF8&ll=53.166534,-2.515869&spn=1.616894,4.11438&z=8&om=1). If you want to see more, please [let me know](/is/elsewhere).
+This handout only gives you a taste of this difficult Middle English dialect, which John Bowers and others believe to originate near [Cheshire] (https://maps.google.com/maps?f=q&hl=en&geocode=&q=cheshire,+england&sll=41.911751,-88.306688&sspn=0.00784,0.016072&ie=UTF8&ll=53.166534,-2.515869&spn=1.616894,4.11438&z=8&om=1). If you want to see more, please [let me know](/is/elsewhere).
 
 ## Works Cited
 

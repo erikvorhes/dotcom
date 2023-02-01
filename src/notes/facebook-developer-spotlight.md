@@ -43,4 +43,4 @@ Do you have any aha moments to share with us about accessibility evangelizing?
 
 What do you do besides coding at Facebook?
 
-:   I like spending time with my family, especially when we get out to explore some of the amazing state and national parks near where we live. I also love reading and playing with type. And --- shameless plug! --- a friend and I write a usually-weekly column on new type for [Typedia](http://www.typedia.com).
+:   I like spending time with my family, especially when we get out to explore some of the amazing state and national parks near where we live. I also love reading and playing with type. And --- shameless plug! --- a friend and I write a usually-weekly column on new type for [Typedia] (https://www.typedia.com).

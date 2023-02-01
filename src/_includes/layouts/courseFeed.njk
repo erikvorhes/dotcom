@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Nature and Literature: Course Feed</title>
+  <subtitle>English 288-081, Fall 2007, Loyola University Chicago</subtitle>
+  {%- set absoluteUrl %}{{ [basePath, '/feed.xml'] | join | url | absoluteUrl(site.url) }}{% endset -%}
+  <link href="{{ absoluteUrl }}" rel="self"/>
+  <link href="{{ site.url }}"/>
+  <updated>{{ collections.natureLiteratureSchedule | rssLastUpdatedDate }}</updated>
+  <id>{{ absoluteUrl }}</id>
+  <author>
+    <name>{{ site.author.name }}</name>
+    <email>{{ site.author.email }}</email>
+  </author>
+  {%- for item in collection | reverse %}
+  {%- set itemSlug = item.date | w3cDateFilter -%}
+  {%- set asoluteItemUrl %}{{ [basePath, '/schedule#', itemSlug] | join | url | absoluteUrl(site.url) }}{% endset -%}
+  <entry>
+    <title>{{ item.date | fullDateFilter }}</title>
+    <link href="{{ absoluteItemUrl }}"/>
+    <updated>{{ item.date | schedulePubDateFilter | rssDate }}</updated>
+    <id>{{ absoluteItemUrl }}</id>
+    <content type="html">{{ item.templateContent | htmlToAbsoluteUrls(site.url) }}</content>
+  </entry>
+  {%- endfor %}
+</feed>

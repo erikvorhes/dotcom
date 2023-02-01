@@ -38,4 +38,4 @@ This is a version of the text of "London" published as a part of <cite>Songs of 
 
 ![A printing of the poem](/images/notes/songsie.b.p36-46.300.jpg "Above the poem is an old man being led by a child through smoky streets; to the right of stanzas 2 and 3 is a child warming their hands over a large fire that is billowing smoke. The original page was about 11cm by 7cm.")
 
-You can find this image (from Copy B of <cite>Songs of Innocence and Experience</cite>) and many additional versions at the [Blake Archive](http://www.blakearchive.org/).
+You can find this image (from Copy B of <cite>Songs of Innocence and Experience</cite>) and many additional versions at the [Blake Archive] (https://www.blakearchive.org/).

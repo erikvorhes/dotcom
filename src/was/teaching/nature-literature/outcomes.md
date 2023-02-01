@@ -1,7 +1,7 @@
 ---
 title: "Nature in Literature: Learning Outcomes"
 introSummary: English 288-081 --- Fall 2007, Loyola University Chicago
-summary: Learning outcomes fall 2007 course at Loyola University Chicago on English literature and the natural world
+summary: Learning outcomes for a fall 2007 course at Loyola University Chicago on English literature and the natural world
 date: 2007-08-27
 tags:
   - nature-literature
@@ -10,11 +10,11 @@ tags:
 
 These are the explicit learning outcomes for this course.
 
-## Learning Outcome 1
+## Learning outcome 1
 
 *Students will demonstrate knowledge of, or experience in, literary traditions and expressions.*
 
-### Competencies (Outcome 1)
+### Competencies (outcome 1)
 
 * Students will study literary texts and participate in the creation of critical essays as a means of exploring human experience and understanding the creative process.
 
@@ -36,11 +36,11 @@ These are the explicit learning outcomes for this course.
 
   For example, Gary Snyder's poems about the American backwoods will be read as late Romantic lyrics, products of the Beatnik movement, and foundational documents in the Deep Ecology movement.
 
-## Learning Outcome 2
+## Learning outcome 2
 
 *Demonstrate effective critical thinking skills and dispositions.*
 
-### Competencies (Outcome 2)
+### Competencies (outcome 2)
 
 * Students will be able to analyze relationships among statements, questions, concepts, descriptions, or other forms of representation intended to express beliefs, judgments, experience, reasons, information, or opinions.
 
@@ -54,11 +54,11 @@ These are the explicit learning outcomes for this course.
 
   In their critical writings and analyses of texts they will propose a thesis, entertain opposing views, and support theirs with evidence, including critical readings of the texts in question.
 
-## Learning Outcome 3
+## Learning outcome 3
 
 *Promote economic, environmental, political and social justice.*
 
-### Competencies (Outcome 3)
+### Competencies (outcome 3)
 
 * Students will demonstrate an understanding of diverse fields of intellectual thought regarding ideal and actual societies and the goals, values, virtues, and conceptions of justice.
 

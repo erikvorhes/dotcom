@@ -78,9 +78,9 @@ Note the repetition and the connection to the same *Lamb* (i.e., Jesus) in <cite
 
 The tiger functions as something monstrous, something awful (in every sense of the word). It is worth noting that Blake was influential infuential in scholarship on John Milton's <cite>Paradise Lost</cite>, a poem "Of Man's first disobedience" (I.1), especially in advancing the idea that Satan is the poem's *hero*.
 
-As it was with "[London](/notes/blake-london)," it's worth viewing different versions of these poems at the [Blake Archive](http://www.blakearchive.org/). Reading Blake in something that approximates an "original" can profoundly influence the way we interpret them. Pay special attention to the sometimes-subtle differences in color, texture, etc., in each version.
+As it was with "[London](/notes/blake-london)," it's worth viewing different versions of these poems at the [Blake Archive] (https://www.blakearchive.org/). Reading Blake in something that approximates an "original" can profoundly influence the way we interpret them. Pay special attention to the sometimes-subtle differences in color, texture, etc., in each version.
 
 For background information on Blake, see the following entries in the <cite>Johns Hopkins Guide to Literary Theory & Criticism</cite>, a useful resource for just about any literary topic:^[This may only be available on Loyola's campus, so apologies in advance.]
 
-* "[Blake, William](http://litguide.press.jhu.edu/cgi-bin/view.cgi?eid=270)"
-* "[British Theory and Criticism: 3. Romantic Period and Early Nineteenth Century](http://litguide.press.jhu.edu/cgi-bin/view.cgi?eid=40)"
+* "[Blake, William] (https://litguide.press.jhu.edu/cgi-bin/view.cgi?eid=270)"
+* "[British Theory and Criticism: 3. Romantic Period and Early Nineteenth Century] (https://litguide.press.jhu.edu/cgi-bin/view.cgi?eid=40)"

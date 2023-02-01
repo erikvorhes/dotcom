@@ -37,9 +37,14 @@ module.exports = function parseTransform(value, outputPath) {
 
     if (articleHeadings.length) {
       articleHeadings.forEach(heading => {
-        const headingId = `heading-${slugify(heading.textContent.toLowerCase())}`;
-        const anchor = document.createElement('a');
+        const elementId = heading.getAttribute('id');
+        const headingId = elementId || `heading-${slugify(heading.textContent.toLowerCase())}`;
 
+        if (!elementId) {
+          heading.setAttribute('id', headingId);
+        }
+
+        const anchor = document.createElement('a');
         anchor.setAttribute('href', `#${headingId}`);
         anchor.classList.add('heading__permalink');
         anchor.innerHTML = minify(`
@@ -49,7 +54,6 @@ module.exports = function parseTransform(value, outputPath) {
           </svg>
         `);
 
-        heading.setAttribute('id', headingId);
         heading.appendChild(anchor);
       });
     }

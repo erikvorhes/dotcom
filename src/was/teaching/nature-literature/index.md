@@ -13,7 +13,7 @@ tags:
 
 The natural world has offered fertile imaginative ground for as long as people have been aware of it. In this course we will study various literary expressions of the relationship between people and nature, with special emphasis on medieval and early modern attitudes toward and representations of the world around them. We shall address such concerns as how we idealize, encounter, and contend with nature and more "natural" ways of living. While the focus of this course is on literature, it will also be interdisciplinary in scope: students are encouraged to enrich the class with their own interest in and experience with ecological and environmental issues.
 
-For additional expectations, learning outcomes, and class policies, consult the [syllabus](/syllabus).
+For additional expectations, learning outcomes, and class policies, consult the [syllabus](./syllabus).
 
 ## Required Texts
 
