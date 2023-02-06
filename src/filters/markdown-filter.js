@@ -6,6 +6,7 @@ const mdIt = require('markdown-it')({
 
 const mdItContainer = require('markdown-it-container');
 
+mdIt.use(require('markdown-it-bracketed-spans'))
 mdIt.use(require('markdown-it-attrs'));
 mdIt.use(mdItContainer, 'verse'); // May add additional custom blocks, could be handy!
 mdIt.use(require('markdown-it-deflist'));

@@ -9,3 +9,15 @@ dt + dd {
 dd + dt {
   margin-block-start: var(--flow-space, 1em);
 }
+
+dl .indent-1 {
+  padding-inline-start: var(--flow-space, 1em);
+}
+
+dl .indent-2 {
+  padding-inline-start: calc(2 * var(--flow-space, 1em));
+}
+
+dl .indent-3 {
+  padding-inline-start: calc(3 * var(--flow-space, 1em));
+}

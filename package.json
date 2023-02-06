@@ -33,6 +33,7 @@
     "cssnano": "^5.1.14",
     "html-minifier": "^4.0.0",
     "markdown-it-attrs": "^4.1.6",
+    "markdown-it-bracketed-spans": "^1.0.1",
     "markdown-it-container": "^3.0.0",
     "markdown-it-deflist": "^2.1.0",
     "markdown-it-footnote": "^3.0.3",
