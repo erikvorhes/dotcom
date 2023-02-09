@@ -170,7 +170,7 @@ All image descriptions were adapted or quoted from [The Digital Scriptorium](htt
 
 [^6]: 2023 --- let alone the accessibility implications!
 
-[^7]: I should note that Baker addresses the issues inherent table-based design, a problem different from my own. (2023: A while back I stopped believing Baker's approach to be correct, and I have finally updated the text accordingly.)
+[^7]: I should note that Baker addresses the issues inherent table-based design, a problem different from my own. (2023: A while back I stopped believing Baker's approach to be correct, and I have updated the presentational text accordingly.)
 
 [^8]: Updated in 2023 from the inaccurate (and possibly racist but definitely coopted-by-racists) term "Anglo--Saxon."
 

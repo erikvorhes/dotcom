@@ -1,8 +1,8 @@
 ---
-title: "Writing I: Schedule"
-introSummary: English 105-053 --- Fall 2003, Loyola University Chicago
-summary: Class meeting schedule for a fall 2003 course at Loyola University Chicago on writing and composition
-date: 2003-08-25
+title: "Writing II: Schedule"
+introSummary: English 106-053 --- Spring 2004, Loyola University Chicago
+summary: Class meeting schedule for a spring 2004 course at Loyola University Chicago on writing and composition
+date: 2004-01-07
 tags:
   - writing
   - schedule

@@ -15,6 +15,12 @@
   {% include "partials/global/meta-info.njk" %}
   {% block head %}
   {% endblock head %}
+  <script>
+    if (window.location.host !== '{{ site.domain }}') {
+      window.goatcounter = {no_onload: true};
+    }
+  </script>
+  <script data-goatcounter="https://drasty.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
   <script async src="/js/focusHash.js?{{ assetHash }}"></script>
 </head>
 <body>

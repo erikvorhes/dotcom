@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/erikvorhes/dotcom#readme",
   "dependencies": {
-    "@11ty/eleventy": "^2.0.0-beta.1",
+    "@11ty/eleventy": "^2.0.0",
     "@11ty/eleventy-plugin-rss": "^1.2.0",
     "@11ty/eleventy-plugin-syntaxhighlight": "^4.2.0",
     "@tbranyen/jsdom": "^13.0.0",
@@ -37,6 +37,7 @@
     "markdown-it-container": "^3.0.0",
     "markdown-it-deflist": "^2.1.0",
     "markdown-it-footnote": "^3.0.3",
+    "markdown-it-ins": "^3.0.1",
     "postcss-cli": "^10.1.0",
     "postcss-import": "^15.1.0",
     "postcss-import-ext-glob": "^2.1.1",
