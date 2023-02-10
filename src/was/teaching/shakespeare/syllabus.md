@@ -57,21 +57,23 @@ Electronic submissions of written work are not accepted; late submissions will b
 
 *I reserve the right to alter your grade by up to 10% on account of class participation.*
 
-## Quizzes
+## Graded material
+
+### Quizzes {id="quizzes"}
 
 There will be five quizzes over the course of the semester. Each will be based on the assigned reading and on terms and concepts discussed in class. On the first day that a play is assigned, you will receive a set of key quotes with which you are to familiarize yourself; some of those quotes may appear on a quiz, and you will be expected to identify the speaker, the context of the lines, and their significance to the play. Each quiz will only test material covered after the previous quiz; they may or may not be announced and will usually take place at the beginning of class.
 
-## Dramatic performance
+### Dramatic performance {id="dramatic-performance"}
 
 Each student is expected to participate in the performance of a selected scene from the assigned plays. In addition to acting in the scene, each member of the group is expected to write a one-page report on what you have learned about your scene by rehearsing and performing it. For example, how did performing the scene help you to understand the text?
 
 You will have the opportunity to sign up on [20 January](../schedule#2006-01-20).
 
-## Response papers
+### Response papers {id="response-papers"}
 
 Response papers are your opportunity to engage the play texts on your own terms. For example, you could address a few lines or a scene that interest you, or you could write what would function as an introduction to a longer argumentative essay. Whatever your decision, you will be expected to write a full page of thoughtful and concise prose. You are expected to write five response papers, each on a different play, over the course of the semester. Response papers are due on the first day that a reading is assigned.
 
-## Midterm exam
+### Midterm exam {id="midterm-exam"}
 
 The exam will address all the material from the syllabus that we have covered so far.
 
@@ -83,7 +85,7 @@ The exam itself will probably take you most of the class period to complete, so 
 
 The exam takes place on [Friday, March 3](../schedule#2006-03-03), 8:15 a.m. to 9:05 a.m., in the classroom.
 
-## Final Exam
+### Final exam {id="final-exam"}
 
 The exams will consist primarily of short answer and passage identification, analysis, and explication. Some of the material on the exam may be taken from the play quotation handouts, from the quizzes, or from both. The exam will be cumulative but weighted toward material covered during the second half of the semester.
 

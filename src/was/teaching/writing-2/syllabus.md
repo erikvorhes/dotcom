@@ -18,22 +18,25 @@ Instructor
   ~ Erik Vorhes
 
 Office
+  ~ Crown 418
+
+Office Hours
   ~ Tuesdays, 1--3 p.m., and by appointment
 
 Email
   ~ *[no longer used, as of 2008]*
 
-## Grammar and Mechanics
+## Grammar and mechanics
 
 You are expected to be familiar with English grammar. If you have questions concerning this subject, do not hesitate to contact me. You should also use <cite>The Elements of Style</cite> as a resource. <cite>The Writer's Harbrace Handbook</cite> contains an excessive amount of grammatical information, which you might find useful. As far as grading is concerned, you will only be marked down if "improper" grammar interferes with the meaning you are attempting to generate or convey.
 
-## Participation and Attendance
+## Participation and attendance
 
 During our time in class, we will spend the majority of our time discussing the assigned reading or your writing or both; your participation is necessary for this to be an actual conversation. Because we need your input, your regular attendance is also important. I realize that things may come up that prevent your attending class; therefore, you have two "free" absences, for use as sick, personal, or study days. Three or more absences will negatively affect your participation grade; more than six absences are grounds for failure.
 
 **Note well**: Attendance is required on days that essays are due --- only family or medical emergencies are reasonable excuses for missing those class periods. (On each day that an essay is due, we will go through a series of peer editing exercises, which we will discuss in detail before the first essay is due. If you miss one of these peer-editing days, you may hinder another student's success!)
 
-## Academic Honesty
+## Academic honesty
 
 Familiarize yourself with Loyola's policies concerning academic honesty. Especially important in a writing course is the policy on plagiarism --- a form of intellectual theft, which is more specifically discussed in many writing handbooks, <cite>Writing with Sources</cite>, and <cite>Your Introduction to Writing at Loyola</cite>. Plagiarism is a very serious offense and will result in immediate failure of this course and in further consequences determined by the university. See me if you have any questions regarding the appropriate use of outside sources.
 
@@ -48,9 +51,9 @@ The class's grade distribution is as follows:
 * Class participation: 14%
 * Annotated bibliography: 10%
 
-## Graded Material
+## Graded material
 
-### Response Papers
+### Response papers
 
 The purpose of response papers is to get you to think about the readings and to have you express your interpretations in a reasonably coherent manner. Your responses will help you initiate and participate in our discussions about the assigned readings. These need not be formal essays, but rather in the tone of casual observations. Of course, the sentences must be strung together meaningfully and must have a point. (While comments such as "I liked character X in <cite>The Corrections</cite>" or "this was such a great essay" are acceptable as part of your larger commentary, I encourage you to think critically before writing out your responses. Why did you like --- or dislike --- character X? What made the essay great or boring?) Grammar is not a big issue in the responses and will not affect your grades. However, I will direct you towards any repeated errors or mistakes that I find in your work and will advise you on the matter. More important to these responses are the questions you ask a text. What makes it work? Was there something particular that bugged you about it? Questions abound --- at each turn, make sure to ask yourself why you think something and why it may be worth addressing.
 

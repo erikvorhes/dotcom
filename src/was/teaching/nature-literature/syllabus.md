@@ -54,23 +54,23 @@ Your class participation grade will be lowered 2.5 percentage points for each un
 
 Late submissions will be lowered a grade each day they are late (e.g., a B+ will become a B).
 
-Graded material will consist of response papers, a longer essay, and exams.
+## Graded material
 
-## Response Papers
+### Response papers {id="response-papers"}
 
 Over the course of the semester, you have the opportunity to write four one-page response papers. Each response paper should address one of our assigned readings and focus on a passage, question, issue, or idea that you find compelling. Response papers are an opportunity for you to discover what you think about a topic; you might even find a compelling essay topic in one or more of your response papers. Be sure, therefore, to write about what interests you --- no matter how silly you might think I might find it. Each response paper is due on the first day that we discuss the text it addresses. You need to write at least two response papers before the midterm exam.
 
-## Essay
+### Essay {id="essay"}
 
 The essay is an opportunity for you to engage one or more of the issues raised by our texts and in class. While the main thrust of the essay should be some form of literary analysis, you are welcome to employ your own interests in developing your argument. The essay must be no shorter than five pages. Additional requirements can be found on [the essay assignment page](../essay).
 
-## Midterm exam
+### Midterm exam {id="midterm-exam"}
 
 This closed-book exam will cover all material before the exam date and will consist primarily of short essays and the identification of terms.
 
 The exam takes place on [Thursday, Oct. 4](../schedule#2007-10-04), 8:30 a.m. to 9:45 a.m., in the classroom.
 
-## Final exam
+### Final exam {id="final-exam"}
 
 The final exam will follow the format of the midterm, but it will be comprehensive in its scope and have a slightly longer essay component.
 

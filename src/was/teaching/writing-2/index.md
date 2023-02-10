@@ -13,7 +13,6 @@ For additional expectations and class policies, consult the [syllabus](./syllabu
 
 ## Required texts
 
-
 * Franzen, Jonathan. <cite>The Corrections</cite>. New York: Picador, 2002.
 * Harvey, Gordon. <cite>Writing with Sources: A Guide for Students</cite>. Indianapolis: Hackett, 1998.
 * Oates, Joyce Carol, <abbr title="editor">ed.</abbr> <cite>The Best American Essays of the Century</cite>. New York: Houghton, 2001.
