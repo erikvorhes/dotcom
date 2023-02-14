@@ -1,6 +1,6 @@
 ---
 title: Focus!
-date: 2023-02-08
+date: 2023-02-25
 summary: A bit of JavaScript to ensure your page’s IDs can be focused, even when you forget to do the work in the HTML.
 tags:
   - accessibility
@@ -9,11 +9,11 @@ tags:
   - tutorial
 ---
 
-One of the cool things about [the hash at the end of a URL](https://developer.mozilla.org/en-US/docs/Web/API/Location/hash) is that it can target an ID on the current page and auto-scroll the window to that point on the page. You can even use CSS to style it with [the `:target` pseudo-class](https://developer.mozilla.org/en-US/docs/Web/CSS/:target). This is a nice thing, especially on long or complicated pages.
+One of the cool things about [the hash at the end of a URL](https://www.w3.org/Addressing/URL/4_2_Fragments.html) is that it can target an ID on the current page and auto-scroll the window to that point on the page. You can even use CSS to style it with [the `:target` pseudo-class](https://w3c.github.io/csswg-drafts/selectors/#the-target-pseudo). This is a nice thing, especially on long or complicated pages.
 
 But it's not perfect. If the target of the hash can't receive focus[^1] and you hit <kbd>Tab</kbd>, you won't go to the next focusable element on the page after the thing you scrolled to.[^2] Instead, you'll go to the *first* thing on the page that can receive focus. This can be pretty disorienting!
 
-There are ways to fix the problem, though! The first is by tweaking your HTML to add a [`tabindex`](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/tabindex):
+There are ways to fix the problem, though! The first is by tweaking your HTML to add a [`tabindex`](https://html.spec.whatwg.org/multipage/interaction.html#attr-tabindex):
 
 ``` html
 <h2 id="footnotes" tabindex="-1">Footnotes</h2>
