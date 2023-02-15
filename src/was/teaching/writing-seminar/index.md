@@ -5,6 +5,8 @@ summary: A fall 2007 course at Loyola University Chicago on writing and composit
 date: 2007-08-27
 tags:
   - writing
+  - course-description
+handouts: collections.writingSeminarHandouts
 ---
 
 Writing is thinking. In this course we will develop our ability to clearly and effectively convey our thoughts, ideas, and concerns, by means of the written word. Because writing is as challenging as any other acquired skill, we will concentrate our efforts on various writing assignments (both in and out of class) and on reading and analyzing the work of others. This course should help to demystify the writing process (in academic and other settings) and enable you to become more skillful --- and confident --- writers.

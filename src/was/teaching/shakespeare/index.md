@@ -15,6 +15,8 @@ tags:
   - titus-andronicus
   - winters-tale
   - king-lear
+  - course-description
+handouts: collections.shakespeareHandouts
 ---
 
 William Shakespeare has remained a cultural and literary force for over 400 years. In this course we will study eight of his plays --- <cite>King Lear</cite>, <cite>Macbeth</cite>, <cite>A Midsummer Night's Dream</cite>, <cite>Much Ado About Nothing</cite>, <cite>Othello</cite>, <cite>Richard III</cite>, <cite>Titus Andronicus</cite>, and <cite>The Winter's Tale</cite> --- and his poetry, in order to develop a greater critical understanding of and familiarity with Shakespeare's writing and its influence.

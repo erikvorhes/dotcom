@@ -131,7 +131,10 @@ module.exports = function(eleventyConfig) {
   });
 
   eleventyConfig.addCollection('natureLiteratureHandouts', collection => {
-    return collection.getFilteredByTags('notes', 'nature-literature', 'class-handout')
+    const endDate = new Date('2007-12-15');
+    return collection
+      .getFilteredByTags('notes', 'nature-literature', 'class-handout')
+      .filter(item => new Date(item.date) <= endDate);
   });
 
   eleventyConfig.addCollection('natureLiteratureSchedule', collection => {
@@ -139,7 +142,10 @@ module.exports = function(eleventyConfig) {
   });
 
   eleventyConfig.addCollection('shakespeareHandouts', collection => {
-    return collection.getFilteredByTags('notes', 'shakespeare', 'class-handout')
+    const endDate = new Date('2006-05-18')
+    return collection
+      .getFilteredByTags('notes', 'shakespeare', 'class-handout')
+      .filter(item => new Date(item.date) <= endDate);
   });
 
   eleventyConfig.addCollection('shakespeareSchedule', collection => {
@@ -147,7 +153,10 @@ module.exports = function(eleventyConfig) {
   });
 
   eleventyConfig.addCollection('writingOneHandouts', collection => {
-    return collection.getFilteredByTags('notes', 'writing-1', 'class-handout')
+    const endDate = new Date('2003-12-11');
+    return collection
+      .getFilteredByTags('notes', 'writing-1', 'class-handout')
+      .filter(item => new Date(item.date) <= endDate);
   });
 
   eleventyConfig.addCollection('writingOneSchedule', collection => {
@@ -155,7 +164,10 @@ module.exports = function(eleventyConfig) {
   });
 
   eleventyConfig.addCollection('writingSeminarHandouts', collection => {
-    return collection.getFilteredByTags('notes', 'writing-seminar', 'class-handout')
+    const endDate = new Date('2007-12-15');
+    return collection
+      .getFilteredByTags('notes', 'writing-seminar', 'class-handout')
+      .filter(item => new Date(item.date) <= endDate);
   });
 
   eleventyConfig.addCollection('writingSeminarSchedule', collection => {
@@ -163,7 +175,10 @@ module.exports = function(eleventyConfig) {
   });
 
   eleventyConfig.addCollection('writingTwoHandouts', collection => {
-    return collection.getFilteredByTags('notes', 'writing-2', 'class-handout')
+    const endDate = new Date('2004-04-20');
+    return collection
+      .getFilteredByTags('notes', 'writing-2', 'class-handout')
+      .filter(item => new Date(item.date) <= endDate);
   });
 
   eleventyConfig.addCollection('writingTwoSchedule', collection => {

@@ -5,6 +5,8 @@ summary: A spring 2004 course at Loyola University Chicago on writing and compos
 date: 2004-01-07
 tags:
   - writing
+  - course-description
+handouts: collections.writingTwoHandouts
 ---
 
 Our goal in this course is to have you write clear, perceptive, and sophisticated essays in which your own voice and authority are well established. In our writing we often rely on topics of immediate concern and interest to us; for the purpose of this course we will concentrate on topics that revolve around the idea of "community." Through assigned reading and responsive writing, we will explore such ideas as what makes something a community, what things strengthen a community, and what things threaten a community's existence. We will read essays, comics, and fiction in an attempt to come to terms with these and other large ideas. In the process, we will develop analytical and research skills that will help one succeed in a university education and in a lifetime of active learning.
