@@ -5,7 +5,7 @@ summary: A spring 2004 course at Loyola University Chicago on writing and compos
 date: 2004-01-07
 tags:
   - writing
-  - course-description
+  - course description
 handouts: collections.writingTwoHandouts
 ---
 

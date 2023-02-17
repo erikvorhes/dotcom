@@ -1,2 +1,15 @@
-{# Make sure to include an optional thing, if the note is a "class-handout" #}
+{% extends "layouts/base.njk" %}
+{% set pageType = "Post" %}
+{% set introHeading = title %}
+{% block content %}
+  <main class="note-content" id="main-content" tabindex="-1">
+    <article class="entry">
+      {% include "partials/components/intro.njk" %}
+      <div class="entry__body">
+{{ content | safe }}
+      </div>
+    </article>
+  </main>
+{% endblock content %}
+{# Make sure to include an optional thing, if the note is a "class handout" #}
 {# Make sure to include an optional link to the a11y webring if "accessibility" #}

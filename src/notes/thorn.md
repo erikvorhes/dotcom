@@ -3,7 +3,7 @@ title: Brought to you by the letter thorn
 date: 2007-02-28
 summary: Old English letters and emoticons for the win
 tags:
-  - old-english
+  - old english
   - emoticons
   - language
 ---

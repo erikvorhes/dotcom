@@ -7,8 +7,8 @@ tags:
   - poetry
   - marlowe
   - raliegh
-  - nature-literature
-  - class-handout
+  - nature and literature
+  - class handout
 ---
 
 ::: verse

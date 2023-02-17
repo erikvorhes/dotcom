@@ -5,8 +5,8 @@ summary: Are you … experienced? You will be, after reading this 18th-century p
 tags:
   - blake
   - london
-  - nature-literature
-  - class-handout
+  - nature and literature
+  - class handout
   - poetry
 ---
 

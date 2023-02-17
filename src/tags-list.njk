@@ -1,0 +1,17 @@
+---
+title: Find things
+layout: content
+permalink: /has/
+---
+
+{# TODO: search #}
+
+<h2>Tags</h2>
+<ul role="list" class="tags__list">
+{%- for tag in collections.tagList -%}
+  {% set tagUrl %}/has/{{ tag | slug }}/{% endset %}
+  <li>
+    <a href="{{ tagUrl | url }}">{{ tag }}</a>
+  </li>
+{%- endfor -%}
+</ul>

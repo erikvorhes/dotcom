@@ -4,9 +4,9 @@ date: 2007-08-15
 summary: A brief introduction to the oldest poem in English
 tags:
   - bede
-  - old-english
-  - nature-literature
-  - class-handout
+  - old english
+  - nature and literature
+  - class handout
   - poetry
 ---
 

@@ -8,14 +8,14 @@ tags:
   - drama
   - poetry
   - macbeth
-  - midsummer-nights-dream
-  - much-ado
+  - a midsummer night’s dream
+  - much ado about nothing
   - othello
-  - richard-iii
-  - titus-andronicus
-  - winters-tale
-  - king-lear
-  - course-description
+  - richard iii
+  - titus andronicus
+  - the winters tale
+  - king lear
+  - course description
 handouts: collections.shakespeareHandouts
 ---
 
@@ -33,5 +33,3 @@ For additional expectations, learning outcomes, and class policies, consult the 
 The main text for this course is <cite>The Norton Shakespeare</cite>; you are required to use this edition. The introductions to the individual plays are recommended reading, as is Greenblatt's general introduction. Portions of <cite>The Bedford Companion to Shakespeare</cite> are assigned reading. You are encouraged to familiarize yourselves with the resources in this book, as they will enhance your understanding of early modern culture and current critical debates.
 
 In addition to these texts, you are expected to consult this site, which will contain additional reading materials, [schedule updates, and class notes](./schedule).
-
-<!-- "Additional materials": Include notes tagged `shakespeare` and `class-handout` -->

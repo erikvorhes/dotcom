@@ -5,9 +5,11 @@ summary: One of my favorite poems; it is remarkably visceral.
 tags:
   - poetry
   - kinnell
-  - nature-literature
-  - class-handout
+  - nature and literature
+  - class handout
 ---
+
+Easily one of my favorite poems, with exquisite alliteration:
 
 ::: verse
     I love to go out in late September

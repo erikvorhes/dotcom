@@ -5,7 +5,7 @@ introSummary: English 274-086 --- Spring 2006, Loyola University Chicago
 summary: Learning outcomes for a spring 2006 course at Loyola University Chicago on the plays and poems of William Shakespeare
 tags:
   - shakespeare
-  - learning-outcomes
+  - learning outcomes
 ---
 
 The goals of this course will be accomplished through careful reading and discussion of the texts; analysis of plays performed on both stage and screen; and written work, including short response papers and a longer analytical essay. In order to meet the objectives outlined above, the work of the course will be structured so as to meet the following specific learning outcomes and to encourage the development of the following skills:

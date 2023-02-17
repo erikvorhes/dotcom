@@ -1,14 +1,14 @@
 ---
-title: The Wife's Lament
+title: The Wife’s Lament
 date: 2007-10-10
 summary: An Old English poem with the distinction of being narrated by a woman.
 introSummary: My translation of the poem
 tags:
-  - old-english
-  - nature-literature
-  - class-handout
+  - old english
+  - nature and literature
+  - class handout
   - poetry
-  - wifes-lament
+  - the wifes lament
 ---
 
 I speak this poem^["poem" could be translated as 'riddle'] about my miserable self, my own journey.^["journey" could be translated as 'fate'] I can tell about the hardship I endured, while I grew up, recently or long ago: never more hardship than now. Always I suffered the torment of my exile-journey.

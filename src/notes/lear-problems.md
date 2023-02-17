@@ -4,10 +4,10 @@ date: 2006-04-12
 summary: There are two distinct versions of this famous play, both worth considering.
 tags:
   - shakespeare
-  - class-handout
-  - king-lear
+  - class handout
+  - king lear
   - drama
-  - textual-criticism
+  - textual criticism
 ---
 
 The first quarto of King Lear was published in 1608.[^1] In 1616 Shakespeare died; this is also the year that Ben Jonson published his <cite>Works</cite> in folio. Jonson's decision to publish a folio is unusual, as the folio size was traditionally reserved for "important" texts (e.g., Ovid's <cite>Metamorphoses</cite>, Vergil's <cite>Aeneid</cite>, or the Bible). In 1623 some of Shakespeare's friends and fellow actors published what scholars refer to as the "first folio." It is an incomplete collection of Shakespeare's works, but it is a tremendous cultural and literary artifact.

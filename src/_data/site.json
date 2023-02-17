@@ -17,5 +17,7 @@
   "jsonFeed": {
     "path": "/feed/feed.json",
     "url": "https://erikvorhes.com/feed/feed.json"
-  }
+  },
+  "locale": "en-US",
+  "siteType": "Person"
 }

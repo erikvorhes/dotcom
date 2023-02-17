@@ -6,9 +6,9 @@ tags:
   - drama
   - shakespeare
   - macbeth
-  - nature-literature
-  - class-handout
-  - writing-seminar
+  - nature and literature
+  - class handout
+  - writing seminar
 ---
 
 As I've lectured on <cite>Macbeth</cite>, I hope that I've been able to communicate some of its concerns or themes --- at least those that I think are important. (There are at least as many interpretations of the play as there are lines in it.)

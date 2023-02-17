@@ -4,12 +4,13 @@ introSummary: English 288-081 --- Fall 2007, Loyola University Chicago
 summary: A fall 2007 course at Loyola University Chicago on English literature and the natural world
 date: 2007-08-27
 tags:
-  - nature-literature
+  - nature and literature
   - pearl
-  - piers-ploughman
+  - piers ploughman
   - shakespeare
-  - sir-gawain
-  - course-description
+  - sir gawain
+  - course description
+  - the wifes lament
 handouts: collections.natureLiteratureHandouts
 ---
 
@@ -25,5 +26,3 @@ For additional expectations, learning outcomes, and class policies, consult the 
   * Shakespeare, William. <cite>Macbeth: Texts and Contexts</cite>. <abbr title="edited by">Ed.</abbr> William C. Carroll. New York: Bedford, 1999.
 
 The above books will be available at Beck's only. In addition to these texts, you are expected to consult this site, which will contain additional reading materials, [schedule updates, and class notes](./schedule).
-
-<!-- "Additional materials": Include notes tagged `nature-literature` and `class-handout` -->

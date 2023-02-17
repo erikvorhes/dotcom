@@ -7,8 +7,8 @@ tags:
   - lamb
   - tyger
   - tiger
-  - nature-literature
-  - class-handout
+  - nature and literature
+  - class handout
   - poetry
 ---
 

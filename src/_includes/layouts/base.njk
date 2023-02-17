@@ -1,6 +1,6 @@
 {%- set assetHash = global.random() -%}
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ site.locale }}">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -24,12 +24,12 @@
   <script async src="/js/focusHash.js?{{ assetHash }}"></script>
 </head>
 <body>
-  {% include "partials/global/site-header.njk" %}
-  {% block content %}
-  {% endblock content %}
-  {% include "partials/global/site-footer.njk" %}
-  {% block footer %}
-  {% endblock footer %}
+{% include "partials/global/site-header.njk" %}
+{% block content %}
+{% endblock content %}
+{% block footer %}
+{% endblock footer %}
+{% include "partials/global/site-footer.njk" %}
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', function registerServiceWorker() {

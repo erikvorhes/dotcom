@@ -5,7 +5,7 @@ summary: A fall 2007 course at Loyola University Chicago on writing and composit
 date: 2007-08-27
 tags:
   - writing
-  - course-description
+  - course description
 handouts: collections.writingSeminarHandouts
 ---
 

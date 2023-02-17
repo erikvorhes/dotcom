@@ -1,11 +1,11 @@
 const rssPlugin = require('@11ty/eleventy-plugin-rss');
 const pluginSyntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
 
-const {dateFilter, fullDateFilter, w3cDateFilter} = require('./src/filters/date-filters.js');
-const taglistFilter = require('./src/filters/taglist-filter.js');
+const {dateFilter, fullDateFilter, toIsoDateFilter, toIsoDateTimeFilter } = require('./config/filters/date-filters.js');
+const taglistFilter = require('./config/filters/taglist-filter.js');
 
-const htmlMinTransform = require('./src/transforms/html-min-transform.js');
-const parseTransform = require('./src/transforms/parse-transform.js');
+const htmlMinTransform = require('./config/transforms/html-min-transform.js');
+const parseTransform = require('./config/transforms/parse-transform.js');
 
 const mdIt = require('markdown-it')({
   html: true,
@@ -85,7 +85,8 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addFilter('fullDateFilter', fullDateFilter);
   eleventyConfig.addFilter('markdownFilter', (value) => mdIt.render(value));
   eleventyConfig.addFilter('taglistFilter', taglistFilter);
-  eleventyConfig.addFilter('w3cDateFilter', w3cDateFilter);
+  eleventyConfig.addFilter('toIsoDate', toIsoDateFilter);
+  eleventyConfig.addFilter('toIsoDateTime', toIsoDateTimeFilter)
 
   eleventyConfig.setLibrary('md', mdIt);
   eleventyConfig.amendLibrary('md', mdLib => mdLib.enable('code'));
@@ -133,7 +134,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addCollection('natureLiteratureHandouts', collection => {
     const endDate = new Date('2007-12-15');
     return collection
-      .getFilteredByTags('notes', 'nature-literature', 'class-handout')
+      .getFilteredByTags('notes', 'nature and literature', 'class handout')
       .filter(item => new Date(item.date) <= endDate);
   });
 
@@ -144,7 +145,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addCollection('shakespeareHandouts', collection => {
     const endDate = new Date('2006-05-18')
     return collection
-      .getFilteredByTags('notes', 'shakespeare', 'class-handout')
+      .getFilteredByTags('notes', 'shakespeare', 'class handout')
       .filter(item => new Date(item.date) <= endDate);
   });
 
@@ -155,7 +156,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addCollection('writingOneHandouts', collection => {
     const endDate = new Date('2003-12-11');
     return collection
-      .getFilteredByTags('notes', 'writing-1', 'class-handout')
+      .getFilteredByTags('notes', 'writing 1', 'class handout')
       .filter(item => new Date(item.date) <= endDate);
   });
 
@@ -166,7 +167,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addCollection('writingSeminarHandouts', collection => {
     const endDate = new Date('2007-12-15');
     return collection
-      .getFilteredByTags('notes', 'writing-seminar', 'class-handout')
+      .getFilteredByTags('notes', 'writing seminar', 'class handout')
       .filter(item => new Date(item.date) <= endDate);
   });
 
@@ -177,7 +178,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addCollection('writingTwoHandouts', collection => {
     const endDate = new Date('2004-04-20');
     return collection
-      .getFilteredByTags('notes', 'writing-2', 'class-handout')
+      .getFilteredByTags('notes', 'writing 2', 'class handout')
       .filter(item => new Date(item.date) <= endDate);
   });
 

@@ -3,10 +3,10 @@ title: ‘Pearl’ and Middle English
 date: 2007-08-22
 summary: A few thoughts on the ‘Perle plesaunte’
 tags:
-  - middle-english
+  - middle english
   - pearl
-  - nature-literature
-  - class-handout
+  - nature and literature
+  - class handout
   - poetry
 ---
 

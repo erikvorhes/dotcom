@@ -4,10 +4,10 @@ date: 2006-04-21
 summary: The most famous (and possibly only) stage direction in Shakespeare
 tags:
   - shakespeare
-  - class-handout
-  - winters-tale
+  - class handout
+  - the winters tale
   - drama
-  - textual-criticism
+  - textual criticism
 ---
 
 For anyone infatuated with textual issues, the stage direction "Exit, pursued by a bear" is a real delight. It's one of the few detailed stage directions in the Shakespeare corpus. Its presence in <cite>The Winter's Tale</cite> also gives us access to some of the popular interests in the early modern period, including animal entertainments like bear-bating, in which dogs would be set upon a bear tethered to a post. (Note that such forms of entertainment are hardly behind us. During the Romantic period, for example, people enjoyed badger-baiting; and today, although it's generally illegal, people engage in cock-fights and dog-fights.)

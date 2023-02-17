@@ -20,13 +20,13 @@ module.exports = {
     });
   },
 
-  w3cDateFilter(value) {
+  toIsoDateFilter(value) {
     const dateObject = new Date(value);
 
     return dateObject.toISOString().split('T')[0];
   },
 
-  w3cDateTimeFilter(value) {
+  toIsoDateTimeFilter(value) {
     const dateObject = new Date(value);
 
     return dateObject.toISOString();
