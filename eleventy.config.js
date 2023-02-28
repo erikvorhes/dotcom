@@ -84,6 +84,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addFilter('dateFilter', dateFilter);
   eleventyConfig.addFilter('fullDateFilter', fullDateFilter);
   eleventyConfig.addFilter('markdownFilter', (value) => mdIt.render(value));
+  eleventyConfig.addFilter('markdownInlineFilter', (value) => mdIt.renderInline(value));
   eleventyConfig.addFilter('taglistFilter', taglistFilter);
   eleventyConfig.addFilter('toIsoDate', toIsoDateFilter);
   eleventyConfig.addFilter('toIsoDateTime', toIsoDateTimeFilter)

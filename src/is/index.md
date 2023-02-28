@@ -18,3 +18,7 @@ I'm migrating a bunch of old stuff into new structures, so things might be broke
 ## Typographic colophon
 
 If your browser supports webfonts and CSS custom properties (and it should!), most of what you see is probably set in one of the [Fedra Screen](https://www.typotheque.com/search/Fedra+Screen/) fonts, from Typotheque. The icon sitting in the navigation is a superficially-modified version of the ampersand from [Megazoid](https://djr.com/notes/megazoid-font-of-the-month), by David Jonathan Ross.
+
+## A note on privacy
+
+I do not track or store personal data; neither does [GoatCounter](https://www.goatcounter.com/), which I use for web analytics. If my use of GoatCounter concerns you, [please let me know](/is/elsewhere#social-media) --- or better yet, [create a pull request against my base HTML template](https://github.com/erikvorhes/dotcom/blob/main/src/_includes/layouts/base.njk#L18-L23).

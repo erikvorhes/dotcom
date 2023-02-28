@@ -1,5 +1,12 @@
 {% extends "layouts/base.njk" %}
 {% set pageType = "Homepage" %}
+{% block head %}
+  {%- for item in social -%}
+    {%- if item.name == 'Mastodon' -%}
+<link href="{{ item.url }}" rel="{{ item.rel }}">
+    {%- endif -%}
+  {%- endfor -%}
+{% endblock head %}
 {% block content %}
-  <main class="home-content"></main>
+<main class="home-content"></main>
 {% endblock content %}

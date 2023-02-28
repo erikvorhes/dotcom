@@ -2,12 +2,12 @@
 {% set pageType = "Page" %}
 {% set introHeading = title %}
 {% block content %}
-  <main class="page-content" id="main-content" tabindex="-1">
-    <article class="entry">
-      {% include "partials/components/intro.njk" %}
-      <div class="entry__body">
+<main class="page-content" id="main-content" tabindex="-1">
+  <article class="entry">
+    {% include "partials/components/intro.njk" %}
+    <div class="entry__body">
 {{ content | safe }}
-      </div>
-    </article>
-  </main>
+    </div>
+  </article>
+</main>
 {% endblock content %}
