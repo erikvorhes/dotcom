@@ -7,12 +7,23 @@
   <link rel="me" href="https://typo.social/@erikvorhes">
   <style>
 :root {
-  background-color: #efefef;
-  color: #111;
+  --background-color: #efefef;
+  --foreground-color: #111;
+  
+  background-color: var(--background-color);
+  color: var(--foreground-color);
   font-family: Georgia, serif;
   font-size: 112.5%;
   height: 100%;
   line-height: 1.25;
+}
+
+@supports (color: light-dark(black, white)) {
+  :root {
+    color-scheme: light dark;
+    --background-color: light-dark(#efefef, #111);
+    --foreground-color: light-dark(#111, #efefef);
+  }
 }
 
 *, :before, :after {
@@ -33,17 +44,6 @@ h1 {
     
 h1, p {
   max-inline-size: 60ch;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    filter: invert(100%);
-  }
-
-  img:not([src$=".svg"]),
-  video {
-    filter: invert(100%);
-  }
 }
   </style>
 </head>
