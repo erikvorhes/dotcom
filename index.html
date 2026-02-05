@@ -22,6 +22,8 @@
   font-feature-settings: "liga", "clig", "onum";
   height: 100%;
   line-height: 1.5;
+  text-decoration-thickness: from-font;
+  text-underline-offset: .1em;
 }
 
 @supports (color: light-dark(black, white)) {
@@ -54,21 +56,24 @@ h1::after {
   font-weight: normal;
 }
 
-@media (prefers-reduced-motion: reduce) {
+@keyframes blinking-cursor {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media (prefers-reduced-motion) {
   h1::after {
     opacity: 0.5;
   }
 }
 
-@keyframes blinking-cursor {
-  50% {
-    opacity: 0;
-  }
-}
-
 @media (prefers-reduced-motion: no-preference) {
   h1:not(:hover)::after {
-    animation: blinking-cursor 3s linear infinite;
+    animation: blinking-cursor 5s steps(2, jump-none) infinite;
   }
 }
 
@@ -84,7 +89,7 @@ h1, p {
 }
     
 h1, h2, p {
-  max-inline-size: 60ch;
+  max-inline-size: 70ch;
 }
   </style>
 </head>
