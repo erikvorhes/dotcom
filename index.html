@@ -14,7 +14,7 @@
   background-color: var(--background-color);
   color: var(--foreground-color);
   font-family: minion-3, Georgia, serif;
-  font-size: 112.5%;
+  font-size: 125%;
   font-variant-ligatures: common-ligatures;
   font-variant-numeric: oldstyle-nums;
   -moz-font-feature-settings: "liga", "clig", "onum";
@@ -61,8 +61,11 @@ h1::after {
 }
 
 @keyframes blinking-cursor {
-  0% {
+  from {
     opacity: 0;
+  }
+  to {
+    opacity: 1;
   }
 }
 
