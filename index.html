@@ -21,7 +21,7 @@
   -webkit-font-feature-settings: "liga", "clig", "onum";
   font-feature-settings: "liga", "clig", "onum";
   height: 100%;
-  line-height: 1.25;
+  line-height: 1.5;
 }
 
 @supports (color: light-dark(black, white)) {
@@ -45,20 +45,42 @@ body {
 }
 
 h1 {
+  font-size: 1rem;
   font-family: ibm-plex-mono, monospace, sans-serif;
   text-transform: lowercase;
 }
 
-h2 {
-  font-style: italic;
+h1::after {
+  content: "_" / "";
+  font-weight: normal;
 }
 
-h1, h2 {
+@media (prefers-reduced-motion) {
+  h1::after {
+    opacity: 0.5;
+  }
+}
+
+@keyframes blinking-cursor {
+  0% {
+    opacity: 0;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  h1::after {
+    animation: blinking-cursor 3s steps(2) infinite;
+  }
+}
+
+h2 {
+  font-size: 1.25rem;
   font-weight: normal;
-  margin-block-start: 0;
 }
     
-h1, p {
+h1, h2, p {
+  margin-block-start: 0;
+  margin-block-end: 1lh;
   max-inline-size: 60ch;
 }
   </style>
