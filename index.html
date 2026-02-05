@@ -61,28 +61,29 @@ h1::after {
 }
 
 @keyframes blinking-cursor {
-  from {
+  50% {
     opacity: 0;
-  }
-  to {
-    opacity: 1;
   }
 }
 
 @media (prefers-reduced-motion: no-preference) {
   h1:not(:hover)::after {
-    animation: blinking-cursor 3s steps(2) infinite;
+    animation: blinking-cursor 3s linear infinite;
   }
 }
 
 h2 {
   font-size: 1.5rem;
   font-weight: normal;
+  margin-block: .5lh;
+}
+
+h1, p {
+  margin-block-start: 0;
+  margin-block-end: 1lh;
 }
     
 h1, h2, p {
-  margin-block-start: 0;
-  margin-block-end: 1lh;
   max-inline-size: 60ch;
 }
   </style>
