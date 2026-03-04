@@ -6,6 +6,10 @@ date: 2004-01-07
 tags:
   - writing
   - course description
+eleventyNavigation:
+  key: luc-106-053
+  title: Writing II
+  parent: Teaching
 handouts: collections.writing2Handouts
 ---
 

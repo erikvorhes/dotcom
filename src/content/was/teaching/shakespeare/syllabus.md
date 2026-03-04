@@ -6,6 +6,9 @@ summary: Syllabus for a spring 2006 course at Loyola University Chicago on the p
 tags:
   - shakespeare
   - syllabus
+eleventyNavigation:
+  key: Syllabus
+  parent: luc-274-086
 ---
 
 Room

@@ -6,6 +6,10 @@ date: 2007-08-27
 tags:
   - writing
   - course description
+eleventyNavigation:
+  key: luc-110-104
+  title: Core Writing Seminar
+  parent: Teaching
 handouts: collections.writingSeminarHandouts
 ---
 

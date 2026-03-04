@@ -6,6 +6,9 @@ summary: Syllabus for a fall 2007 course at Loyola University Chicago on English
 tags:
   - nature and literature
   - syllabus
+eleventyNavigation:
+  key: Syllabus
+  parent: luc-288-081
 ---
 
 Room

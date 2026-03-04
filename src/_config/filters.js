@@ -44,7 +44,7 @@ export default function(eleventyConfig) {
 		(strings || []).sort((b, a) => b.localeCompare(a))
 	);
 
-	// strip paragraph tags
+	// strip paragraph tags use after renderContent('md'), e.g., {{ data | renderContent('md') | paragraphContent }}
 	eleventyConfig.addFilter('paragraphContent', content => {
 		const wrapper = document.createElement('div');
 		wrapper.innerHTML = content;

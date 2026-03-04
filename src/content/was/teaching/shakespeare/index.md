@@ -16,6 +16,10 @@ tags:
   - the winters tale
   - king lear
   - course description
+eleventyNavigation:
+  key: luc-274-086
+  title: Introduction to Shakespeare
+  parent: Teaching
 handouts: collections.shakespeareHandouts
 ---
 

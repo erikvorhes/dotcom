@@ -6,6 +6,10 @@ date: 2003-08-25
 tags:
   - writing
   - course description
+eleventyNavigation:
+  key: luc-105-053
+  title: Writing I
+  parent: Teaching
 handouts: collections.writingOneHandouts
 ---
 

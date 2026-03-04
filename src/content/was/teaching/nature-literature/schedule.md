@@ -6,6 +6,9 @@ summary: Class meeting schedule for a fall 2007 course at Loyola University Chic
 tags:
   - nature and literature
   - schedule
+eleventyNavigation:
+  key: Schedule
+  parent: luc-288-081
 schedlue: collections.natureLiteratureSchedule
 ---
 

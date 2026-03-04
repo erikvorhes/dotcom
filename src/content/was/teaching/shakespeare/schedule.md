@@ -6,6 +6,9 @@ summary: Class meeting schedule for a spring 2006 course at Loyola University Ch
 tags:
   - shakespeare
   - schedule
+eleventyNavigation:
+  key: Schedule
+  parent: luc-274-086
 schedule: collections.shakespeareSchedule
 ---
 

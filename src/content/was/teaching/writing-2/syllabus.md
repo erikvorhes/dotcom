@@ -6,6 +6,9 @@ date: 2004-01-07
 tags:
   - writing
   - syllabus
+eleventyNavigation:
+  key: Syllabus
+  parent: luc-106-053
 ---
 
 Room

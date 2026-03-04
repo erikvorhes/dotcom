@@ -12,6 +12,10 @@ tags:
   - green knight
   - course description
   - the wifes lament
+eleventyNavigation:
+  key: luc-288-081
+  title: Nature in Literature
+  parent: Teaching
 handouts: collections.natureLiteratureHandouts
 ---
 

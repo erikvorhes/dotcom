@@ -6,6 +6,9 @@ date: 2003-08-25
 tags:
   - writing
   - syllabus
+eleventyNavigation:
+  key: Syllabus
+  parent: luc-105-053
 ---
 
 Room

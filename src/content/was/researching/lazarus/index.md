@@ -11,6 +11,9 @@ tags:
   - textual-criticism
   - html
   - xml
+eleventyNavigation:
+  key: Towneley Lazarus Play
+  parent: Research
 ---
 
 This essay is an attempt to expand upon [a project that I began last year](./previous/) for Suzanne Gossett's class on textual criticism. My original project's goal was to produce a serviceable web-based edition of the <cite>Lazarus play found in the Towneley manuscript. The results were sketchy at best. The edition would only render properly in the most standards-compliant browsers, and my markup was nightmarish spaghetti code.[^1] I do not believe, however, that my initial project was in vain. The process of learning and successfully implementing new methodologies is arduous. Jerome McGann, lamenting "the degree of ignorance about information technology and its critical relevance to humanities education and scholarship," relates similar sentiments:

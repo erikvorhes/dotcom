@@ -76,7 +76,6 @@ export default async function (eleventyConfig) {
   eleventyConfig
     .addPassthroughCopy({
       './public': '/',
-      './src/content/was/researching/lazarus/original-edition/index.html': '/was/researching/lazarus/original-edition/index.html'
     });
 
   // Watch CSS files
@@ -157,6 +156,55 @@ export default async function (eleventyConfig) {
   eleventyConfig.addPlugin(pluginFilters);
 
   eleventyConfig.addPlugin(IdAttributePlugin);
+
+
+  const courses = [
+    {
+      camel: 'natureLiterature',
+      slug: 'nature-literature',
+      tag: 'nature and literature',
+      end: '2007-12-15',
+    },
+    {
+      camel: 'shakespeare',
+      slug: 'shakespeare',
+      tag: 'shakespeare',
+      end: '2006-05-18',
+    },
+    {
+      camel: 'writing1',
+      slug: 'writing-1',
+      tag: 'writing 1',
+      end: '2003-12-11',
+    },
+    {
+      camel: 'writing2',
+      slug: 'writing-2',
+      tag: 'writing 2',
+      end: '2004-04-20',
+    },
+    {
+      camel: 'writingSeminar',
+      slug: 'writing-seminar',
+      tag: 'writing seminar',
+      end: '2007-12-11',
+    },
+  ];
+
+  for (const { camel, slug, tag, end } of courses) {
+    eleventyConfig.addCollection(`${camel}Schedule`, (collectionApi) => {
+      return collectionApi
+        .getFilteredByGlob(`was/teaching/${slug}/schedule/*.md`)
+        .sort((a, b) => a.date - b.date);
+    });
+    eleventyConfig.addCollection(`${camel}Handouts`, (collectionApi) => {
+      const endDate = new Date(end);
+      return collectionApi
+        .getFiteredByTags('notes', 'class handout', tag)
+        .filter(item => new Date(item.date) <= endDate)
+        .sort((a, b) => a.title - b.title);
+    });
+  }
 
   eleventyConfig.addShortcode('currentBuildDate', () => (new Date()).toISOString());
 }

@@ -6,6 +6,9 @@ date: 2003-08-25
 tags:
   - writing
   - schedule
+eleventyNavigation:
+  key: Schedule
+  parent: luc-105-053
 schedule: collections.writing1Schedule
 ---
 
