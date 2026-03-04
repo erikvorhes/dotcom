@@ -1,0 +1,15 @@
+---
+title: Search
+eleventyNavigation:
+  key: Search
+  order: 2
+---
+
+<link href="/pagefind/pagefind-ui.css" rel="stylesheet">
+<script src="/pagefind/pagefind-ui.js"></script>
+<div id="search"></div>
+<script>
+  onLoad(event) => {
+    new PagefindUI({ element: "#search", showSubResults: true });
+  });
+</script>
