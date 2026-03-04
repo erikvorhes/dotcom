@@ -1,0 +1,52 @@
+[name="set-color-scheme"] fieldset {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+[name="set-color-scheme"] ul,
+[name="set-color-scheme"] label {
+  display: flex;
+  align-items: center;
+}
+
+[name="set-color-scheme"] li {
+  border-block: .1rem double currentColor;
+}
+
+[name="set-color-scheme"] li:not(:first-child) {
+  border-inline-start: .05rem solid currentColor;
+}
+
+[name="set-color-scheme"] li:first-child {
+  border-inline-start: .1rem double currentColor;
+  border-start-start-radius: .25rem;
+  border-end-start-radius: .25rem;
+}
+
+[name="set-color-scheme"] li:last-child {
+  border-inline-end: .1rem double currentColor;
+  border-start-end-radius: .25rem;
+  border-end-end-radius: .25rem;
+}
+
+[name="set-color-scheme"] input {
+  position:absolute;
+  opacity: 0;
+}
+
+[name="set-color-scheme"] input:checked + label {
+  border-radius: .25rem;
+  outline: .25rem solid currentColor;
+}
+
+[name="set-color-scheme"] label {
+  padding: .5lh 2ch;
+  cursor: pointer;
+  gap: 1ch;
+  min-block-size: 40px;
+}
+
+[name="set-color-scheme"] .icon {
+  font-family: var(--font-family-mono);
+}

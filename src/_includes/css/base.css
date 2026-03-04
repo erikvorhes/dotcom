@@ -1,0 +1,298 @@
+:root {
+  --light: #f3e7d9; /** light mode background color */
+  --dark: #41290f; /** light mode color */
+  --accent-light: #d37657; /** dark mode accent */
+  --accent-dark: #b93e15; /** light mode accent */
+  --background: var(--light);
+  --foreground: var(--dark);
+  --accent-overt: var(--accent-dark);
+  --accent-subtle: var(--accent-light);
+  --site-inline-size: 75ch;
+  --site-gutter: 5ch;
+  --flow-space: 1lh;
+  --font-family-text: minion-3, Georgia, serif;
+  --font-family-mono: gintronic, monospace, sans-serif;
+  --scale-minor-third: 1.2;
+  --scale-major-third: 1.25;
+  --scale-perfect-fourth: calc(4 / 3);
+  --scale-augmented-fourth: calc(45 / 32);
+  --type-scale: var(--scale-minor-third);
+
+  background-color: var(--background);
+  color: var(--foreground);
+  
+  block-size: 100%;
+  height: 100dvh;
+
+  font-family: var(--font-family-text);
+  font-variant-emoji: text;
+  font-variant-ligatures: common-ligatures;
+  font-variant-numeric: oldstyle-nums;
+  font-feature-settings: "liga", "clig", "onum";
+  
+  font-size: 125%;
+  line-height: 1.5;
+  -webkit-text-size-adjust: none;
+	text-size-adjust: none;
+  -webkit-font-smoothing: antialiased;
+  
+  text-decoration-color: var(--accent-overt);
+  text-underline-offset: .1em;
+}
+
+@media screen and (width >= 768px) {
+  :root {
+    --type-scale: var(--scale-major-third);
+  }
+}
+
+@media screen and (width >= 1400px) {
+  :root {
+    --type-scale: var(--scale-augmented-fourth);
+  }
+}
+
+@supports (color: light-dark(black, white)) {
+  :root {
+    color-scheme: light dark;
+    --background: light-dark(var(--light), var(--dark));
+    --foreground: light-dark(var(--dark), var(--light));
+    --accent-overt: light-dark(var(--accent-dark), var(--accent-light));
+    --accent-subtle: light-dark(var(--accent-light), var(--accent-dark));
+  }
+
+  .dark {
+    color-scheme: dark;
+  }
+
+  .light {
+    color-scheme: light;
+  }
+}
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+::selection {
+  background-color: var(--foreground);
+  color: var(--background);
+}
+
+:not(dialog) {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-block-size: 100%;
+  min-height: 100dvh;
+}
+
+img,
+iframe,
+audio,
+video,
+canvas {
+  display: block;
+  max-inline-size: 100%;
+  block-size: auto;
+}
+
+input,
+button {
+  font: inherit;
+}
+
+input,
+label,
+button,
+h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+  line-height: 1.25;
+}
+
+fieldset,
+iframe {
+  border: 0;
+}
+
+p {
+  text-wrap: pretty;
+}
+
+p,
+h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+  overflow-wrap: break-word;
+}
+
+h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h6
+.h6 {
+  font-weight: normal;
+}
+
+h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+  text-wrap: balance;
+}
+
+h1 {
+  font-size: calc(1rem * pow(var(--type-scale), 5));
+}
+
+h2,
+.h2 {
+  font-size: calc(1rem * pow(var(--type-scale), 4));
+}
+
+h3,
+.h3 {
+  font-size: calc(1rem * pow(var(--type-scale), 3));
+}
+
+h4,
+.h4 {
+  font-size: calc(1rem * pow(var(--type-scale), 2));
+}
+
+h5,
+.h5 {
+  font-size: calc(1rem * pow(var(--type-scale), 1));
+}
+
+h6,
+.h6 {
+  font-size: 1rem;
+  font-variant-numeric: lining-nums;
+  font-feature-settings: "lnum";
+  letter-spacing: .1ch;
+  text-transform: uppercase;
+}
+
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6,
+.stage-direction {
+  text-align: center;
+}
+
+pre,
+code,
+kbd,
+samp,
+var {
+  font-family: var(--font-family-mono);
+  /* might need to adjust font size in ems */
+}
+
+/* if so: */
+pre code {
+  font-size: 1em;
+}
+
+p,
+blockquote,
+q,
+figcaption,
+li {
+  hanging-punctuation: first allow-end last;
+}
+
+ul[role="list"],
+ol[role="list"] {
+  list-style: none;
+}
+
+a {
+  color: currentColor;
+}
+
+abbr {
+  text-decoration: none;
+}
+
+abbr[title] {
+  cursor: help;
+  text-decoration: underline dotted;
+}
+
+:link,
+abbr[title] {
+  text-decoration-thickness: from-font;
+}
+
+:focus-visible {
+  outline-offset: .2em;
+}
+
+:target {
+  scroll-margin-block-start: 5ex;
+}
+
+main {
+  max-inline-size: var(--site-inline-size);
+  margin-inline: auto;
+  padding-inline: var(--site-gutter);
+}
+
+.accent-overt {
+  color: var(--accent-overt);
+}
+
+.accent-subtle {
+  color: var(--accent-subtle);
+}
+
+.visually-hidden {
+  position: absolute;
+  overflow: hidden;
+  clip-path: inset(100%);
+  clip: rect(1px, 1px, 1px, 1px);
+  inline-size: 1px;
+  block-size: 1px;
+  white-space: nowrap;
+}

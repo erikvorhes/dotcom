@@ -1,0 +1,74 @@
+.site__nav {
+  max-inline-size: var(--site-inline-size);
+  margin-inline: auto;
+  padding-inline: var(--site-gutter);
+}
+
+.site__nav ul {
+  font-family: var(--font-family-mono);
+  font-size: calc(1rem / var(--type-scale, 1.25));
+
+  display: grid;
+  gap: 1em;
+  grid-template-columns: 1fr repeat(2, minmax(40px, max-content));
+}
+
+.site__nav li:first-of-type a::after {
+  content: "_" / "";
+}
+
+@keyframes blinking-cursor {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media (prefers-reduced-motion) {
+  .site__nav li:first-of-type a::after {
+    opacity: 0.5;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .site__nav li:first-of-type a:not(:hover)::after {
+    animation: blinking-cursor 4s steps(2, jump-none) infinite;
+    opacity: 0.75;
+  }
+}
+
+.site__nav li:first-of-type a {
+  inline-size: max-content;
+}
+
+.site__nav li:not(:first-of-type) a {
+  inline-size: 100%;
+}
+
+.site_nav a {
+  display: flex;
+  text-decoration: none;
+  block-size: 100%;
+  min-block-size: 40px;
+  align-items: center;
+  justify-content: center;
+}
+
+.site_nav a[aria-current="page"] {
+  cursor: default;
+}
+
+.site__nav svg {
+  position: absolute;
+  inset-block-start: -1rem;
+  inset-inline-start: -1rem;
+  block-size: auto;
+  inline-size: calc(100dvw + 2rem);
+  opacity: 0.2;
+}
+
+.site__nav path {
+  fill: var(--accent-subtle);
+}

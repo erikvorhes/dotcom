@@ -1,0 +1,42 @@
+{
+  "name": "@drasty/erikvorhes",
+  "version": "1.0.0",
+  "description": "erikvorhes.com, my personal website -- how quaint.",
+  "type": "module",
+  "scripts": {
+    "build": "npx @11ty/eleventy",
+    "start": "npx @11ty/eleventy --serve --quiet",
+    "dev": "npm run start && npm run pagefind:local",
+    "debug": "cross-env DEBUG=Eleventy* npm run build",
+    "debug:start": "cross-env DEBUG=Eleventy* npm run dev",
+    "benchmark": "cross-env DEBUG=Eleventy:Benchmark* npm run build",
+    "pagefind": "npx -y pagefind --site dist",
+    "pagefind:local": "npx -y pagefind --site dist --serve",
+    "production": "cross-env NODE_ENV=production npm run build && npm run pagefind"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erikvorhes/dotcom.git"
+  },
+  "keywords": [],
+  "author": "Erik Vorhes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/erikvorhes/dotcom/issues"
+  },
+  "homepage": "https://github.com/erikvorhes/dotcom#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.2",
+    "@11ty/eleventy-img": "^6.0.4",
+    "@11ty/eleventy-navigation": "^1.0.5",
+    "@11ty/eleventy-plugin-rss": "^2.0.4",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.2",
+    "cross-env": "^7.0.3",
+    "luxon": "^3.7.2",
+    "markdown-it-deflist": "^3.0.0",
+    "markdown-it-footnote": "^4.0.0",
+    "prismjs": "^1.30.0",
+    "zod": "^4.3.6",
+    "zod-validation-error": "^5.0.0"
+  }
+}

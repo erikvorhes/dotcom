@@ -1,0 +1,9 @@
+{%- set rootId = 'color-scheme-form' -%}
+<style>
+  {% include 'css/form_color_scheme.css' %}
+</style>
+<script>
+  {% include 'js/colorSchemeForm.js' %}
+  mountFormOnLoad('{{ rootId }}');
+</script>
+<section class="flow" id="{{ rootId }}"></section>

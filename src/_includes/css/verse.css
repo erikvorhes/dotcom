@@ -1,0 +1,6 @@
+.verse {
+  display: table;
+  font: inherit;
+  inline-size: auto;
+  margin-inline: auto;
+}

@@ -1,0 +1,58 @@
+.flow > * + * {
+  margin-block-start: var(--flow-space, 1em);
+}
+
+article::after {
+  content: "❧ ❦" / "";
+  display: block;
+  margin-block: 2lh;
+  opacity: 0.5;
+  text-align: center;
+}
+
+figcaption {
+  font-size: calc(1rem / var(--type-scale, 1.25));
+  margin-block-start: .5lh;
+}
+
+table {
+	border-collapse: collapse;
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: "liga", "clig", "tnum";
+}
+
+sup,
+sub {
+  line-height: 0; /*inherit?*/
+  font-size: 1em;
+}
+
+sup {
+  font-variant-position: super;
+  font-feature-settings: "liga", "clig", "sups";
+}
+
+sub {
+  font-variant-position: sub;
+  font-feature-settings: "liga", "clig", "subs";
+}
+
+blockquote {
+  position: relative;
+  padding-inline-start: 6lh;
+}
+
+blockquote::before {
+  content: "“" / "";
+  opacity: 0.25;
+  position: absolute;
+  inset-inline-start: calc(2lh / 3);
+  font-size: 3lh;
+  font-weight: bold;
+}
+
+ol > li::marker {
+  font-variant-numeric: proportional-nums;
+  font-feature-settings: "liga", "clig", "pnum";
+  opacity: 0.8;
+}

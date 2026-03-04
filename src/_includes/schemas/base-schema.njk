@@ -1,0 +1,15 @@
+<script type="application/ld+json" eleventy:ignore>
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "{{ site.url }}#website",
+        "url": "{{ site.url }}",
+        "name": "{{ site.title }}",
+        "description": "{{ site.description }}",
+        "inLanguage": "{{ site.locale }}"
+      }
+    ]
+  }
+</script>
