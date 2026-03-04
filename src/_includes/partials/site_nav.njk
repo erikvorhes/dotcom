@@ -4,10 +4,10 @@
 <nav class="site__nav" aria-label="site navigation">
   <ul role="list">
     <li>
-      <a href="/"{{ ' aria-current="page"' if page.url == '/' | safe }} aria-labelledby="home-label">{{ site.name }}</a>
+      <a href="/"{% if page.url == '/' %} aria-current="page"{% endif %} aria-labelledby="home-label">{{ site.name }}</a>
     </li>
     <li>
-      <a href="/has/"{{ ' aria-current="page"' if page.url == '/has/' | safe }} aria-labelledby="search-label">🔎</a></li>
+      <a href="/has/"{% if page.url == '/has/' %} aria-current="page"{% endif %} aria-labelledby="search-label">🔎</a></li>
     {%- if page.url == '/menu/' -%}
     <li>
       <a href="/" id="back-button" aria-labelledby="back-label">×</a>
