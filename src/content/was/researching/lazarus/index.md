@@ -11,6 +11,7 @@ tags:
   - textual-criticism
   - html
   - xml
+  - code
 eleventyNavigation:
   key: Towneley Lazarus Play
   parent: Research

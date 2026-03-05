@@ -1,10 +1,12 @@
+<!DOCTYPE html>
+<html lang="en-us">
 <head>
   <meta charset="utf-8">
-  <title>REPLACE WITH SNIPPET</title>
+  <title>{{ title or metadata.title }}</title>
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="{{ description or metadata.description }}">
   <meta name="generator" content="{{ eleventy.generator }}">
-  <!-- meta -->
 
   <link rel="icon" type="image/svg+xml" href="/icon.svg">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -17,22 +19,45 @@
   <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="/feed.xml">
   <link rel="alternate" type="application/json" title="{{ site.title }}" href="/feed.json">
 
-  <link rel="stylesheet" href="https://use.typekit.net/arf4vwx.css">
+  {% css 'print' %}
+    {% include 'css/print.css' %}
+  {% endcss %}
   <style>
     {% include 'css/base.css' %}
     {% include 'css/nav.css' %}
     {% include 'css/content.css' %}
     {% include 'css/dl.css' %}
     {% include 'css/verse.css' %}
+    {% include 'css/heading_anchors.css' %}
   </style>
-  <!-- other css -->
+  {%- if -%}
   <style>
-    {% include 'css/print.css' %}
+    {% include "node_modules/prismjs/themes/prism-okaidia.css" %}
+    {% include 'css/code.css' %}
   </style>
+  {%- endif -%}
   <script>
     {% include 'js/handleColorSchemeData.js' %}
     {% include 'js/onLoad.js' %}
     {% include 'js/focusHash.js' %}
   </script>
-  <!-- other js -->
+  <script type="module">
+    {% include 'node_modules/@zachleat/heading-anchors/heading-anchors.js' %}
+  </script>
+
+  <link rel="stylesheet" href="https://use.typekit.net/arf4vwx.css">
+  <style>{% getBundle 'css' %}</style>
+  <link rel="stylesheet" href="{% getBundleFileUrl 'css', 'print' %}" media="print">
 </head>
+<body>
+  {% include 'partials/site_nav.njk' -%}
+  <main>
+    <heading-anchors>
+      {{ content | safe }}
+    </heading-anchors>
+  </main>
+  {# site footer #}
+  <!-- Page `{{ page.url }}` was built on {% currentBuildDate %} -->
+  <script type="module" src="{% getBundleFileUrl 'js' %}"></script>
+</body>
+</html>

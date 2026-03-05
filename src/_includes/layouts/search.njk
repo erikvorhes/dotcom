@@ -1,0 +1,17 @@
+---
+layout: layouts/base.njk
+---
+
+{%- block head -%}
+<link href="/pagefind/pagefind-ui.css" rel="stylesheet">
+<script src="/pagefind/pagefind-ui.js" eleventy:ignore></script>
+<script>
+  onLoad(() => {
+    new PagefindUI({ element: "#search", showSubResults: true });
+  });
+</script>
+{%- endblock head -%}
+
+<div id="search"></div>
+
+{# TAGS #}
