@@ -1,5 +1,9 @@
 import { DateTime } from 'luxon';
 
+/**
+ * A lot of the filters have been taken from https://github.com/11ty/eleventy-base-blog
+ * @param {import('@11ty/eleventy/UserConfig').default} eleventyConfig 
+ */
 export default function(eleventyConfig) {
 	eleventyConfig.addFilter('readableDate', (dateObj, zone) => {
 		// Formatting tokens for Luxon: https://moment.github.io/luxon/#/formatting

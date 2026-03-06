@@ -25,6 +25,7 @@
   <style>
     {% include 'css/base.css' %}
     {% include 'css/nav.css' %}
+    {% include 'css/footer.css' %}
     {% include 'css/content.css' %}
     {% include 'css/dl.css' %}
     {% include 'css/verse.css' %}
@@ -56,7 +57,10 @@
       {{ content | safe }}
     </heading-anchors>
   </main>
-  {# site footer #}
+  <footer class="site__footer flow">
+    <p>Copyright &copy; {% currentYear %} Erik Vorhes, all rights reserved.</p>
+    <p>See the <a href="/is/#colophon">colophon</a> for more about how this all works.</p>
+  </footer>
   <!-- Page `{{ page.url }}` was built on {% currentBuildDate %} -->
   <script type="module" src="{% getBundleFileUrl 'js' %}"></script>
 </body>

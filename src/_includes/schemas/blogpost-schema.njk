@@ -6,23 +6,23 @@
       "@type": "WebPage"
     },
     "isPartOf": {
-      "@id": "{{site.url}}#website"
+      "@id": "{{metadata.url}}#website"
     },
-    "@id": "{{ site.url }}{{ page.url }}",
-    "headline": "{{ title or site.title}}",
-    "description": "{{ summary or introSummary or site.description }}",
+    "@id": "{{ metadata.url }}{{ page.url }}",
+    "headline": "{{ title or metadata.title}}",
+    "description": "{{ summary or introSummary or metadata.description }}",
     {%- if coverImage -%}
-    "image": "{{ site.url }}{{ coverImage }}",
+    "image": "{{ metadata.url }}{{ coverImage }}",
     {%- endif -%}
-    "inLanguage": "{{ site.locale }}",
+    "inLanguage": "{{ metadata.locale }}",
     "publisher": {
       "@type": "Person",
-      "name": "{{ site.author.name }}",
-      "url": "{{ site.url }}"
+      "name": "{{ metadata.author.name }}",
+      "url": "{{ metadata.url }}"
     },
     "author": {
       "@type": "Person",
-      "name": "{{ site.author.name }}"
+      "name": "{{ metadata.author.name }}"
     },
     "datePublished": "{{ date | htmlDateString }}"
   }

@@ -1,9 +1,3 @@
-.site__nav {
-  max-inline-size: var(--site-inline-size);
-  margin-inline: auto;
-  padding-inline: var(--site-gutter);
-}
-
 .site__nav ul {
   font-family: var(--font-family-mono);
   font-size: calc(1rem / var(--type-scale, 1.25));

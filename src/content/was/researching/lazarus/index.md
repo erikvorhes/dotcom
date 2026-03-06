@@ -175,7 +175,7 @@ All image descriptions were adapted or quoted from [The Digital Scriptorium](htt
 
 [^3]: Please forgive my own egotism, since I probably could have found something similar from Bakhtin or McGann. It's exciting to quote oneself!
 
-[^4]: Cawley and Stevens, in their edition, provide a judicious account of the critical debate that has resulted from this manuscript problem (656--50). I should note, however, that I disagree with their conclusion, though I have yet to figure out an adequate way to articulate my disagreement.
+[^4]: Cawley and Stevens, in their edition, provide a judicious account of the critical debate that has resulted from this manuscript problem (646--50). I should note, however, that I disagree with their conclusion, though I have yet to figure out an adequate way to articulate my disagreement.
 
 [^5]: See, for example, the Flash-based "create your own Bayeux Tapestry" by "Karnebogen et Iungblvth."
 

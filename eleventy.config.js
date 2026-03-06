@@ -7,6 +7,7 @@ import mdItDefList from 'markdown-it-deflist';
 import mdItFootnote from 'markdown-it-footnote';
 
 import pluginFilters from './src/_config/filters.js';
+import pluginShortcodes from './src/_config/shortCodes.js';
 
 /**
  * A lot of configuration has been taken from https://github.com/11ty/eleventy-base-blog
@@ -154,6 +155,8 @@ export default async function (eleventyConfig) {
   });
 
   eleventyConfig.addPlugin(pluginFilters);
+
+  eleventyConfig.addPlugin(pluginShortcodes);
 
   eleventyConfig.addPlugin(IdAttributePlugin);
 
