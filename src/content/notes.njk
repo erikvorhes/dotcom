@@ -4,16 +4,11 @@ eleventyNavigation:
   key: Note Archive
   order: 3
 ---
-<style>
-  h3 {
-    text-align: left;
-  }
-</style>
 
 <ul role="list" class="flow">
 {%- for note in collections.notes -%}
   <li>
-    <h3><a href="{{ note.url }}">{{ note.title | renderContent('md') | stripOuterParagraph | safe }}</a></h3>
+    <h2><a href="{{ note.url }}">{{ note.title | renderContent('md') | stripOuterParagraph | safe }}</a></h2>
     <p><time datetime="{{ note.date | htmlDateString }}">{{ note.date | readableDate }}</time></p>
   {%- if note.summary -%}
     {{ note.summary | renderContent('md') | safe }}

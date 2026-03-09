@@ -2,11 +2,22 @@
 <html lang="en-us">
 <head>
   <meta charset="utf-8">
-  <title>{{ title or metadata.title }}</title>
-  
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="{{ description or metadata.description }}">
+  
+  <title>{{ title or metadata.title }}</title>
+  <meta name="description" content="{{ summary or metadata.description }}">
+  
   <meta name="generator" content="{{ eleventy.generator }}">
+  
+  <meta property="og:url" content="{{ metadata.url }}{{ page.url }}">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{{ 'Home' if page.url == '/' else title or metadata.title }}">
+  <meta property="og:description" content="{{ summary or metadata.description }}">
+  <meta property="og:image" content="{{ metadata.url }}{% if image %}{{ image }}{% else %}{% ogImage page.date %}{% endif %}">
+  <meta content="og:image:alt" content="">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:site_name" content="{{ metadata.title }}">
 
   <link rel="icon" type="image/svg+xml" href="/icon.svg">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -31,12 +42,6 @@
     {% include 'css/verse.css' %}
     {% include 'css/heading_anchors.css' %}
   </style>
-  {%- if -%}
-  <style>
-    {% include "node_modules/prismjs/themes/prism-okaidia.css" %}
-    {% include 'css/code.css' %}
-  </style>
-  {%- endif -%}
   <script>
     {% include 'js/handleColorSchemeData.js' %}
     {% include 'js/onLoad.js' %}
@@ -45,21 +50,22 @@
   <script type="module">
     {% include 'node_modules/@zachleat/heading-anchors/heading-anchors.js' %}
   </script>
-
+{%- block head %}{% endblock head -%}
   <link rel="stylesheet" href="https://use.typekit.net/arf4vwx.css">
   <style>{% getBundle 'css' %}</style>
   <link rel="stylesheet" href="{% getBundleFileUrl 'css', 'print' %}" media="print">
 </head>
 <body>
   {% include 'partials/site_nav.njk' -%}
-  <main>
+  <main{{ ' data-pagefind-ignore="all"' if noindex }}>
     <heading-anchors>
-      {{ content | safe }}
+{{ content | safe }}
     </heading-anchors>
   </main>
   <footer class="site__footer flow">
     <p>Copyright &copy; {% currentYear %} Erik Vorhes, all rights reserved.</p>
     <p>See the <a href="/is/#colophon">colophon</a> for more about how this all works.</p>
+    <p>If you see something amiss, <a href="https://github.com/erikvorhes/dotcom/blob/main/src/content/{{ page.inputPath | stripDotSlash }}" target="_blank" rel="noopener noreferrer">make a pull request</a>!</p>
   </footer>
   <!-- Page `{{ page.url }}` was built on {% currentBuildDate %} -->
   <script type="module" src="{% getBundleFileUrl 'js' %}"></script>

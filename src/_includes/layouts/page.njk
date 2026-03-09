@@ -1,0 +1,16 @@
+---
+layout: layouts/base.njk
+---
+<style>
+  {% include "node_modules/prismjs/themes/prism-okaidia.css" %}
+  {% include 'css/code.css' %}
+</style>
+
+<article class="flow">
+  <header class="flow">
+    <h1>{{ title | renderContent('md') | stripOuterParagraph | safe }}</h1>
+    <p class="pubdate"><time datetime="{{ date | htmlDateString }}">{{ date | readableDate }}</time></p>
+    {{ introSummary | renderContent('md') }}
+  </header>
+{{ content | safe }}
+</article>

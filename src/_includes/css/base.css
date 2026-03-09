@@ -220,6 +220,19 @@ h6,
   text-align: center;
 }
 
+:is(ol, ul) h2,
+:is(ol, ul) .h2,
+:is(ol, ul) h3,
+:is(ol, ul) .h3,
+:is(ol, ul) h4,
+:is(ol, ul) .h4,
+:is(ol, ul) h5,
+:is(ol, ul) .h5,
+:is(ol, ul) h6,
+:is(ol, ul) .h6 {
+  text-align: left;
+}
+
 pre,
 code,
 kbd,

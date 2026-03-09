@@ -1,0 +1,21 @@
+---
+layout: layouts/base.njk
+---
+
+<article class="flow">
+  <h1>{{ title }}</h1>
+{%- if notice -%}
+  {{ notice | renderContent('md') | safe }}
+{%- endif -%}
+{%- if reading -%}
+  <h2>Reading</h2>
+  <ul>
+  {%- for item in reading %}
+    <li>{{ item | renderContent('md') | stripOuterParagraph | safe }}</li>
+  {%- endfor -%}
+{%- endif -%}
+{%- if content -%}
+  <h2>Notes</h2>
+{{ content | safe }}
+{%- endif -%}
+</article>

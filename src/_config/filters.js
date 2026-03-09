@@ -48,6 +48,10 @@ export default function(eleventyConfig) {
 		(strings || []).sort((b, a) => b.localeCompare(a))
 	);
 
+	eleventyConfig.addFilter('stripDotSlash', string => 
+		string.replace(/^\.\/(.*)$/, '$1')
+	);
+
 	// strip paragraph tags use after renderContent('md'), e.g., {{ data | renderContent('md') | stripOuterParagraph }}
 	// risky because it doesn't account for multiple paragraphs
 	eleventyConfig.addFilter('stripOuterParagraph', content => {

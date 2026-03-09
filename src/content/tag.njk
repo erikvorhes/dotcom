@@ -1,0 +1,35 @@
+---js
+const pagination = {
+  data: 'collections',
+  size: 1,
+  alias: 'tag',
+  filter: ['all', 'note', 'notes'],
+};
+
+const eleventyExcludeFromCollections = true;
+
+const eleventyComputed = {
+  title: "Tagged ‘{{ tag }}’",
+  permalink: function(data) {
+    return `/has/${this.slugify(data.tag)}/`;
+  },
+};
+---
+
+<h1>Tagged ‘{{ tag }}’</h1>
+
+<ul role="list" class="flow">
+{%- for item in collections[ tag ] -%}
+  <li>
+    <h2><a href="{{ item.url }}">{{ item.title | renderContent('md') | stripOuterParagraph | safe }}</a></h2>
+  {%- if item.course -%}
+    <p><i>from {{ item.course }}</i></p>
+  {%- else -%}
+    <p class="pubdate"><time datetime="{{ item.date | htmlDateString }}">{{ item.date | readableDate }}</time></p>
+  {%- endif -%}
+  {%- if item.summary -%}
+  {{ item.summary | renderContent('md') | safe }}
+  {%- endif -%}
+  </li>
+{%- endfor -%}
+</ul>

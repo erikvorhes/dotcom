@@ -9,7 +9,9 @@ When I was younger I wanted to be a poet. When I was in college I realized that 
 
 In graduate school I became increasingly interested in textual criticism, especially in the transmission of texts and their material contexts. Around the same time, I became aware of the work of the [Text Encoding Initiative Consortium](https://tei-c.org) and other work in the production of digital editions of early texts. I became increasingly distracted from my scholarly work to play with technology. I loved teaching and learning with others, but the grind of the rest of the degree got to me. And so when I realized that I was unlikely to finish --- let alone start --- a dissertation, and even if I did, I was unlikely to beat out 300+ other candidates for the frighteningly few tenure-track positions that were out there, I decided a career transition was in order.
 
-These days I spend most of my time in a text editor and writing code, currently for [Netflix](https://www.netflix.com). When I'm not working, you'll find me with my family, hiking, climbing, cross-country skiing, and reading. I enjoy soccer a lot, too --- [Minnesota Aurora](https://mnaurora.com) (I'm a community owner!), [Minnesota United](https://www.mnufc.com), and [Werder Bremen](https://werder.de) are my teams. I'm also probably too online.
+These days I spend most of my time in a text editor and writing code, currently for [Netflix](https://www.netflix.com). I'm passionate about accessibility and inclusive design.
+
+When I'm not working, you'll find me with my family, hiking, climbing, cross-country skiing, baking, and reading. I enjoy soccer a lot, too --- [Minnesota Aurora](https://mnaurora.com) (I'm a community owner!), [Minnesota United](https://www.mnufc.com), and [Werder Bremen](https://werder.de) are my teams. I'm also probably too online.
 
 ## Elsewhere
 
@@ -37,5 +39,5 @@ If you find an issue, feel free to [submit an issue or make a pull request](http
 
 * [Minion 3](https://minion.typekit.com) for body copy and the favicon
 * [Gintronic](https://markfromberg.com/projects/gintronic) for code and a few other things
-* [Piel Script](https://www.sudtipos.com/font/piel-script) for my name, hiding in the background
+* [<span lang="es">Piel</span> Script](https://www.sudtipos.com/font/piel-script) for my name, hiding in the background
 

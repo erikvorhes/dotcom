@@ -147,6 +147,7 @@ export default async function (eleventyConfig) {
       imgAttributes: {
         loading: 'lazy',
         decoding: 'async',
+        'data-pagefind-index-attrs': 'alt',
       },
     },
     sharpOptions: {

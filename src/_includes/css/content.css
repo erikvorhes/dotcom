@@ -10,9 +10,17 @@ article::after {
   text-align: center;
 }
 
-figcaption {
+figcaption,
+.pubdate {
   font-size: calc(1rem / var(--type-scale, 1.25));
+}
+
+figcaption {
   margin-block-start: .5lh;
+}
+
+.pubdate {
+  margin-block-start: 0;
 }
 
 table {
