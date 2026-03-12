@@ -41,7 +41,7 @@
   inline-size: 100%;
 }
 
-.site_nav a {
+.site__nav a {
   display: flex;
   text-decoration: none;
   block-size: 100%;
@@ -50,7 +50,7 @@
   justify-content: center;
 }
 
-.site_nav a[aria-current="page"] {
+.site__nav a[aria-current="page"] {
   cursor: default;
 }
 
