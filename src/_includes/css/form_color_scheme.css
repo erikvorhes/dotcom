@@ -12,6 +12,7 @@
 
 [name="set-color-scheme"] li {
   border-block: .1rem double currentColor;
+  position: relative;
 }
 
 [name="set-color-scheme"] li:not(:first-child) {
@@ -32,6 +33,7 @@
 
 [name="set-color-scheme"] input {
   position:absolute;
+  inset: 0;
   opacity: 0;
 }
 

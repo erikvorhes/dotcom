@@ -1,0 +1,20 @@
+<h2>Schedule</h2>
+
+<ul role="list" class="flow">
+{%- for item in schedule -%}
+  <li>
+    <h3><a href="{{ item.url }}">{{ item.date | monthDay }}</a></h3>
+  {%- if item.notice -%}
+    {{ item.notice | renderContent('md') | safe }}
+  {%- endif -%}
+  {%- if item.reading -%}
+    <h4>Reading</h4>
+    <ul role="list">
+    {%- for r in reading -%}
+      <li>{{ r | renderContent('md') | stripOuterParagraph | safe }}</li>
+    {%- endfor -%}
+    </ul>
+  {%- endif -%}
+  </li>
+{%- endfor -%}
+</ul>

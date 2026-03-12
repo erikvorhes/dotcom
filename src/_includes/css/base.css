@@ -1,3 +1,27 @@
+@property --background {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: #f3e7d9;
+}
+
+@property --foreground {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: #41290f;
+}
+
+@property --accent-overt {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: #b93e15;
+}
+
+@property --accent-subtle {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: #d37657;
+}
+
 :root {
   --light: #f3e7d9; /** light mode background color */
   --dark: #41290f; /** light mode color */
@@ -61,12 +85,22 @@
     --accent-subtle: light-dark(var(--accent-light), var(--accent-dark));
   }
 
-  .dark {
+  :root.dark {
     color-scheme: dark;
   }
 
-  .light {
+  :root.light {
     color-scheme: light;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  :root {
+    transition:
+      --background 300ms ease,
+      --foreground 300ms ease,
+      --accent-overt 300ms ease,
+      --accent-subtle 300ms ease;
   }
 }
 

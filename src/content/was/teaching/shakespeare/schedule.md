@@ -9,9 +9,11 @@ tags:
 eleventyNavigation:
   key: Schedule
   parent: luc-274-086
-schedule: collections.shakespeareSchedule
 ---
 
 We will try to stick to this plan as closely as possible, but we may get ahead or fall behind. If either situation arises, expect in-class and online announcements of schedule revisions. Develop habits, therefore, of bringing your copy of the syllabus to each class meeting and of checking this page.
 
 Page references are to <cite>The Norton Shakespeare</cite>, unless otherwise indicated. Page references to <cite>The Bedford Companion to Shakespeare</cite> are preceded by "BC."
+
+{%- set schedule = collections.shakespeareSchedule -%}
+{%- include 'partials/schedule_list.njk' -%}

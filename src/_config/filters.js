@@ -12,7 +12,11 @@ export default function(eleventyConfig) {
 
 	eleventyConfig.addFilter('readableDateWithWeekday', (dateObj, zone) => {
 		return DateTime.fromJSDate(dateObj, { zone: zone || 'utc' }).toLocaleString(DateTime.DATE_HUGE);
-	})
+	});
+
+	eleventyConfig.addFilter('monthDay', (dateObj, zone) => {
+		return DateTime.fromJSDate(dateObj, { zone: zone || 'utc' }).toLocaleString({ month: 'long', day: 'numeric' });
+	});
 
 	eleventyConfig.addFilter('htmlDateString', (dateObj) => {
 		return DateTime.fromJSDate(dateObj, { zone: 'utc' }).toISODate();

@@ -61,6 +61,8 @@
   block-size: auto;
   inline-size: calc(100dvw + 2rem);
   opacity: 0.2;
+  pointer-events: none;
+  z-index: -1;
 }
 
 .site__nav path {

@@ -9,7 +9,9 @@ tags:
 eleventyNavigation:
   key: Schedule
   parent: luc-106-053
-schedule: collections.writing2Schedule
 ---
 
 We will try to stick to this plan as closely as possible, but we may get ahead or fall behind. If either situation arises, expect in-class and online announcements of schedule revisions. Develop habits, therefore, of bringing your copy of the syllabus to each class meeting and of checking this page.
+
+{%- set schedule = collections.writing2Schedule -%}
+{%- include 'partials/schedule_list.njk' -%}

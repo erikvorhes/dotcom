@@ -1,0 +1,10 @@
+---
+layout: layouts/base.njk
+---
+
+{# TODO: add course nav, possibly more structure #}
+
+<h1>{{ title }}</h1>
+{{ introSummary | renderContent('md') }}
+
+{{ content | safe }}

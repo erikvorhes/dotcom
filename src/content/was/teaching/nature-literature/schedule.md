@@ -9,9 +9,11 @@ tags:
 eleventyNavigation:
   key: Schedule
   parent: luc-288-081
-schedlue: collections.natureLiteratureSchedule
 ---
 
 We will try to stick to this plan as closely as possible, but we may get ahead or fall behind. If either situation arises, expect in-class and online announcements of schedule revisions. Develop habits, therefore, of bringing your copy of the syllabus to each class meeting and of checking this page.
 
 Page references refer to <cite>Literature and the Environment</cite>, unless otherwise indicated.
+
+{%- set schedule = collections.natureLiteratureSchedule -%}
+{%- include 'partials/schedule_list.njk' -%}

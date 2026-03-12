@@ -161,6 +161,9 @@ export default async function (eleventyConfig) {
 
   eleventyConfig.addPlugin(IdAttributePlugin);
 
+  eleventyConfig.addCollection('teaching', (collectionApi) => {
+    return collectionApi.getFilteredByGlob('was/teaching/**/*.md');
+  })
 
   const courses = [
     {

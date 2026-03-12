@@ -20,7 +20,6 @@ eleventyNavigation:
   key: luc-274-086
   title: Introduction to Shakespeare
   parent: Teaching
-handouts: collections.shakespeareHandouts
 ---
 
 William Shakespeare has remained a cultural and literary force for over 400 years. In this course we will study eight of his plays --- <cite>King Lear</cite>, <cite>Macbeth</cite>, <cite>A Midsummer Night's Dream</cite>, <cite>Much Ado About Nothing</cite>, <cite>Othello</cite>, <cite>Richard III</cite>, <cite>Titus Andronicus</cite>, and <cite>The Winter's Tale</cite> --- and his poetry, in order to develop a greater critical understanding of and familiarity with Shakespeare's writing and its influence.
@@ -37,3 +36,6 @@ For additional expectations, learning outcomes, and class policies, consult the 
 The main text for this course is <cite>The Norton Shakespeare</cite>; you are required to use this edition. The introductions to the individual plays are recommended reading, as is Greenblatt's general introduction. Portions of <cite>The Bedford Companion to Shakespeare</cite> are assigned reading. You are encouraged to familiarize yourselves with the resources in this book, as they will enhance your understanding of early modern culture and current critical debates.
 
 In addition to these texts, you are expected to consult this site, which will contain additional reading materials, [schedule updates, and class notes](./schedule).
+
+{%- set handouts = collections.shakespeareHandouts -%}
+{%- include 'partials/handout_list.njk' -%}

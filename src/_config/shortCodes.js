@@ -7,11 +7,13 @@ export default function(eleventyConfig) {
   });
 
   /**
-   * @param {string} date -- ISO date string
+   * @param {string | Date} date -- ISO date string
    * @returns {string}
    */
   eleventyConfig.addShortcode('ogImage', (date) => {
-    const monthDay = new Date(date).getDate();
-    return `/social/ogImage-${(monthDay % 5) + 1}`;
+    const num = (new Date(date).getDate() % 5) + 1;
+    const ext = num > 3 ? 'jpeg' : 'png';
+
+    return `/social/ogImage-${num}.${ext}`;
   })
 }
