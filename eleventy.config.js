@@ -122,8 +122,8 @@ export default async function (eleventyConfig) {
     stylesheet: 'atom-feed.xsl',
     templateData: {
       eleventyNavigation: {
-        key: 'Feed',
-        order: 4,
+        key: 'Feed (Atom)',
+        order: 6,
       },
     },
     ...feedData,
@@ -134,7 +134,7 @@ export default async function (eleventyConfig) {
     templateData: {
       eleventyNavigation: {
         key: 'Feed (JSON)',
-        order: 5,
+        order: 7,
       },
     },
     ...feedData,

@@ -5,7 +5,7 @@ eleventyNavigation:
   order: 4
 ---
 
-When I was younger I wanted to be a poet. When I was in college I realized that this was impractical, and so I decided to pursue a Ph.D. in medieval English literature.
+When I [was](/was/) younger I wanted to be a poet. When I was in college I realized that this was impractical, and so I decided to pursue a Ph.D. in medieval English literature.
 
 In graduate school I became increasingly interested in textual criticism, especially in the transmission of texts and their material contexts. Around the same time, I became aware of the work of the [Text Encoding Initiative Consortium](https://tei-c.org) and other work in the production of digital editions of early texts. I became increasingly distracted from my scholarly work to play with technology. I loved teaching and learning with others, but the grind of the rest of the degree got to me. And so when I realized that I was unlikely to finish --- let alone start --- a dissertation, and even if I did, I was unlikely to beat out 300+ other candidates for the frighteningly few tenure-track positions that were out there, I decided a career transition was in order.
 
@@ -15,7 +15,7 @@ When I'm not working, you'll find me with my family, hiking, climbing, cross-cou
 
 ## Elsewhere
 
-You can find me lurking all over the internet, including but not limited to:
+You can find me lurking --- and sometimes contributing to _the discourse_ --- all over the internet, including but not limited to:
 
 * [Bluesky](https://bsky.app/profile/erikvorhes.bsky.social)
 * [Codepen](https://codepen.io/erikvorhes/)

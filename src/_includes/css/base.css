@@ -162,7 +162,7 @@ iframe {
   border: 0;
 }
 
-p {
+p, li, dd {
   text-wrap: pretty;
 }
 
@@ -203,7 +203,8 @@ h4,
 h5,
 .h5,
 h6,
-.h6 {
+.h6,
+dt {
   text-wrap: balance;
 }
 

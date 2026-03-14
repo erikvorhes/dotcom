@@ -2,6 +2,18 @@
 layout: layouts/course_detail.njk
 ---
 
+<style>
+  .nav__course__day {
+    margin-block: 3lh;
+  }
+  
+  .nav__course__day p {
+    font-size: calc(1em / var(--type-scale));
+    font-style: italic;
+    text-align: end;
+  }
+</style>
+
 <article class="flow">
   <h1>{{ title }}</h1>
 {%- if notice -%}
@@ -19,3 +31,7 @@ layout: layouts/course_detail.njk
 {{ content | safe }}
 {%- endif -%}
 </article>
+
+<nav class="nav__course__day">
+  <p><a href="../#{{ date | monthDay | slugify }}">Back to the schedule</a></p>
+</nav>

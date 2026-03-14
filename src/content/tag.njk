@@ -28,7 +28,7 @@ const eleventyComputed = {
     <p class="pubdate"><time datetime="{{ item.date | htmlDateString }}">{{ item.date | readableDate }}</time></p>
   {%- endif -%}
   {%- if item.summary -%}
-  {{ item.summary | renderContent('md') | safe }}
+    {{ item.summary | renderContent('md') | safe }}
   {%- endif -%}
   </li>
 {%- endfor -%}

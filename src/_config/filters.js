@@ -48,13 +48,13 @@ export default function(eleventyConfig) {
 		return (tags || []).filter(tag => ['all', 'notes'].indexOf(tag) === -1);
 	});
 
-	eleventyConfig.addFilter('sortAlphabetically', strings =>
-		(strings || []).sort((b, a) => b.localeCompare(a))
-	);
+	eleventyConfig.addFilter('sortAlphabetically', strings => {
+		return (strings || []).sort((b, a) => b.localeCompare(a));
+	});
 
-	eleventyConfig.addFilter('stripDotSlash', string => 
-		string.replace(/^\.\/(.*)$/, '$1')
-	);
+	eleventyConfig.addFilter('stripDotSlash', string => {
+		return string.replace(/^\.\/(.*)$/, '$1');
+	});
 
 	// strip paragraph tags use after renderContent('md'), e.g., {{ data | renderContent('md') | stripOuterParagraph }}
 	// risky because it doesn't account for multiple paragraphs

@@ -6,6 +6,6 @@ eleventyNavigation:
 layout: layouts/home.njk
 ---
 
-Hello! I'm Erik Vorhes, a human on the internet. I write software for a living and think about a lot of things while living.
+I'm Erik Vorhes, a human on the internet. I write software for a living and think about a lot of things while living.
 
-You might be interested in [current writing](/notes/) or in some of my [past work](/was/).
+Take a look around to learn more [about me](/is/); you might also be interested in some of my [past work](/was/).

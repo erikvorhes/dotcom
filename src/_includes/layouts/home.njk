@@ -2,4 +2,36 @@
 layout: layouts/base.njk
 ---
 
+{%- set notes = collections.notes | head(3) -%}
+
+<style>
+  main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(calc((var(--site-inline-size) - 2lh) / 2), 1fr));
+    gap: 2lh;
+  }
+
+  section h2 {
+    text-align: start;
+  }
+</style>
+
+<div class="flow">
+  <h1>Hello!</h1>
 {{ content | safe }}
+  <img src="./me.jpeg" alt="a recent picture of me">
+</div>
+
+<section class="flow">
+  <h2>Recent notes</h2>
+{%- for note in notes -%}
+  <article class="flow">
+    <h3><a href="{{ note.url }}">{{ note.title | renderContent('md') | stripOuterParagraph | safe }}</a></h3>
+    <p class="pubdate"><time datetime="{{ note.date | htmlDateString }}">{{ note.date | readableDate }}</time></p>
+  {%- if note.summary -%}
+    {{ note.summary | renderContent('md') | safe }}
+  {%- endif -%}
+  </article>
+{%- endfor -%}
+  <p>You can find more notes in the <a href="/notes/">archive</a>.</p>
+</section>

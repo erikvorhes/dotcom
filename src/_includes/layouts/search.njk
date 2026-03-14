@@ -6,12 +6,15 @@ noindex: true
 {%- block head -%}
 <link href="/pagefind/pagefind-ui.css" rel="stylesheet">
 <script src="/pagefind/pagefind-ui.js" eleventy:ignore></script>
+{%- endblock head -%}
+
 <script>
   onLoad(() => {
     new PagefindUI({ element: "#search", showSubResults: true });
   });
 </script>
-{%- endblock head -%}
+
+<h1>{{ title }}</h1>
 
 <div id="search"></div>
 
