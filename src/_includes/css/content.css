@@ -1,3 +1,6 @@
+/**
+ * Adapted from https://every-layout.dev/layouts/stack/
+ */
 .flow > * + * {
   margin-block-start: var(--flow-space, 1em);
 }
@@ -62,5 +65,5 @@ blockquote::before {
 ol > li::marker {
   font-variant-numeric: proportional-nums;
   font-feature-settings: "liga", "clig", "pnum";
-  opacity: 0.8;
+  opacity: 0.9;
 }

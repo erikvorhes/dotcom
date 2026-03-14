@@ -254,17 +254,8 @@ h6,
   text-align: center;
 }
 
-:is(ol, ul) h2,
-:is(ol, ul) .h2,
-:is(ol, ul) h3,
-:is(ol, ul) .h3,
-:is(ol, ul) h4,
-:is(ol, ul) .h4,
-:is(ol, ul) h5,
-:is(ol, ul) .h5,
-:is(ol, ul) h6,
-:is(ol, ul) .h6 {
-  text-align: left;
+:is(ol, ul):has(h2, .h2, h3, .h3, h4, h5, .h5, h6, .h6) {
+  text-align: start;
 }
 
 pre,
@@ -273,10 +264,9 @@ kbd,
 samp,
 var {
   font-family: var(--font-family-mono);
-  /* might need to adjust font size in ems */
+  font-size: calc(1em / var(--type-scale));
 }
 
-/* if so: */
 pre code {
   font-size: 1em;
 }
@@ -292,6 +282,10 @@ li {
 ul[role="list"],
 ol[role="list"] {
   list-style: none;
+}
+
+:is(ol, ul):has(ol, ul) {
+  padding-inline-start: 2lh;
 }
 
 a {
