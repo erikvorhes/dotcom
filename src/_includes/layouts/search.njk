@@ -6,7 +6,7 @@ noindex: true
 {%- block head -%}
 <link href="/pagefind/pagefind-ui.css" rel="stylesheet">
 <script src="/pagefind/pagefind-ui.js" eleventy:ignore></script>
-{%- endblock head -%}
+{%- endblock -%}
 
 <script>
   onLoad(() => {
@@ -20,3 +20,10 @@ noindex: true
 
 {# TAGS #}
 <h2>Tags</h2>
+
+<ul>
+{%- for tag in collections | getKeys | filterTagList | sortAlphabetically -%}
+  {%- set tagUrl %}/has/{{ tag | slugify }}/{% endset -%}
+  <li><a href="{{ tagUrl }}">{{ tag }}</a></li>
+{%- endfor -%}
+</ul>
