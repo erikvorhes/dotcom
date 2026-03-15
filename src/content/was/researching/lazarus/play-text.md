@@ -1,14 +1,15 @@
-—
+---
 title: The Towneley Lazarus Play
 infoSummary: Updated from a version published on May 16, 2005; this version uses better markup and avoids line numbers (for now). A future version may incorporate XML and XSLT to do magical things.
 summary: A Middle English play about Lazarus, updated from a version published on May 16, 2005.
 date: 2026-02-23
 tags:
   - drama
-  - middle-english
+  - middle english
   - lazarus
   - towneley
-—
+layout: layouts/note.njk
+---
 
 <p class="h2 accent-overt" lang="la">Incipit Lazarus</p>
 

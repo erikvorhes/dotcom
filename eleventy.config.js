@@ -1,4 +1,4 @@
-import { IdAttributePlugin, InputPathToUrlTransformPlugin, HtmlBasePlugin } from '@11ty/eleventy';
+import { IdAttributePlugin, InputPathToUrlTransformPlugin, HtmlBasePlugin, RenderPlugin } from '@11ty/eleventy';
 import { feedPlugin } from '@11ty/eleventy-plugin-rss';
 import pluginSyntaxHighlight from '@11ty/eleventy-plugin-syntaxhighlight';
 import pluginNavigation from '@11ty/eleventy-navigation';
@@ -26,7 +26,7 @@ export default async function (eleventyConfig) {
 	});
 
   eleventyConfig.amendLibrary('md', (mdLib) => {
-    mdLib.enable('typographer');
+    mdLib.set({ typographer: true });
     mdLib.use(mdItDefList);
     mdLib.use(mdItFootnote);
 
@@ -36,7 +36,7 @@ export default async function (eleventyConfig) {
         n += ':' + tokens[idx].meta.subId;
       }
 
-      return `[<span class="visually-hidden">footnote </span>${n}]`;
+      return `<span class="visually-hidden">footnote </span><sup class="footnote__ref">${n}</sup>`;
     };
 
     mdLib.renderer.rules.footnote_ref = (tokens, idx, options, env, slf) => {
@@ -48,10 +48,10 @@ export default async function (eleventyConfig) {
         refid += ':' + tokens[idx].meta.subId;
       }
 
-      return `<sup class="footnote__ref"><a href="#fn${id}" id="fnref${refid}">${caption}</a></sup>`;
+      return `<a href="#fn${id}" id="fnref${refid}">${caption}</a>`;
     };
 
-    mdLib.renderer.rules.footnote_block_open = () => '<footer class="footnotes">\n<h2>Footnotes</h2>\n<ol>\n';
+    mdLib.renderer.rules.footnote_block_open = () => '<footer class="footnotes flow">\n<h2>Footnotes</h2>\n<ol class="flow">\n';
     
     mdLib.renderer.rules.footnote_block_close = () => '</ol>\n</footer>\n';
 
@@ -61,7 +61,7 @@ export default async function (eleventyConfig) {
         id += ':' + tokens[idx].meta.subId;
       }
 
-      return `<li id="fn${id}>`;
+      return `<li id="fn${id}">`;
     };
 
     mdLib.renderer.rules.footnote_anchor = (tokens, idx, options, env, slf) => {
@@ -70,14 +70,13 @@ export default async function (eleventyConfig) {
         id += ':' + tokens[idx].meta.subId;
       }
 
-      return ` <a href="#fnref${id}" class="footnote__backref"><span class="visually-hidden">back to link to footnote ${id}</span><span aria-hidden="true">↩</span></a>`;
+      return ` <a href="#fnref${id}" class="footnote__backref"><span class="visually-hidden">back to link to footnote ${id}</span><small aria-hidden="true">↩</small></a>`;
     };
   });
 
-  eleventyConfig
-    .addPassthroughCopy({
-      './public': '/',
-    });
+  eleventyConfig.addPassthroughCopy({
+    './public': '/',
+  });
 
   // Watch CSS files
   eleventyConfig.addWatchTarget('./src/_includes/css/**/*.css');
@@ -85,12 +84,12 @@ export default async function (eleventyConfig) {
 	eleventyConfig.addWatchTarget('./src/content/**/*.{svg,webp,png,jpg,jpeg,gif}');
 
   eleventyConfig.addBundle('css', {
-    toFileDirectory: 'dist',
+    toFileDirectory: 'css',
     bundleHtmlContentFromSelector: 'style',
   });
 
   eleventyConfig.addBundle('js', {
-    toFileDirectory: 'dist',
+    toFileDirectory: 'js',
     bundleHtmlContentFromSelector: 'script',
   });
 
@@ -100,6 +99,7 @@ export default async function (eleventyConfig) {
   eleventyConfig.addPlugin(pluginNavigation);
   eleventyConfig.addPlugin(HtmlBasePlugin);
   eleventyConfig.addPlugin(InputPathToUrlTransformPlugin);
+  eleventyConfig.addPlugin(RenderPlugin);
 
   const feedData = {
     collection: {
@@ -161,53 +161,49 @@ export default async function (eleventyConfig) {
 
   eleventyConfig.addPlugin(IdAttributePlugin);
 
-  eleventyConfig.addCollection('teaching', (collectionApi) => {
-    return collectionApi.getFilteredByGlob('was/teaching/**/*.md');
-  })
-
   const courses = [
     {
       camel: 'natureLiterature',
-      slug: 'nature-literature',
+      courseSnake: 'luc_288_081',
       tag: 'nature and literature',
       end: '2007-12-15',
     },
     {
       camel: 'shakespeare',
-      slug: 'shakespeare',
+      courseSnake: 'luc_274_086',
       tag: 'shakespeare',
       end: '2006-05-18',
     },
     {
       camel: 'writing1',
-      slug: 'writing-1',
+      courseSnake: 'luc_105_053',
       tag: 'writing 1',
       end: '2003-12-11',
     },
     {
       camel: 'writing2',
-      slug: 'writing-2',
+      courseSnake: 'writing-2',
       tag: 'writing 2',
       end: '2004-04-20',
     },
     {
       camel: 'writingSeminar',
-      slug: 'writing-seminar',
+      courseSnake: 'luc_110_104',
       tag: 'writing seminar',
       end: '2007-12-11',
     },
   ];
 
-  for (const { camel, slug, tag, end } of courses) {
+  for (const { camel, courseSnake, tag, end } of courses) {
     eleventyConfig.addCollection(`${camel}Schedule`, (collectionApi) => {
       return collectionApi
-        .getFilteredByGlob(`was/teaching/${slug}/schedule/*.md`)
+        .getFilteredByTags('schedule', courseSnake)
         .sort((a, b) => a.date - b.date);
     });
     eleventyConfig.addCollection(`${camel}Handouts`, (collectionApi) => {
       const endDate = new Date(end);
       return collectionApi
-        .getFiteredByTags('notes', 'class handout', tag)
+        .getFilteredByTags('notes', 'class handout', tag)
         .filter(item => new Date(item.date) <= endDate)
         .sort((a, b) => a.title - b.title);
     });

@@ -1,29 +1,30 @@
 ---
-layout: layouts/base.njk
+layout: layouts/page.njk
 noindex: true
 ---
-
-{%- block head -%}
-<link href="/pagefind/pagefind-ui.css" rel="stylesheet">
-<script src="/pagefind/pagefind-ui.js" eleventy:ignore></script>
-{%- endblock -%}
-
+<style>
+  .content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(calc((var(--site-inline-size) - 6lh) / 2), 1fr));
+    gap: 2lh;
+  }
+</style>
 <script>
   onLoad(() => {
     new PagefindUI({ element: "#search", showSubResults: true });
   });
 </script>
 
-<h1>{{ title }}</h1>
+<div class="content">
+  <section id="search"></section>
 
-<div id="search"></div>
-
-{# TAGS #}
-<h2>Tags</h2>
-
-<ul>
-{%- for tag in collections | getKeys | filterTagList | sortAlphabetically -%}
-  {%- set tagUrl %}/has/{{ tag | slugify }}/{% endset -%}
-  <li><a href="{{ tagUrl }}">{{ tag }}</a></li>
-{%- endfor -%}
-</ul>
+  <section>
+    <h2><i>Tags</i></h2>
+    <ul>
+    {%- for tag in collections | getKeys | filterTagList | sortAlphabetically -%}
+      {%- set tagUrl %}/has/{{ tag | slugify }}/{% endset -%}
+      <li><a href="{{ tagUrl }}">{{ tag }}</a></li>
+    {%- endfor -%}
+    </ul>
+  </section>
+</div>

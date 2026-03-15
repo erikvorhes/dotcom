@@ -3,7 +3,7 @@ const pagination = {
   data: 'collections',
   size: 1,
   alias: 'tag',
-  filter: ['all', 'note', 'notes'],
+  filter: ['all', 'note', 'notes', 'luc_274_086', 'luc_288_081', 'luc_110_104', 'luc_105_053', 'luc_106_053'],
 };
 
 const eleventyExcludeFromCollections = true;
@@ -14,14 +14,19 @@ const eleventyComputed = {
     return `/has/${this.slugify(data.tag)}/`;
   },
 };
+
+const layout = 'layouts/base.njk';
 ---
 
 <h1>Tagged ‘{{ tag }}’</h1>
 
 <ul role="list" class="flow">
 {%- for item in collections[ tag ] -%}
+  {%- set t -%}
+    {% renderTemplate 'md' %}{{ item.title | string }}{% endrenderTemplate %}
+  {%- endset -%}
   <li>
-    <h2><a href="{{ item.url }}">{{ item.title | renderContent('md') | stripOuterParagraph | safe }}</a></h2>
+    <h2><a href="{{ item.url }}">{{ t | stripOuterParagraph | safe }}</a></h2>
   {%- if item.course -%}
     <p><i>from {{ item.course }}</i></p>
   {%- else -%}

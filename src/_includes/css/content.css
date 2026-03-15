@@ -5,25 +5,32 @@
   margin-block-start: var(--flow-space, 1em);
 }
 
-article::after {
-  content: "❧ ❦" / "";
+article::after,
+hr::after {
   display: block;
-  margin-block: 2lh;
-  opacity: 0.5;
+  font-size: calc(1em / var(--type-scale));
+  opacity: 0.75;
   text-align: center;
+}
+
+article::after {
+  color: var(--accent-overt);
+  content: "❧" / "";
+  margin-block: 1lh;
+}
+
+hr::after {
+  color: var(--accent-subtle);
+  content: "❦" / "";
 }
 
 figcaption,
 .pubdate {
-  font-size: calc(1rem / var(--type-scale, 1.25));
+  font-size: calc(1rem / var(--type-scale));
 }
 
 figcaption {
   margin-block-start: .5lh;
-}
-
-.pubdate {
-  margin-block-start: 0;
 }
 
 table {
@@ -34,8 +41,8 @@ table {
 
 sup,
 sub {
-  line-height: 0; /*inherit?*/
   font-size: 1em;
+  vertical-align: inherit;
 }
 
 sup {

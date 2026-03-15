@@ -1,0 +1,46 @@
+---
+layout: layouts/base.njk
+---
+
+{%- if courseKey -%}
+<style>
+  .course__nav ul {
+    border-block: .05rem solid var(--accent-subtle);
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(calc(var(--site-inline-size) / 5), 1fr));
+    inline-size: 100%;
+    list-style: none;
+    margin-block: .5lh;
+  }
+
+  .course__nav a {
+    display: block;
+    padding: .5lh;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .course__nav a:is(:focus, hover) {
+    background-color: var(--accent-subtle);
+  }
+  
+  .course__nav a[aria-current="page"] {
+    background-color: var(--accent-overt);
+    color: var(--background);
+    cursor: default;
+  }
+</style>
+<nav class="course__nav">
+  {{ collections.all | eleventyNavigation(courseKey) | eleventyNavigationToHtml | safe }}
+</nav>
+{%- endif -%}
+<article class="flow">
+  <header class="flow">
+    <h1>{{ title | renderContent('md') | stripOuterParagraph | safe }}</h1>
+    {% if datetime and pubDate %}<p class="pubdate"><time datetime="{{ datetime }}">{{ pubDate }}</time>{% endif %}
+    {%- if introSummary -%}
+      {{ introSummary | renderContent('md') | safe }}
+    {%- endif -%}
+  </header>
+{{ content | safe }}
+</article>

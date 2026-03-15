@@ -1,5 +1,5 @@
 ---
-layout: layouts/course_detail.njk
+layout: layouts/page.njk
 ---
 
 <style>
@@ -8,29 +8,24 @@ layout: layouts/course_detail.njk
   }
   
   .nav__course__day p {
-    font-size: calc(1em / var(--type-scale));
+    font-size: calc(1rem / var(--type-scale));
     font-style: italic;
     text-align: end;
   }
 </style>
 
-<article class="flow">
-  <h1>{{ title }}</h1>
 {%- if notice -%}
   {{ notice | renderContent('md') | safe }}
+  {{ notice }}
 {%- endif -%}
 {%- if reading -%}
   <h2>Reading</h2>
-  <ul>
-  {%- for item in reading %}
-    <li>{{ item | renderContent('md') | stripOuterParagraph | safe }}</li>
-  {%- endfor -%}
+  {{ reading | renderContent('md') | safe }}
 {%- endif -%}
 {%- if content -%}
   <h2>Notes</h2>
 {{ content | safe }}
 {%- endif -%}
-</article>
 
 <nav class="nav__course__day">
   <p><a href="../#{{ date | monthDay | slugify }}">Back to the schedule</a></p>

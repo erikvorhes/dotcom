@@ -4,15 +4,15 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>{{ title or metadata.title }}</title>
-  <meta name="description" content="{{ summary or metadata.description }}">
+  <title>{{ title or metadata.title | striptags }}</title>
+  <meta name="description" content="{{ summary or metadata.description | striptags }}">
   
   <meta name="generator" content="{{ eleventy.generator }}">
   
   <meta property="og:url" content="{{ metadata.url }}{{ page.url }}">
   <meta property="og:type" content="website">
   <meta property="og:title" content="{{ 'Home' if page.url == '/' else title or metadata.title }}">
-  <meta property="og:description" content="{{ summary or metadata.description }}">
+  <meta property="og:description" content="{{ summary or metadata.description | striptags }}">
   <meta property="og:image" content="{{ metadata.url }}{% if image %}{{ image }}{% else %}{% ogImage page.date %}{% endif %}">
   <meta content="og:image:alt" content="">
   <meta property="og:image:width" content="1200">
@@ -40,34 +40,34 @@
     {% include 'css/content.css' %}
     {% include 'css/dl.css' %}
     {% include 'css/verse.css' %}
-    {% include 'css/heading_anchors.css' %}
   </style>
   <script>
-    {% include 'js/handleColorSchemeData.js' %}
     {% include 'js/onLoad.js' %}
     {% include 'js/focusHash.js' %}
   </script>
-  <script type="module">
-    {% include 'node_modules/@zachleat/heading-anchors/heading-anchors.js' %}
-  </script>
-{%- block head %}{% endblock -%}
   <link rel="stylesheet" href="https://use.typekit.net/arf4vwx.css">
+{%- if page.url == '/has/' -%}
+  <link rel="stylesheet" href="/pagefind/pagefind-ui.css">
+{%- endif -%}
   <style>{% getBundle 'css' %}</style>
   <link rel="stylesheet" href="{% getBundleFileUrl 'css', 'print' %}" media="print">
+  <script eleventy:ignore>
+    {% include 'js/handleColorSchemeData.js' %}
+  </script>
 </head>
 <body>
   {% include 'partials/site_nav.njk' -%}
-  <main{{ ' data-pagefind-ignore="all"' if noindex }}>
-    <heading-anchors>
+  <main{{ ' data-pagefind-ignore' if noindex }}>
 {{ content | safe }}
-    </heading-anchors>
   </main>
   <footer class="site__footer flow">
-    <p>Copyright &copy; {% currentYear %} Erik Vorhes, all rights reserved.</p>
-    <p>See the <a href="/is/#colophon">colophon</a> for more about how this all works.</p>
-    <p>If you see something amiss, <a href="https://github.com/erikvorhes/dotcom/blob/main/src/content/{{ page.inputPath | stripDotSlash }}" target="_blank" rel="noopener noreferrer">make a pull request</a>!</p>
+    <p>Copyright &copy; {% currentYear %} Erik Vorhes, all rights reserved. See the <a href="/is/#colophon">colophon</a> for more about how this all works.</p>
+    <p><i>If you notice anything amiss, <a href="https://github.com/erikvorhes/dotcom/blob/main/src/content/{{ page.inputPath | stripDotSlash }}" target="_blank" rel="noopener noreferrer">please make a pull request</a>!</i></p>
   </footer>
   <!-- Page `{{ page.url }}` was built on {% currentBuildDate %} -->
-  <script type="module" src="{% getBundleFileUrl 'js' %}"></script>
+  <script src="{% getBundleFileUrl 'js' %}"></script>
+{%- if page.url == '/has/' -%}
+  <script src="/pagefind/pagefind-ui.js" eleventy:ignore></script>
+{%- endif -%}
 </body>
 </html>

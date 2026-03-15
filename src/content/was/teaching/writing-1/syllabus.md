@@ -75,7 +75,7 @@ These papers should be no longer than one page, typed and double-spaced: fill th
 
 On Thursday, August 28, there will be an opportunity to sign up to present a response paper to the class. When you present a response paper, you will be expected to bring enough copies for the class (23).
 
-### Essay 1
+<h3 id="essay-1">Essay 1</h3>
 
 Think of an occasion in your recent past when you were among a group of friends and having a good time. What was the situation? Who was around you? How were they acting? What were you doing and how were you acting? Make sure you describe this experience in enough detail so your readers --- in this case, assume your readers to be this class --- can understand what happened.
 
@@ -89,7 +89,7 @@ Don't lose sleep over this writing. We're all anxious about unknown criteria at 
 
 This assignment is **due Tuesday, October 7**.
 
-### Essay 2
+<h3 id="essay-2">Essay 2</h3>
 
 In this assignment, I would like you to think about roles and role-playing more and see if you can come up with more useful ways of talking about them (or a more complicated, meaningful way). Here are some questions you might want to consider, but only as ways of getting your own thinking focused on something you know about or want to explore. Do not use these questions to organize your essay. Do your best to come up with your own lines of inquiry, your own way into these issues. Here are a few questions to get your thinking started:
 
@@ -105,7 +105,7 @@ As with the last essay, shoot for around four pages of typed, double-spaced text
 
 This assignment is **due Thursday, November 6**.
 
-### Essay 3
+<h3 id="essay-3">Essay 3</h3>
 
 **Note**: I cannot offer extensions for this paper, sorry. There are two options for this essay, and their descriptions follow. In either option, you are expected to produce at least four pages of well-written, well-thought-out material.
 
@@ -142,7 +142,7 @@ Feel free to bring outside sources into your conversation, if they help you make
 
 Most importantly, however, be conscious of your voice, how you're coming across and how you present your argument. Do you want to sound humorous, intelligent, sarcastic, light, insightful, mysterious? You're going to sound some way --- try to get a feel for what that way is.
 
-### Final Exam
+<h3 id="final-exam">Final Exam</h3>
 
 I won't say much about the final exam. It will consist primarily of your own thoughts about your writing process. But you will want to be familiar with the various reading assignments.
 

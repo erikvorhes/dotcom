@@ -76,7 +76,7 @@ You will have the opportunity to sign up on [January 20](../schedule/2006-01-20/
 
 Response papers are your opportunity to engage the play texts on your own terms. For example, you could address a few lines or a scene that interest you, or you could write what would function as an introduction to a longer argumentative essay. Whatever your decision, you will be expected to write a full page of thoughtful and concise prose. You are expected to write five response papers, each on a different play, over the course of the semester. Response papers are due on the first day that a reading is assigned.
 
-### Midterm exam
+<h3 id="midterm-exam">Midterm exam</h3>
 
 The exam will address all the material from the syllabus that we have covered so far.
 
@@ -88,7 +88,7 @@ The exam itself will probably take you most of the class period to complete, so 
 
 The exam takes place on [Friday, March 3](../schedule/2006-03-03/), 8:15 a.m. to 9:05 a.m., in the classroom.
 
-### Final exam {id="final-exam"}
+<h3 id="final-exam">Final exam</h3>
 
 The exams will consist primarily of short answer and passage identification, analysis, and explication. Some of the material on the exam may be taken from the play quotation handouts, from the quizzes, or from both. The exam will be cumulative but weighted toward material covered during the second half of the semester.
 

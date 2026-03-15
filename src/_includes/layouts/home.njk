@@ -5,13 +5,9 @@ layout: layouts/base.njk
 <style>
   main {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(calc((var(--site-inline-size) - 2lh) / 2), 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(calc((var(--site-inline-size) - 6lh) / 2), 1fr));
     gap: 2lh;
-    padding-top: 4lh;
-  }
-
-  section h2 {
-    text-align: start;
+    padding-block-start: 1lh;
   }
 </style>
 
@@ -22,15 +18,15 @@ layout: layouts/base.njk
 </div>
 
 <section class="flow">
-  <h2>Recent notes</h2>
-{%- for note in collections.notes | head(3) -%}
+  <h2><i>Recent notes</i></h2>
+{%- for note in collections.notes | reverse | head(3) -%}
   <article class="flow">
-    <h3><a href="{{ note.url }}">{{ note.title | renderContent('md') | stripOuterParagraph | safe }}</a></h3>
+    <h3><a href="{{ note.url }}">{{ note.data.title | safe }}</a></h3>
     <p class="pubdate"><time datetime="{{ note.date | htmlDateString }}">{{ note.date | readableDate }}</time></p>
-  {%- if note.summary -%}
-    {{ note.summary | renderContent('md') | safe }}
+  {%- if note.data.summary -%}
+    {{ note.data.summary | safe }}
   {%- endif -%}
   </article>
 {%- endfor -%}
-  <p>You can find more notes in the <a href="/notes/">archive</a>.</p>
+  <p><i>You can find more notes in the <a href="/notes/">archive</a>.</i></p>
 </section>

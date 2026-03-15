@@ -1,15 +1,15 @@
-{%- set handout_length = handouts | length -%}
-{%- if handout_length > 0 -%}
-<h2>Handouts</h2>
-<p>These will be added throughout the semester.</p>
-<ul role="list" class="flow">
-{%- for handout in handouts -%}
-  <li>
-    <h3><a href="{{ handout.url }}">{{ handout.title | renderContent('md') | stripOuterParagraph | safe }}</a></h3>
-    <p class="pubdate"><time datetime="{{ handout.date | htmlDateString }}">{{ handout.date | readableDate }}</time></p>
-  {%- if handout.summary -%}
-    {{ handout.summary | renderContent('md') | safe }}
-  {%- endif -%}
-  </li>
-</ul>
+{%- if handouts | length -%}
+  <h2>Handouts</h2>
+  <p>Supplemental materials may be added during the semester.</p>
+  <ul role="list" class="flow">
+  {%- for handout in handouts -%}
+    <li>
+      <h3><a href="{{ handout.url }}">{{ handout.data.title | renderContent('md') | stripOuterParagraph | safe }}</a></h3>
+      <p class="pubdate"><time datetime="{{ handout.date | htmlDateString }}">{{ handout.date | readableDate }}</time></p>
+    {%- if handout.summary -%}
+      {{ handout.data.summary | renderContent('md') | safe }}
+    {%- endif -%}
+    </li>
+  {%- endfor -%}
+  </ul>
 {%- endif -%}

@@ -1,6 +1,10 @@
+.site_nav {
+  padding-block-end: 1lh;
+}
+
 .site__nav ul {
   font-family: var(--font-family-mono);
-  font-size: calc(1rem / var(--type-scale, 1.25));
+  font-size: 1rem;
 
   display: grid;
   gap: 1em;
@@ -41,6 +45,10 @@
   inline-size: 100%;
 }
 
+.site__nav li:not(:first-of-type) a:not([aria-labelledby="search-label"]) {
+  font-size: 1.5rem;
+}
+
 .site__nav a {
   display: flex;
   text-decoration: none;
@@ -56,11 +64,11 @@
 
 .site__nav svg {
   position: absolute;
-  inset-block-start: -1rem;
-  inset-inline-start: -1rem;
+  inset-block-start: .1lh;
+  inset-inline-start: .5dvw;
   block-size: auto;
-  inline-size: calc(100dvw + 2rem);
-  opacity: 0.2;
+  inline-size: 99dvw;
+  opacity: 0.1;
   pointer-events: none;
   z-index: -1;
 }

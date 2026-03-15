@@ -1,13 +1,9 @@
-dt::after {
-  content: ": ";
-}
-
-dt + dd {
-  display: inline;
+dt {
+  font-weight: bold;
 }
 
 dd + dt {
-  margin-block-start: var(--flow-space, 1em);
+  margin-block-start: var(--flow-space);
 }
 
 dl .indent-1 {
@@ -15,11 +11,11 @@ dl .indent-1 {
 }
 
 dl .indent-2 {
-  padding-inline-start: calc(2 * var(--flow-space, 1em));
+  padding-inline-start: calc(2 * var(--flow-space));
 }
 
 dl .indent-3 {
-  padding-inline-start: calc(3 * var(--flow-space, 1em));
+  padding-inline-start: calc(3 * var(--flow-space));
 }
 
 .stage-direction {

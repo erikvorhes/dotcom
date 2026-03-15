@@ -1,9 +1,7 @@
 ---
-layout: layouts/base.njk
+layout: layouts/page.njk
 noindex: true
 ---
-
-<h1>{{ title }}</h1>
 
 {{ collections.all | eleventyNavigation | eleventyNavigationToHtml | safe }}
 

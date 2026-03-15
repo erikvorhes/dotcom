@@ -1,4 +1,5 @@
 import { DateTime } from 'luxon';
+import { parse } from 'node-html-parser';
 
 /**
  * A lot of the filters have been taken from https://github.com/11ty/eleventy-base-blog
@@ -45,7 +46,7 @@ export default function(eleventyConfig) {
 	});
 
 	eleventyConfig.addFilter('filterTagList', function filterTagList(tags) {
-		return (tags || []).filter(tag => ['all', 'note', 'notes'].indexOf(tag) === -1);
+		return (tags || []).filter(tag => ['all', 'note', 'notes', 'luc_274_086', 'luc_288_081', 'luc_110_104', 'luc_105_053', 'luc_106_053'].indexOf(tag) === -1);
 	});
 
 	eleventyConfig.addFilter('sortAlphabetically', strings => {
@@ -56,12 +57,9 @@ export default function(eleventyConfig) {
 		return string.replace(/^\.\/(.*)$/, '$1');
 	});
 
-	// strip paragraph tags use after renderContent('md'), e.g., {{ data | renderContent('md') | stripOuterParagraph }}
-	// risky because it doesn't account for multiple paragraphs
 	eleventyConfig.addFilter('stripOuterParagraph', content => {
-		const wrapper = document.createElement('div');
-		wrapper.innerHTML = content;
-		const p = wrapper.querySelector('p');
+		const doc = parse(content);
+		const p = doc.querySelector('p');
 		
 		return p ? p.innerHTML : content;
 	});

@@ -5,13 +5,14 @@ introSummary: "Toward a Digital Edition of the Towneley <cite>Lazarus</cite> Pla
 summary: Thoughts on creating a digital edition of the Lazarus play from the Middle English Towneley plays
 tags:
   - lazarus
-  - middle-english
+  - middle english
   - towneley
   - drama
-  - textual-criticism
+  - textual criticism
   - html
   - xml
   - code
+layout: layouts/note.njk
 eleventyNavigation:
   key: Towneley Lazarus Play
   parent: Research

@@ -1,5 +1,6 @@
 ---
 title: About
+layout: layouts/page.njk
 eleventyNavigation:
   key: About
   order: 4
@@ -13,7 +14,7 @@ I've been building things on the web for _a while_. I started out at some fantas
 
 When I'm not working, you'll find me with my family, hiking, climbing, cross-country skiing, baking, and reading. I enjoy soccer a lot, too --- [Minnesota Aurora](https://mnaurora.com) (I'm a community owner!), [Minnesota United](https://www.mnufc.com), and [Werder Bremen](https://werder.de) are my teams. I'm also probably too online.
 
-## Elsewhere
+<h2 id="elsewhere">Elsewhere</h2>
 
 You can find me lurking --- and sometimes contributing to _the discourse_ --- all over the internet, including but not limited to:
 
@@ -27,7 +28,7 @@ You can find me lurking --- and sometimes contributing to _the discourse_ --- al
 * [LinkedIn](https://www.linkedin.com/in/erikvorhes)
 * [Mastodon](https://typo.social/@erikvorhes)
 
-## Colophon
+<h2 id="colophon">Colophon</h2>
 
 The site colors are inspired by the [Towneley manuscript](https://hdl.huntington.org/digital/collection/p15150coll7/id/52988/).
 

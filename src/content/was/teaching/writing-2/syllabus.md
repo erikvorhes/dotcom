@@ -56,7 +56,7 @@ The class's grade distribution is as follows:
 
 ## Graded material
 
-### Response papers
+<h3 id="response-papers">Response papers</h3>
 
 The purpose of response papers is to get you to think about the readings and to have you express your interpretations in a reasonably coherent manner. Your responses will help you initiate and participate in our discussions about the assigned readings. These need not be formal essays, but rather in the tone of casual observations. Of course, the sentences must be strung together meaningfully and must have a point. (While comments such as "I liked character X in <cite>The Corrections</cite>" or "this was such a great essay" are acceptable as part of your larger commentary, I encourage you to think critically before writing out your responses. Why did you like --- or dislike --- character X? What made the essay great or boring?) Grammar is not a big issue in the responses and will not affect your grades. However, I will direct you towards any repeated errors or mistakes that I find in your work and will advise you on the matter. More important to these responses are the questions you ask a text. What makes it work? Was there something particular that bugged you about it? Questions abound --- at each turn, make sure to ask yourself why you think something and why it may be worth addressing.
 
@@ -70,7 +70,7 @@ Essays will also be "workshopped" --- that is, you and another student will exch
 
 The "final exam" falls under the essay portion of your grade. For the exam, you will be expected to revise your second essay, which is due at the exam time; during the allotted exam time, you should be prepared to spend a few minutes discussing your paper topic and research.
 
-#### Essay 1
+<h4 id="essay-1">Essay 1</h4>
 
 For this assignment, you are expected to write an essay in which you address an issue concerning community.
 
@@ -85,7 +85,7 @@ As you determine what you want your topic to be, I welcome your questions and co
 
 This assignment is **due Tuesday, Feb. 17**.
 
-#### Essay 2
+<h4 id="essay-2">Essay 2</h4>
 
 For this assignment, you are expected to write an essay in which you address an issue concerning community, preferably the same topic that you chose for your annotated bibliography. If you wish to pursue the same topic you wrote about in your first essay, you must see me for approval and demonstrate that this essay will be significantly different from your previous work.
 
@@ -101,7 +101,7 @@ I welcome your questions and concerns regarding this assignment. Here are a few 
 
 This assignment is **due Thursday, April 8**.
 
-#### Annotated Bibliography
+<h4 id="annotated-bibliography">Annotated Bibliography</h4>
 
 A well-written argument often relies on excellent research. An annotated bibliography can help you find your bearings in a morass of data and opinion. This bibliography will be a byproduct of our time in the library and should point to your final essay. More information regarding this assignment will be available in the second week of class. For the library-related portion, you will need to decide what you are interested in researching and writing about --- the deadline for this is listed on the schedule. If you feel unable to come up with a topic, please see me; we can probably brainstorm something.
 
@@ -113,7 +113,7 @@ If you have questions about this assignment, do not hesitate to ask me. (If my o
 
 This assignment is **due Tuesday, March 16**.
 
-#### Final Exam
+<h4 id="final-exam">Final Exam</h4>
 
 The final consists of a revision of your second essay. The term revise comes from the Latin word for "to see again." This is your opportunity to address missed opportunities, to clarify your argument, to sharpen the focus of your essay. Revision is a vital part of the writing process and should be treated with the same level of care that you used in the first writing of the essay.
 

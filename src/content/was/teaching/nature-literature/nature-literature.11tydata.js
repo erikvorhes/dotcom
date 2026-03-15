@@ -1,4 +1,4 @@
 export default {
   layout: 'layouts/course_detail.njk',
-  navKey: 'luc-105-053',
+  courseKey: 'luc-288-081',
 };

@@ -5,10 +5,11 @@ summary: A preface to a now-defunct electronic edition of the Towneley Lazarus
 date: 2004-04-15
 tags:
   - lazarus
-  - middle-english
+  - middle english
   - towneley
   - drama
-  - textual-criticism
+  - textual criticism
+layout: layouts/note.njk
 ---
 
 This is an evolving electronic project. It is not where I want it to be, but it is nearing a good starting point. In the next few sections I will discuss the Towneley manuscript, the significance of the Lazarus play with in it, and my theoretical justification for this edition. After these sections I will discuss a few of my editorial quirks and some short- and long-term goals that I would like to happen. I would appreciate your feedback; ~I expect to have the "Comments" section available by the end of April, but until then, please send e-mail to me~. Most of the texts I reference are listed in the [bibliography](#bibliography); please notify me if something appears to be absent!

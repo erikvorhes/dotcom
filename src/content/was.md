@@ -1,5 +1,6 @@
 ---
 title: Past work
+layout: layouts/page.njk
 eleventyNavigation:
   key: Was
   title: Past work
@@ -10,14 +11,20 @@ A portfolio of sorts? I wouldn't say I've lived that many lives, but as time goe
 
 "[Type News](http://typedia.com/blog/category/only/type-news/)"
   ~ A long-running series for Typedia, written almost entirely by Grant Hutchinson and me.
+  
 [Assumption Engine](https://assumption-engine.netlify.com/)
   ~ A post--Web-2.0 engine for making assumptions.
+
 [Teaching](/was/teaching/)
   ~ I taught composition and courses on Shakespeare and nature in literature at Loyola University Chicago.
+
 [Research](/was/researching/)
   ~ Right now this is just old work on the [Towneley Lazarus play](/was/researching/lazarus/), but I might add a few other things if I find the time to make them work in an online format or get permission to publish them.
+
 [<cite>The Quarry</cite>](https://pages.stolaf.edu/thequarry/)
   ~ The literary & fine arts magazine of St. Olaf College. I was co--editor-in-chief (1998--99) and responsible for giving the magazine a consistent name. I also wrote a number of poems that were published in it while I was a student.
+
+---
 
 ## Talks and presentations
 

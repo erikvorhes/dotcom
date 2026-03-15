@@ -1,4 +1,7 @@
 .site__footer {
-  font-size: calc(1rem / var(--type-scale, 1.25));
-  padding-block: 3lh 1lh;
+  padding-block: 1lh 2lh;
+}
+
+.site__footer > * {
+  font-size: calc(1rem / var(--type-scale));
 }

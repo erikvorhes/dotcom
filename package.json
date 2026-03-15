@@ -6,7 +6,7 @@
   "scripts": {
     "build": "npx @11ty/eleventy",
     "start": "npx @11ty/eleventy --serve --quiet",
-    "dev": "npm run start && npm run pagefind:local",
+    "dev": "concurrently --kill-others 'npm run start' 'npm run pagefind:local'",
     "debug": "cross-env DEBUG=Eleventy* npm run build",
     "debug:start": "cross-env DEBUG=Eleventy* npm run dev",
     "benchmark": "cross-env DEBUG=Eleventy:Benchmark* npm run build",
@@ -31,15 +31,14 @@
     "@11ty/eleventy-navigation": "^1.0.5",
     "@11ty/eleventy-plugin-rss": "^2.0.4",
     "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.2",
+    "concurrently": "^9.2.1",
     "cross-env": "^7.0.3",
     "luxon": "^3.7.2",
     "markdown-it-deflist": "^3.0.0",
     "markdown-it-footnote": "^4.0.0",
+    "node-html-parser": "^7.1.0",
     "prismjs": "^1.30.0",
     "zod": "^4.3.6",
     "zod-validation-error": "^5.0.0"
-  },
-  "dependencies": {
-    "@zachleat/heading-anchors": "^1.0.5"
   }
 }
