@@ -106,3 +106,9 @@ th,
 td {
   padding: .5ch 1.5ch;
 }
+
+.has-intro {
+  border-block-end: 0.05rem dashed var(--accent-subtle);
+  margin-block-end: calc(2lh - 0.05rem);
+  padding-block-end: 1lh;
+}

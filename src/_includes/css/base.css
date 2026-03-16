@@ -163,7 +163,7 @@ iframe {
   border: 0;
 }
 
-p, li, dd {
+p, li, dd, figcaption {
   text-wrap: pretty;
 }
 

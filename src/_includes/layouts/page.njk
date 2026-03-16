@@ -34,7 +34,7 @@ const eleventyComputed = {
   {% include 'partials/course_nav.njk' %}
 {%- endif -%}
 <article class="flow">
-  <header class="flow">
+  <header class="{% if introSummary %}has-intro {% endif %}flow">
     <h1>{{ title | renderContent('md') | stripOuterParagraph | safe }}</h1>
     {% if datetime and pubDate %}<p class="pubdate"><time datetime="{{ datetime }}">{{ pubDate }}</time>{% endif %}
     {%- if introSummary -%}
