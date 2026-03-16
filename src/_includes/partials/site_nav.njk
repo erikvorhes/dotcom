@@ -1,5 +1,6 @@
 {%- if page.url == '/menu/' -%}
-<script>{% include 'js/backButton.js' %}</script>
+{%- set scripts -%}{% include 'js/backButton.js' %}{%- endset -%}
+<script>{{ scripts | jsmin | safe }}</script>
 {%- endif -%}
 <nav class="site__nav" aria-label="site navigation">
   <ul role="list">

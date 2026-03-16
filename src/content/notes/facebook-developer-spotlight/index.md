@@ -9,11 +9,8 @@ tags:
   - facebook
   - typography
 ---
-<style>
-  dd + dd {
-    margin-block-start: var(--flow-space, 1em);
-  }
-</style>
+{%- set styles = 'dd + dd { margin-block-start: var(--flow-space, 1em);' -%}
+<style>{{ styles | cssmin | safe }}</style>
 
 [Ramya Sethuraman](https://www.ramyasethuraman.com/) interviewed me about my interest in accessibility, especially while building the original version of [Facebook for Business](https://www.facebook.com/business). I've preserved it here in case [the original interview URL](https://www.facebook.com/notes/2757117557909221/) rots into oblivion. I also fixed a few typos and updated the markup.
 

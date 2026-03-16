@@ -52,3 +52,7 @@
 [name="set-color-scheme"] .icon {
   font-family: var(--font-family-mono);
 }
+
+.color-scheme-form {
+  padding-block-end: 2lh;
+}

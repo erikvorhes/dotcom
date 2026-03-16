@@ -1,22 +1,11 @@
 ---
 layout: layouts/page.njk
 ---
-
-<style>
-  .nav__course__day {
-    margin-block: 3lh;
-  }
-  
-  .nav__course__day p {
-    font-size: calc(1rem / var(--type-scale));
-    font-style: italic;
-    text-align: end;
-  }
-</style>
+{%- set styles -%}{% include 'css/page_specific/schedule_day.css' %}{%- endset -%}
+<style>{{ styles | cssmin | safe }}</style>
 
 {%- if notice -%}
   {{ notice | renderContent('md') | safe }}
-  {{ notice }}
 {%- endif -%}
 {%- if reading -%}
   <h2>Reading</h2>

@@ -1,10 +1,9 @@
 {%- set rootId = 'color-scheme-form' -%}
-<style>
-  {% include 'css/form_color_scheme.css' %}
-</style>
-<script>
+{%- set styles -%}{% include 'css/page_specific/form_color_scheme.css' %}{%- endset -%}
+{%- set scripts -%}
   {% include 'js/colorSchemeForm.js' %}
   mountFormOnLoad('{{ rootId }}');
-</script>
-<section class="flow" id="{{ rootId }}"></section>
-<br><br>
+{%- endset -%}
+<style>{{ styles | cssmin | safe }}</style>
+<script>{{ scripts | jsmin | safe }}</script>
+<section class="color-scheme-form flow" id="{{ rootId }}"></section>

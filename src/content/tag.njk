@@ -22,7 +22,7 @@ const layout = 'layouts/base.njk';
 
 <h1>Tagged ‘{{ tag }}’</h1>
 
-{%- for item in collections[ tag ] -%}
+{%- for item in collections[ tag ] | reverse -%}
   <article class="flow">
     <h2><a href="{{ item.url }}">{{ item.data.title | renderContent('md') | stripOuterParagraph | safe }}</a></h2>
   {%- if item.data.course -%}

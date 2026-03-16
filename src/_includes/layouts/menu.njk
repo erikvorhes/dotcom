@@ -4,12 +4,8 @@ noindex: true
 ---
 
 {%- if page.url == '/menu/' -%}
-<style>
-  .site__nav li:not(:last-of-type) {
-    pointer-events: none;
-    visibility: hidden;
-  }
-</style>
+{%- set menuStyles -%}{% include 'css/page_specific/nav_menu_page.css' %}{%- endset -%}
+<style>{{ menuStyles | cssmin | safe }}</style>
 {%- endif -%}
 
 {{ collections.all | eleventyNavigation | eleventyNavigationToHtml | safe }}

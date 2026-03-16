@@ -1,3 +1,21 @@
+{%- set defaultStyles -%}
+  {% include 'css/base.css' %}
+  {% include 'css/nav.css' %}
+  {% include 'css/footer.css' %}
+  {% include 'css/content.css' %}
+  {% include 'css/dl.css' %}
+  {% include 'css/verse.css' %}
+{%- endset -%}
+{%- set printStyles -%}
+  {% include 'css/print.css' %}
+{%- endset -%}
+{%- set defaultBundledScripts -%}
+  {% include 'js/onLoad.js' %}
+  {% include 'js/focusHash.js' %}
+{%- endset -%}
+{%- set colorSchemeHandler -%}
+  {% include 'js/handleColorSchemeData.js' %}
+{%- endset -%}
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
@@ -31,30 +49,16 @@
   <link rel="alternate" type="application/json" title="{{ metadata.title }}" href="/feed.json">
   <link rel="alternate" type='application/rss+xml' title="{{ metadata.title }}" href="/feed.rss.xml">
 
-  {% css 'print' %}
-    {% include 'css/print.css' %}
-  {% endcss %}
-  <style>
-    {% include 'css/base.css' %}
-    {% include 'css/nav.css' %}
-    {% include 'css/footer.css' %}
-    {% include 'css/content.css' %}
-    {% include 'css/dl.css' %}
-    {% include 'css/verse.css' %}
-  </style>
-  <script>
-    {% include 'js/onLoad.js' %}
-    {% include 'js/focusHash.js' %}
-  </script>
+  <style>{{ defaultStyles | cssmin | safe }}</style>
+  {% css 'print' %}{{ printStyles | cssmin | safe }}{% endcss %}
+  <script>{{ defaultBundledScripts | jsmin | safe }}</script>
   <link rel="stylesheet" href="https://use.typekit.net/arf4vwx.css">
 {%- if page.url == '/has/' -%}
   <link rel="stylesheet" href="/pagefind/pagefind-ui.css">
 {%- endif -%}
   <style>{% getBundle 'css' %}</style>
   <link rel="stylesheet" href="{% getBundleFileUrl 'css', 'print' %}" media="print">
-  <script eleventy:ignore>
-    {% include 'js/handleColorSchemeData.js' %}
-  </script>
+  <script eleventy:ignore>{{ colorSchemeHandler | jsmin | safe }}</script>
 </head>
 <body>
   {% include 'partials/site_nav.njk' -%}
@@ -64,7 +68,7 @@
 {%- if page.url != '/menu/' -%}
   <footer class="site__footer flow">
     <p>Copyright &copy; {% currentYear %} Erik Vorhes, all rights reserved. See the <a href="/is/#colophon">colophon</a> for more about how this all works.</p>
-    <p><i>If you notice anything amiss, <a href="https://github.com/erikvorhes/dotcom/blob/main/{{ page.inputPath | stripDotSlash }}" target="_blank" rel="noopener noreferrer">please make a pull request</a>!</i></p>
+    <p><i>If you notice anything amiss, <a href="https://github.com/erikvorhes/dotcom/blob/main/{{ page.inputPath }}" target="_blank" rel="noopener noreferrer">please make a pull request</a>!</i></p>
   </footer>
 {%- endif -%}
   <!-- Page `{{ page.url }}` was built on {% currentBuildDate %} -->

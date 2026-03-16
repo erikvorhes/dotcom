@@ -1,30 +1,31 @@
+import CleanCSS from 'clean-css';
 import { DateTime } from 'luxon';
 import { parse } from 'node-html-parser';
+import { minify } from 'terser';
 
 /**
  * A lot of the filters have been taken from https://github.com/11ty/eleventy-base-blog
  * @param {import('@11ty/eleventy/UserConfig').default} eleventyConfig 
  */
 export default function(eleventyConfig) {
-	eleventyConfig.addFilter('readableDate', (dateObj, zone) => {
-		// Formatting tokens for Luxon: https://moment.github.io/luxon/#/formatting
+	eleventyConfig.addFilter('readableDate', function readableDate(dateObj, zone) {
 		return DateTime.fromJSDate(dateObj, { zone: zone || 'utc' }).toLocaleString(DateTime.DATE_FULL);
 	});
 
-	eleventyConfig.addFilter('readableDateWithWeekday', (dateObj, zone) => {
+	eleventyConfig.addFilter('readableDateWithWeekday', function readableDateWithWeekday(dateObj, zone) {
 		return DateTime.fromJSDate(dateObj, { zone: zone || 'utc' }).toLocaleString(DateTime.DATE_HUGE);
 	});
 
-	eleventyConfig.addFilter('monthDay', (dateObj, zone) => {
+	eleventyConfig.addFilter('monthDay', function monthDay(dateObj, zone) {
 		return DateTime.fromJSDate(dateObj, { zone: zone || 'utc' }).toLocaleString({ month: 'long', day: 'numeric' });
 	});
 
-	eleventyConfig.addFilter('htmlDateString', (dateObj) => {
+	eleventyConfig.addFilter('htmlDateString', function htmlDateString(dateObj) {
 		return DateTime.fromJSDate(dateObj, { zone: 'utc' }).toISODate();
 	});
 
 	// Get the first `n` elements of a collection.
-	eleventyConfig.addFilter('head', (array, n) => {
+	eleventyConfig.addFilter('head', function head(array, n) {
 		if(!Array.isArray(array) || array.length === 0) {
 			return [];
 		}
@@ -36,12 +37,12 @@ export default function(eleventyConfig) {
 	});
 
 	// Return the smallest number argument
-	eleventyConfig.addFilter('min', (...numbers) => {
+	eleventyConfig.addFilter('min', function min(...numbers) {
 		return Math.min.apply(null, numbers);
 	});
 
 	// Return the keys used in an object
-	eleventyConfig.addFilter('getKeys', target => {
+	eleventyConfig.addFilter('getKeys', function getKeys(target) {
 		return Object.keys(target);
 	});
 
@@ -49,18 +50,34 @@ export default function(eleventyConfig) {
 		return (tags || []).filter(tag => ['all', 'note', 'notes', 'luc_274_086', 'luc_288_081', 'luc_110_104', 'luc_105_053', 'luc_106_053', 'writing1Handouts', 'writing1Schedule', 'writing2Handouts', 'writing2Schedule', 'writingSeminarHandouts', 'writingSeminarSchedule', 'shakespeareHandouts', 'shakespeareSchedule', 'natureLiteratureHandouts', 'natureLiteratureSchedule'].indexOf(tag) === -1);
 	});
 
-	eleventyConfig.addFilter('sortAlphabetically', strings => {
+	eleventyConfig.addFilter('sortAlphabetically', function sortAlphabetically(strings) {
 		return (strings || []).sort((b, a) => b.localeCompare(a));
 	});
 
-	eleventyConfig.addFilter('stripDotSlash', string => {
-		return string.replace(/^\.\/(.*)$/, '$1');
-	});
-
-	eleventyConfig.addFilter('stripOuterParagraph', content => {
+	eleventyConfig.addFilter('stripOuterParagraph', function stripOuterParagraph(content) {
 		const doc = parse(content);
 		const p = doc.querySelector('p');
 		
 		return p ? p.innerHTML : content;
+	});
+
+	eleventyConfig.addFilter('cssmin', function cssmin(code) {
+		try {
+			const minified = new CleanCSS({}).minify(code);
+			return minified.styles;
+		} catch (err) {
+			console.error('CleanCSS error: ', err);
+			return code;
+		}
+	});
+
+	eleventyConfig.addFilter('jsmin', async function jsmin(code) {
+		try {
+			const minified = await minify(code);
+			return minified.code;
+		} catch (err) {
+			console.error('Terser error: ', err);
+			return code;
+		}
 	});
 };

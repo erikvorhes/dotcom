@@ -75,10 +75,14 @@ blockquote::before {
   font-weight: bold;
 }
 
+ol > li::marker,
+ul > li::marker {
+  opacity: 0.8;
+}
+
 ol > li::marker {
   font-variant-numeric: proportional-nums;
   font-feature-settings: "liga", "clig", "pnum";
-  opacity: 0.8;
 }
 
 th,

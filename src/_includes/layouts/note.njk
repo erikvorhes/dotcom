@@ -9,9 +9,10 @@ const eleventyComputed = {
   },
 };
 ---
-<style>
+{%- set styles -%}
   {% include 'node_modules/prismjs/themes/prism-okaidia.css' %}
   {% include 'css/code.css' %}
-</style>
+{%- endset -%}
+<style>{{ styles | cssmin | safe }}</style>
 
 {{ content | safe }}

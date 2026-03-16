@@ -64,13 +64,13 @@
 
 @media screen and (width >= 768px) {
   :root {
-    --type-scale: var(--scale-minor-third);
+    --type-scale: var(--scale-major-third);
   }
 }
 
 @media screen and (width >= 1400px) {
   :root {
-    --type-scale: var(--scale-major-third);
+    --type-scale: var(--scale-perfect-fourth);
   }
 }
 
@@ -210,33 +210,33 @@ dt {
 }
 
 h1 {
-  font-size: calc(1rem * pow(var(--type-scale), 5));
+  font-size: calc(1rem * pow(var(--type-scale), 4));
   margin-block: .5lh;
 }
 
 h2,
 .h2 {
-  font-size: calc(1rem * pow(var(--type-scale), 4));
+  font-size: calc(1rem * pow(var(--type-scale), 3));
 }
 
 h3,
 .h3 {
-  font-size: calc(1rem * pow(var(--type-scale), 3));
+  font-size: calc(1rem * pow(var(--type-scale), 2));
 }
 
 h4,
 .h4 {
-  font-size: calc(1rem * pow(var(--type-scale), 2));
+  font-size: calc(1rem * pow(var(--type-scale), 1));
 }
 
 h5,
 .h5 {
-  font-size: calc(1rem * pow(var(--type-scale), 1));
+  font-size: 1rem;
 }
 
 h6,
 .h6 {
-  font-size: 1rem;
+  font-size: calc(1rem / var(--type-scale));
   font-variant-numeric: lining-nums;
   font-feature-settings: "lnum";
   letter-spacing: .1ch;

@@ -1,0 +1,9 @@
+.nav__course__day {
+  margin-block: 3lh;
+}
+
+.nav__course__day p {
+  font-size: calc(1rem / var(--type-scale));
+  font-style: italic;
+  text-align: end;
+}
