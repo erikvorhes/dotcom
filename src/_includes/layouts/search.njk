@@ -3,24 +3,45 @@ layout: layouts/page.njk
 noindex: true
 ---
 <style>
+  :root {
+    --pagefind-ui-primary: var(--accent-overt);
+    --pagefind-ui-text: var(--foreground);
+    --pagefind-ui-background: var(--background);
+    --pagefind-ui-border: currentColor;
+    --pagefind-ui-tag: var(--accent-subtle);
+    --pagefind-ui-border-width: .1rem;
+    --pagefind-ui-border-radius: .25rem;
+    --pagefind-ui-image-border-radius: 0;
+    --pagefind-ui-image-box-ratio: 0;
+    --pagefind-ui-font: var(--font-family-text);
+  }
+
   .content {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(calc((var(--site-inline-size) - 6lh) / 2), 1fr));
     gap: 2lh;
   }
+
+  .taglist li {
+    display: inline;
+  }
+
+  .taglist li + li::before {
+    content: " • ";
+    opacity: 0.5;
+  }
 </style>
 <script>
-  onLoad(() => {
-    new PagefindUI({ element: "#search", showSubResults: true });
-  });
+onLoad(() => {
+  new PagefindUI({ element: "#search", showSubResults: true });
+});
 </script>
-
 <div class="content">
   <section id="search"></section>
 
-  <section>
+  <section class="flow">
     <h2><i>Tags</i></h2>
-    <ul>
+    <ul role="list" class="taglist">
     {%- for tag in collections | getKeys | filterTagList | sortAlphabetically -%}
       {%- set tagUrl %}/has/{{ tag | slugify }}/{% endset -%}
       <li><a href="{{ tagUrl }}">{{ tag }}</a></li>

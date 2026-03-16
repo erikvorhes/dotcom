@@ -46,7 +46,7 @@ export default function(eleventyConfig) {
 	});
 
 	eleventyConfig.addFilter('filterTagList', function filterTagList(tags) {
-		return (tags || []).filter(tag => ['all', 'note', 'notes', 'luc_274_086', 'luc_288_081', 'luc_110_104', 'luc_105_053', 'luc_106_053'].indexOf(tag) === -1);
+		return (tags || []).filter(tag => ['all', 'note', 'notes', 'luc_274_086', 'luc_288_081', 'luc_110_104', 'luc_105_053', 'luc_106_053', 'writing1Handouts', 'writing1Schedule', 'writing2Handouts', 'writing2Schedule', 'writingSeminarHandouts', 'writingSeminarSchedule', 'shakespeareHandouts', 'shakespeareSchedule', 'natureLiteratureHandouts', 'natureLiteratureSchedule'].indexOf(tag) === -1);
 	});
 
 	eleventyConfig.addFilter('sortAlphabetically', strings => {

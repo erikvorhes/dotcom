@@ -118,8 +118,7 @@ export default async function (eleventyConfig) {
   };
   eleventyConfig.addPlugin(feedPlugin, {
     type: 'atom',
-    outputPath: '/feed.xml',
-    stylesheet: 'atom-feed.xsl',
+    outputPath: '/feed.atom.xml',
     templateData: {
       eleventyNavigation: {
         key: 'Feed (Atom)',
@@ -135,6 +134,17 @@ export default async function (eleventyConfig) {
       eleventyNavigation: {
         key: 'Feed (JSON)',
         order: 7,
+      },
+    },
+    ...feedData,
+  });
+  eleventyConfig.addPlugin(feedPlugin, {
+    type: 'rss',
+    outputPath: '/feed.rss.xml',
+    templateData: {
+      eleventyNavigation: {
+        key: 'Feed (RSS)',
+        order: 8,
       },
     },
     ...feedData,
@@ -182,7 +192,7 @@ export default async function (eleventyConfig) {
     },
     {
       camel: 'writing2',
-      courseSnake: 'writing-2',
+      courseSnake: 'luc_106_053',
       tag: 'writing 2',
       end: '2004-04-20',
     },
@@ -196,18 +206,19 @@ export default async function (eleventyConfig) {
 
   for (const { camel, courseSnake, tag, end } of courses) {
     eleventyConfig.addCollection(`${camel}Schedule`, (collectionApi) => {
-      return collectionApi
-        .getFilteredByTags('schedule', courseSnake)
-        .sort((a, b) => a.date - b.date);
+      return collectionApi.getFilteredByTags('schedule', courseSnake);
     });
     eleventyConfig.addCollection(`${camel}Handouts`, (collectionApi) => {
       const endDate = new Date(end);
       return collectionApi
         .getFilteredByTags('notes', 'class handout', tag)
-        .filter(item => new Date(item.date) <= endDate)
-        .sort((a, b) => a.title - b.title);
+        .filter(item => new Date(item.date) <= endDate);
     });
   }
+
+  eleventyConfig.addCollection('teaching', (collectionApi) => {
+    return collectionApi.getFilteredByTag('course description');
+  });
 
   eleventyConfig.addShortcode('currentBuildDate', () => (new Date()).toISOString());
 }

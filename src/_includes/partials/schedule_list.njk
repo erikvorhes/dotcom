@@ -1,6 +1,7 @@
-<h2>Schedule</h2><ul role="list" class="flow">
+<h2>Schedule</h2>
+<ul role="list" class="flow">
 {%- for item in schedule -%}
-  <li id="{{ item.date | monthDay | slugify }}">
+  <li id="{{ item.date | monthDay | slugify }}" class="flow">
     <h3><a href="{{ item.url }}">{{ item.date | monthDay }}</a></h3>
   {%- if item.data.notice -%}
     {{ item.data.notice | renderContent('md') | safe }}

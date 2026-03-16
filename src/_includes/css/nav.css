@@ -68,7 +68,7 @@
   inset-inline-start: .5dvw;
   block-size: auto;
   inline-size: 99dvw;
-  opacity: 0.1;
+  opacity: 0.075;
   pointer-events: none;
   z-index: -1;
 }

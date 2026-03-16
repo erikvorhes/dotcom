@@ -3,6 +3,15 @@ layout: layouts/page.njk
 noindex: true
 ---
 
+{%- if page.url == '/menu/' -%}
+<style>
+  .site__nav li:not(:last-of-type) {
+    pointer-events: none;
+    visibility: hidden;
+  }
+</style>
+{%- endif -%}
+
 {{ collections.all | eleventyNavigation | eleventyNavigationToHtml | safe }}
 
 {% include 'partials/color_scheme.njk' %}

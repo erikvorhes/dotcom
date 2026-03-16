@@ -1,0 +1,41 @@
+{%- set nav = collections.all | eleventyNavigation(courseKey) -%}
+
+<style>
+  .course__nav ul {
+    border-block: .05rem solid var(--accent-subtle);
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(calc(var(--site-inline-size) / 5), 1fr));
+    inline-size: 100%;
+    list-style: none;
+    margin-block: .5lh;
+  }
+
+  .course__nav a {
+    display: block;
+    padding: .5lh;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .course__nav a:hover {
+    background-color: var(--accent-subtle);
+  }
+  
+  .course__nav a[aria-current="page"] {
+    background-color: var(--accent-overt);
+    color: var(--background);
+    cursor: default;
+  }
+</style>
+<nav class="course__nav">
+  <ul role="list">
+    <li>
+      <a href="{{ courseHome }}"{% if page.url == courseHome %} aria-current="page"{% endif %}>Course home</a>
+    </li>
+  {%- for entry in nav -%}
+    <li>
+      <a href="{{ entry.url }}"{% if page.url == entry.url %} aria-current="page"{% endif %}>{{ entry.title }}</a>
+    </li>
+  {%- endfor -%}
+  </ul>
+</nav>

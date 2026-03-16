@@ -1,6 +1,7 @@
 ---
 title: SOS to the world
 date: 2026-01-26
+summary: Thoughts on the current state of Minnesota.
 tags:
   - minnesota
   - ice

@@ -6,6 +6,6 @@ eleventyNavigation:
 layout: layouts/page.njk
 ---
 
-While I was at Loyola University Chicago, I taught a few things. This is an archive of course materials.
+At one point I was a college instructor. This is an archive of course materials.
 
-ADD A LIST OF COURSES!
+{% include 'partials/course_list.njk' %}

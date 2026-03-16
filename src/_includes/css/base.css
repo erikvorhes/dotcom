@@ -40,7 +40,7 @@
   --scale-minor-third: 1.2;
   --scale-major-third: 1.25;
   --scale-perfect-fourth: calc(4 / 3);
-  --type-ratio-mono: 0.8;
+  --type-ratio-mono: .75;
   --type-scale: var(--scale-major-second);
 
   background-color: var(--background);
@@ -132,6 +132,7 @@ canvas {
   display: block;
   max-inline-size: 100%;
   block-size: auto;
+  margin-inline: auto;
 }
 
 input,
@@ -210,6 +211,7 @@ dt {
 
 h1 {
   font-size: calc(1rem * pow(var(--type-scale), 5));
+  margin-block: .5lh;
 }
 
 h2,
@@ -312,7 +314,7 @@ abbr[title] {
   text-decoration: underline dotted;
 }
 
-:link,
+a,
 abbr[title] {
   text-decoration-color: var(--accent-subtle);
   text-decoration-thickness: from-font;
@@ -320,7 +322,7 @@ abbr[title] {
   transition: text-decoration-color 300ms ease;
 }
 
-:link:hover,
+a:hover,
 abbr[title]:hover {
   text-decoration-color: var(--accent-overt);
 }

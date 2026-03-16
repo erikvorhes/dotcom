@@ -31,6 +31,7 @@ figcaption,
 
 figcaption {
   margin-block-start: .5lh;
+  text-align: center;
 }
 
 table {
@@ -42,6 +43,7 @@ table {
 sup,
 sub {
   font-size: 1em;
+  line-height: inherit;
   vertical-align: inherit;
 }
 
@@ -53,6 +55,10 @@ sup {
 sub {
   font-variant-position: sub;
   font-feature-settings: "liga", "clig", "subs";
+}
+
+a[id^="fnref"] sup {
+  padding-inline: .25ch;
 }
 
 blockquote {
@@ -72,5 +78,27 @@ blockquote::before {
 ol > li::marker {
   font-variant-numeric: proportional-nums;
   font-feature-settings: "liga", "clig", "pnum";
-  opacity: 0.9;
+  opacity: 0.8;
+}
+
+th,
+td {
+  border: .05rem solid currentColor;
+  text-align: start;
+}
+
+thead th:first-of-type,
+tbody th {
+  text-align: right;
+}
+
+table caption {
+  font-style: italic;
+  font-weight: bold;
+}
+
+table caption,
+th,
+td {
+  padding: .5ch 1.5ch;
 }

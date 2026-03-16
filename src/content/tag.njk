@@ -3,10 +3,12 @@ const pagination = {
   data: 'collections',
   size: 1,
   alias: 'tag',
-  filter: ['all', 'note', 'notes', 'luc_274_086', 'luc_288_081', 'luc_110_104', 'luc_105_053', 'luc_106_053'],
+  filter: ['all', 'note', 'notes', 'luc_274_086', 'luc_288_081', 'luc_110_104', 'luc_105_053', 'luc_106_053', 'writing1Handouts', 'writing1Schedule', 'writing2Handouts', 'writing2Schedule', 'writingSeminarHandouts', 'writingSeminarSchedule', 'shakespeareHandouts', 'shakespeareSchedule', 'natureLiteratureHandouts', 'natureLiteratureSchedule'],
 };
 
 const eleventyExcludeFromCollections = true;
+
+const noindex = true;
 
 const eleventyComputed = {
   title: "Tagged ‘{{ tag }}’",
@@ -20,21 +22,15 @@ const layout = 'layouts/base.njk';
 
 <h1>Tagged ‘{{ tag }}’</h1>
 
-<ul role="list" class="flow">
 {%- for item in collections[ tag ] -%}
-  {%- set t -%}
-    {% renderTemplate 'md' %}{{ item.title | string }}{% endrenderTemplate %}
-  {%- endset -%}
-  <li>
-    <h2><a href="{{ item.url }}">{{ t | stripOuterParagraph | safe }}</a></h2>
-  {%- if item.course -%}
-    <p><i>from {{ item.course }}</i></p>
-  {%- else -%}
-    <p class="pubdate"><time datetime="{{ item.date | htmlDateString }}">{{ item.date | readableDate }}</time></p>
+  <article class="flow">
+    <h2><a href="{{ item.url }}">{{ item.data.title | renderContent('md') | stripOuterParagraph | safe }}</a></h2>
+  {%- if item.data.course -%}
+    <p><i>from {{ item.data.course }}</i></p>
   {%- endif -%}
-  {%- if item.summary -%}
-    {{ item.summary | renderContent('md') | safe }}
+    <p class="pubdate">published <time datetime="{{ item.date | htmlDateString }}">{{ item.date | readableDate }}</time></p>
+  {%- if item.data.summary -%}
+    {{ item.data.summary | renderContent('md') | safe }}
   {%- endif -%}
-  </li>
+  </article>
 {%- endfor -%}
-</ul>

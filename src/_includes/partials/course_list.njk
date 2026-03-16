@@ -1,0 +1,6 @@
+<dl>
+{%- for item in collections.teaching -%}
+  <dt><a href="{{ item.url }}">{{ item.data.title }}</a></dt>
+  <dd>{{ item.data.summary | renderContent('md') | stripOuterParagraph | safe }}</dd>
+{%- endfor -%}
+</dl>

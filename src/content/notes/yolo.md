@@ -1,6 +1,6 @@
 ---
 title: "‘Yolo’: Let’s get real about Latin"
-summary: Someone created a fake Latin conjugation of ‘yolo’; I think it’s lazy and wrong.
+summary: Someone created a fake Latin conjugation of ‘yolo’; I think it’s lazy and incorrect.
 date: 2014-02-11
 tags:
   - language
@@ -9,7 +9,7 @@ tags:
 
 There's a [pretend Latin conjugation of _yolo_](https://imgur.com/rO1PQmj) floating around. It (probably unfortunately) got me thinking that the word form and conjugation could be improved.^[Sorry --- or you're welcome, if you were thinking about doing something similar.]
 
-The conjugation pattern feels like it should follow that of irregular verbs <i lang="la">volo</i>, <i lang="la">nolo</i>, and <i lang="la">malo</i> --- even more so because _yolo_ seems to convey a sense of desire or longing. A Latin version of _yolo_ should also probably begin with an _i_, as words starting with _y_ are hard to come by.
+The conjugation pattern feels like it should follow that of irregular verbs <i lang="la">volo</i>, <i lang="la">nolo</i>, and <i lang="la">malo</i> --- even more so because _yolo_ seems to convey a sense of desire or longing. A Latin version of _yolo_ should also probably begin with an **_i_**, as words starting with **_y_** are hard to come by.
 
 Without further ado:
 
@@ -94,7 +94,7 @@ Without further ado:
     <tr>
       <th scope="row"><abbr title="second plural">2 pl.</abbr></th>
       <td lang="la">iovultis</th>
-      <td>y'all only live once</td>
+      <td>y’all only live once</td>
     </tr>
     <tr>
       <th scope="row"><abbr title="third plural">3 pl.</abbr></th>
@@ -137,7 +137,7 @@ Without further ado:
     <tr>
       <th scope="row"><abbr title="second plural">2 pl.</abbr></th>
       <td lang="la">iolebatis</th>
-      <td>y'all were only living once</td>
+      <td>y’all were only living once</td>
     </tr>
     <tr>
       <th scope="row"><abbr title="third plural">3 pl.</abbr></th>
@@ -180,7 +180,7 @@ Without further ado:
     <tr>
       <th scope="row"><abbr title="second plural">2 pl.</abbr></th>
       <td lang="la">ioletis</th>
-      <td>y'all will only live once</td>
+      <td>y’all will only live once</td>
     </tr>
     <tr>
       <th scope="row"><abbr title="third plural">3 pl.</abbr></th>
@@ -223,7 +223,7 @@ Without further ado:
     <tr>
       <th scope="row"><abbr title="second plural">2 pl.</abbr></th>
       <td lang="la">ioluistis</td>
-      <td>y'all only lived once</td>
+      <td>y’all only lived once</td>
     </tr>
     <tr>
       <th scope="row"><abbr title="third plural">3 pl.</abbr></th>
@@ -266,7 +266,7 @@ Without further ado:
     <tr>
       <th scope="row"><abbr title="second plural">2 pl.</abbr></th>
       <td lang="la">iolueratis</td>
-      <td>y'all had only lived once</td>
+      <td>y’all had only lived once</td>
     </tr>
     <tr>
       <th scope="row"><abbr title="third plural">3 pl.</abbr></th>
@@ -309,7 +309,7 @@ Without further ado:
     <tr>
       <th scope="row"><abbr title="second plural">2 pl.</abbr></th>
       <td lang="la">iolueritis</td>
-      <td>y'all will have only lived once</td>
+      <td>y’all will have only lived once</td>
     </tr>
     <tr>
       <th scope="row"><abbr title="third plural">3 pl.</abbr></th>
@@ -352,7 +352,7 @@ Without further ado:
     <tr>
       <th scope="row"><abbr title="second plural">2 pl.</abbr></th>
       <td lang="la">iolitis</td>
-      <td>May y'all only live once</td>
+      <td>May y’all only live once</td>
     </tr>
     <tr>
       <th scope="row"><abbr title="third plural">3 pl.</abbr></th>

@@ -58,7 +58,7 @@ You for to saue from syn that day.
 Thynk how in batpym ye ar sworne
 To be Godys seruandys withoutten nay.
 Let neuer his luf from you be lorne;
-God bryng you to his blys for ay! Amen. (275--88)</pre>
+God bryng you to his blys for ay! Amen. (275–88)</pre>
 
 Here John exhorts his listeners to repent before they are out of time, lest death surprise them. His closing speech anticipates the despairing warnings from the risen Lazarus, who believed that he himself was out of time. Thus he almost immediately affirms John the Baptist's theology of repentance and contrition. But Lazarus can also report on the doom that the bad souls face in the play of the last judgment. In either context, Lazarus follows on plays that at least conclude by articulating punishment for unrepentant sinners. While my deformative acts did not create a singular interpretation, they certainly allowed for a richer understanding of the play.
 
@@ -114,6 +114,8 @@ Kevin Kiernan seems especially excited by the possibility of encoding manuscript
 
 > While some people continue to think of electronic texts as exclusive of images, the fact is that digital images of manuscripts are electronic texts, as well. The most compelling scholarly editions of the future will make full use of markup schemes such as XML (or its TEI manifestation), but not without extensive integration of images. (par. 6)
 
+Such a move to XML would be especially useful in my own edition of the Towneley manuscript. For example, TEI would allow me to encode Figure 1 in such a way that I acknowledge its "vine stem initial capital" or even the damage that the page has sustained. At the same time, however, I am ambivalent toward TEI encoding for manuscript. For TEI is a rigidly-structured markup language. How does one account for the scribe's rubricated marginalia in Figure 2, or handle the incredibly elaborate black lines that denote matching end rhyme so prevalent in Figure 3?
+
 <figure>
 <img src="./001.jpg" alt="The opening page of the manuscript">
 <figcaption>Figure 1: f1. The beginning of the Towneley MS. Note the “vine and stem initial capital” and the “Towneley Press mark.”</figcaption>
@@ -128,8 +130,6 @@ Kevin Kiernan seems especially excited by the possibility of encoding manuscript
 <img src="./037v-038.jpg" alt="Beginning of the second shepherd's play">
 <figcaption>Figure 3: f37v–38. “Beginning of 2nd Shepherd’s Play, quire and leaf signatures, textura display script title, and strapwork calligraphic initials.”</figcaption>
 </figure>
-
-Such a move to XML would be especially useful in my own edition of the Towneley manuscript. For example, TEI would allow me to encode Figure 1 in such a way that I acknowledge its "vine stem initial capital" or even the damage that the page has sustained. At the same time, however, I am ambivalent toward TEI encoding for manuscript. For TEI is a rigidly-structured markup language. How does one account for the scribe's rubricated marginalia in Figure 2, or handle the incredibly elaborate black lines that denote matching end rhyme so prevalent in Figure 3?
 
 The link between XML-described transcription and the transcription's related images is still in its infancy. Perhaps later iterations of TEI (or some other markup language) will allow for greater structural flexibility. Matthew Kirschenbaum suggests that we are not too far from directly encoding digital images:
 

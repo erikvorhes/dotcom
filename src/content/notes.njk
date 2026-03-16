@@ -7,7 +7,7 @@ layout: layouts/page.njk
 ---
 
 <ul role="list" class="flow">
-{%- for note in collections.notes -%}
+{%- for note in collections.notes | reverse -%}
   <li>
     <h2><a href="{{ note.url }}">{{ note.data.title | safe }}</a></h2>
     <p><time datetime="{{ note.date | htmlDateString }}">{{ note.date | readableDate }}</time></p>

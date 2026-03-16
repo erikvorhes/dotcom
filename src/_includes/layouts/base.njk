@@ -27,8 +27,9 @@
   <link rel="icon" type="image/png" sizes="512x512" href="/favicon-512x512.png">
 
   <link rel="me" href="https://typo.social/@erikvorhes">
-  <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="/feed.xml">
-  <link rel="alternate" type="application/json" title="{{ site.title }}" href="/feed.json">
+  <link rel="alternate" type="application/atom+xml" title="{{ metadata.title }}" href="/feed.atom.xml">
+  <link rel="alternate" type="application/json" title="{{ metadata.title }}" href="/feed.json">
+  <link rel="alternate" type='application/rss+xml' title="{{ metadata.title }}" href="/feed.rss.xml">
 
   {% css 'print' %}
     {% include 'css/print.css' %}
@@ -57,13 +58,15 @@
 </head>
 <body>
   {% include 'partials/site_nav.njk' -%}
-  <main{{ ' data-pagefind-ignore' if noindex }}>
+  <main{% if noindex %} data-pagefind-ignore="all"{% endif %}>
 {{ content | safe }}
   </main>
+{%- if page.url != '/menu/' -%}
   <footer class="site__footer flow">
     <p>Copyright &copy; {% currentYear %} Erik Vorhes, all rights reserved. See the <a href="/is/#colophon">colophon</a> for more about how this all works.</p>
-    <p><i>If you notice anything amiss, <a href="https://github.com/erikvorhes/dotcom/blob/main/src/content/{{ page.inputPath | stripDotSlash }}" target="_blank" rel="noopener noreferrer">please make a pull request</a>!</i></p>
+    <p><i>If you notice anything amiss, <a href="https://github.com/erikvorhes/dotcom/blob/main/{{ page.inputPath | stripDotSlash }}" target="_blank" rel="noopener noreferrer">please make a pull request</a>!</i></p>
   </footer>
+{%- endif -%}
   <!-- Page `{{ page.url }}` was built on {% currentBuildDate %} -->
   <script src="{% getBundleFileUrl 'js' %}"></script>
 {%- if page.url == '/has/' -%}

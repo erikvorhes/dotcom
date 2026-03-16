@@ -32,7 +32,7 @@ You can find me lurking --- and sometimes contributing to _the discourse_ --- al
 
 The site colors are inspired by the [Towneley manuscript](https://hdl.huntington.org/digital/collection/p15150coll7/id/52988/).
 
-Everything is powered by web standards, [Markdown](https://daringfireball.net/projects/markdown/), [Nunjucks](https://mozilla.github.io/nunjucks/), and [Eleventy](https://www.11ty.dev/). I didn't use any LLMs while assembling any part of this site. You're welcome to quote, contend with, or remix anything on here, but I'd appreciate a citation.
+Everything is powered by web standards, along with [Markdown](https://daringfireball.net/projects/markdown/), [Nunjucks](https://mozilla.github.io/nunjucks/), and [Eleventy](https://www.11ty.dev/). I didn't use any LLMs while assembling any part of this site. You're welcome to quote, contend with, or remix anything on here, but I'd appreciate a citation.
 
 If you find an issue, feel free to [submit an issue or make a pull request](https://github.com/erikvorhes/dotcom).
 
