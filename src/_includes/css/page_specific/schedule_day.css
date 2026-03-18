@@ -1,8 +1,10 @@
-.nav__course__day {
+.nav__course__day,
+.nav__tag__detail {
   margin-block: 3lh;
 }
 
-.nav__course__day p {
+.nav__course__day p,
+.nav__tag__detail p {
   font-size: calc(1rem / var(--type-scale));
   font-style: italic;
   text-align: end;

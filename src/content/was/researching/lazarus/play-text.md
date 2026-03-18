@@ -5,9 +5,9 @@ summary: A Middle English play about Lazarus, updated from a version published o
 date: 2026-02-23
 tags:
   - drama
-  - middle english
-  - lazarus
-  - towneley
+  - Middle English
+  - Lazarus
+  - Towneley manuscript
 layout: layouts/note.njk
 ---
 

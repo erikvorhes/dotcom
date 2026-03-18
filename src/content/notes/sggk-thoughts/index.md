@@ -1,10 +1,12 @@
 ---
 title: Thoughts on “Sir Gawain and the Green Knight”
 date: 2007-11-11
+image: sggk.jpeg
+showImage: false
 tags:
-  - middle english
-  - gawain
-  - green knight
+  - Middle English
+  - Gawain
+  - the Green Knight
   - nature and literature
   - class handout
   - poetry

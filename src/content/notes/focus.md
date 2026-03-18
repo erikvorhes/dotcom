@@ -4,8 +4,8 @@ date: 2023-02-25
 summary: A bit of JavaScript to ensure your page’s IDs can be focused, even when you forget to do the work in the HTML.
 tags:
   - accessibility
-  - html
-  - javascript
+  - HTML
+  - JavaScript
   - tutorial
 ---
 

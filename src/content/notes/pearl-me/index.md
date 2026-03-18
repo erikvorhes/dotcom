@@ -2,9 +2,11 @@
 title: ‘Pearl’ and Middle English
 date: 2007-08-22
 summary: A few thoughts on the ‘Perle plesaunte’
+image: pearl.jpeg
+imageCaption: The opening of "Pearl," from Cotton Nero <abbr title="manuscript">MS</abbr> A.<abbr title="10">x</abbr>.
 tags:
-  - middle english
-  - pearl
+  - Middle English
+  - Pearl
   - nature and literature
   - class handout
   - poetry
@@ -25,7 +27,7 @@ Allas! I leste hyr in on erbere;
 I dewyne, fordolked of luf-daungere
 Of þat pryuy perle withouten spot.</pre>
 
-The letter that looks like a weird *3* is the Middle English letter *[yogh](https://en.wikipedia.org/wiki/Yogh)*, which we no longer use. Here's a translation for you:
+The letter that looks like a weird **_3_** is the Middle English letter *[yogh](https://en.wikipedia.org/wiki/Yogh)*, which we no longer use. Here's a translation for you:
 
 > Pleasing pearl, pleasing to princes, so purely set in fair gold: out of the Orient, I dare say, I never found one equal her value. So round, so noble in any setting, so small, so smooth her sides were; wherever I judged bright gems I set her apart singularly. Alas! I lost her in a garden; it ran from me, through the grass, to the ground. Languishing, I was grievously wounded from the love-loss of that special pearl without a spot. (1-12)
 

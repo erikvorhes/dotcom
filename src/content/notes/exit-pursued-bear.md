@@ -3,9 +3,9 @@ title: Exit, pursued by a bear
 date: 2006-04-21
 summary: The most famous (and possibly only) stage direction in Shakespeare
 tags:
-  - shakespeare
+  - Shakespeare
   - class handout
-  - the winters tale
+  - The Winter's Tale
   - drama
   - textual criticism
 ---

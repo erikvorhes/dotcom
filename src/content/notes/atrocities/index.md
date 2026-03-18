@@ -5,7 +5,7 @@ summary: The tree remembers, but the axe forgets.
 tags:
   - fascism
   - immigration
-  - star wars
+  - Star Wars
   - trans rights
   - war
 ---

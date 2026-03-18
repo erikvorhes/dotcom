@@ -12,7 +12,7 @@ noindex: true
     <ul role="list" class="taglist">
     {%- for tag in collections | getKeys | filterTagList | sortAlphabetically -%}
       {%- set tagUrl %}/has/{{ tag | slugify }}/{% endset -%}
-      <li><a href="{{ tagUrl }}">{{ tag }}</a></li>
+      <li><a href="{{ tagUrl }}">{{ tag | renderContent('md') | stripOuterParagraph | safe }}</a></li>
     {%- endfor -%}
     </ul>
   </section>

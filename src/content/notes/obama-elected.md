@@ -3,8 +3,9 @@ title: This Morning
 date: 2008-11-05
 summary: A poem concerning the election of Barack Obama as President of the United States of America
 tags:
-  - obama
+  - Obama
   - poetry
+  - politics
 ---
 
 <pre class="verse">It is a strange thing:

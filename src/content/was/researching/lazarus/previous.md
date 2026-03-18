@@ -4,9 +4,9 @@ introSummary: A preface to a now-defunct electronic edition of the play, origina
 summary: A preface to a now-defunct electronic edition of the Towneley Lazarus
 date: 2004-04-15
 tags:
-  - lazarus
-  - middle english
-  - towneley
+  - Lazarus
+  - Middle English
+  - Towneley manuscript
   - drama
   - textual criticism
 layout: layouts/note.njk

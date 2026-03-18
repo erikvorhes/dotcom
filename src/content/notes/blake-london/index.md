@@ -3,8 +3,8 @@ title: ‘London,’ by William Blake
 date: 2007-08-28
 summary: Are you … experienced? You will be, after reading this 18th-century poem.
 tags:
-  - blake
-  - london
+  - Blake
+  - London
   - nature and literature
   - class handout
   - poetry

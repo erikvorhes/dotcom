@@ -5,8 +5,8 @@ summary: A dialog in verse
 introSummary: I love the way these two poems interact with each other.
 tags:
   - poetry
-  - marlowe
-  - raliegh
+  - Christopher Marlowe
+  - Walter Raliegh
   - nature and literature
   - class handout
 ---

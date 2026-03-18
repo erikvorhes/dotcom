@@ -4,7 +4,7 @@ summary: Someone created a fake Latin conjugation of ‘yolo’; I think it’s 
 date: 2014-02-11
 tags:
   - language
-  - latin
+  - Latin
 ---
 
 There's a [pretend Latin conjugation of _yolo_](https://imgur.com/rO1PQmj) floating around. It (probably unfortunately) got me thinking that the word form and conjugation could be improved.^[Sorry --- or you're welcome, if you were thinking about doing something similar.]

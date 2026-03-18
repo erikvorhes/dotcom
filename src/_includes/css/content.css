@@ -63,14 +63,15 @@ a[id^="fnref"] sup {
 
 blockquote {
   position: relative;
-  padding-inline-start: 6lh;
+  padding-inline-start: 2lh;
 }
 
 blockquote::before {
   content: "“" / "";
-  opacity: 0.25;
+  opacity: 0.2;
   position: absolute;
-  inset-inline-start: calc(2lh / 3);
+  inset-block-start: -1rem;
+  inset-inline-start: 0;
   font-size: 3lh;
   font-weight: bold;
 }

@@ -5,13 +5,13 @@ summary: A fall 2007 course at Loyola University Chicago on English literature a
 date: 2007-08-27
 tags:
   - nature and literature
-  - pearl
-  - piers ploughman
-  - shakespeare
-  - gawain
-  - green knight
+  - Pearl
+  - Piers Plowman
+  - Shakespeare
+  - Gawain
+  - the Green Knight
   - course description
-  - the wifes lament
+  - The Wife's Lament
 eleventyNavigation:
   key: luc-288-081
   title: Nature in Literature

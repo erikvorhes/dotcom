@@ -4,17 +4,17 @@ introSummary: English 274-086 --- Spring 2006, Loyola University Chicago
 summary: A spring 2006 course at Loyola University Chicago on the plays and poems of William Shakespeare
 date: 2006-01-17
 tags:
-  - shakespeare
+  - Shakespeare
   - drama
   - poetry
-  - macbeth
-  - a midsummer night’s dream
-  - much ado about nothing
-  - othello
-  - richard iii
-  - titus andronicus
-  - the winters tale
-  - king lear
+  - Macbeth
+  - A Midsummer Night's Dream
+  - Much Ado About Nothing
+  - Othello
+  - Richard III
+  - Titus Andronicus
+  - The Winter's Tale
+  - King Lear
   - course description
 eleventyNavigation:
   key: luc-274-086

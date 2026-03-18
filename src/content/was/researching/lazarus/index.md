@@ -4,13 +4,13 @@ date: 2005-05-16
 introSummary: "Toward a Digital Edition of the Towneley <cite>Lazarus</cite> Play\n\nHuntington MS HM 1, F129--F131"
 summary: Thoughts on creating a digital edition of the Lazarus play from the Middle English Towneley plays
 tags:
-  - lazarus
-  - middle english
-  - towneley
+  - Lazarus
+  - Middle English
+  - Towneley manuscript
   - drama
   - textual criticism
-  - html
-  - xml
+  - HTML
+  - XML
   - code
 layout: layouts/note.njk
 eleventyNavigation:

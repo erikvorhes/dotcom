@@ -6,9 +6,9 @@ eleventyNavigation:
   order: 4
 ---
 
-When I [was](/was/) younger I wanted to be a poet. When I was in college I realized that this was impractical, and so I decided to pursue a Ph.D. in medieval English literature.
+When I [was](/was/) younger I wanted to be a poet. While I was in college I realized that this was impractical, and so I decided to pursue a Ph.D. in medieval English literature.^[Yeah, I know.]
 
-In graduate school I became increasingly interested in textual criticism, especially in the transmission of texts and their material contexts. Around the same time, I became aware of the work of the [Text Encoding Initiative Consortium](https://tei-c.org) and other work in the production of digital editions of early texts. I became increasingly distracted from my scholarly work to play with technology. I loved teaching and learning with others, but the grind of the rest of the degree got to me. And so when I realized that I was unlikely to finish --- let alone start --- a dissertation, and even if I did, I was unlikely to beat out 300+ other candidates for the frighteningly few tenure-track positions that were out there, I decided a career transition was in order.
+In graduate school I found myself interested in textual criticism, especially in the transmission of texts and their material contexts. Around the same time, I became aware of the work of the [Text Encoding Initiative Consortium](https://tei-c.org) and other work in the production of digital editions of early texts. I loved teaching and learning with others, but the grind of the rest of the degree got to me. I distracted myself from my scholarly work by playing with technology. And so when I realized that I was unlikely to finish --- let alone start --- a dissertation, and even if I did, I was unlikely to beat out 300+ other candidates for the frighteningly few tenure-track positions that were out there, I decided a career transition was in order.
 
 I've been building things on the web for _a while_. I started out at some fantastic design agencies in Chicago, and then I found my way to Facebook, Chegg, Transform, and dbt Labs. Throughout I've been obsessed with building accessible, usable things and fostering a welcoming, inclusive culture. These days I spend most of my time in a text editor and writing code for [Netflix](https://www.netflix.com).
 

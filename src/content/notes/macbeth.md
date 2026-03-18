@@ -4,8 +4,8 @@ date: 2007-11-26
 summary: Thoughts on that Scottish play, with particular focus on the role the natural world plays in it.
 tags:
   - drama
-  - shakespeare
-  - macbeth
+  - Shakespeare
+  - Macbeth
   - nature and literature
   - class handout
   - writing seminar

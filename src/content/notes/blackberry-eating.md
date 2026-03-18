@@ -4,7 +4,7 @@ date: 2007-09-01
 summary: One of my favorite poems; it is remarkably visceral.
 tags:
   - poetry
-  - kinnell
+  - Galway Kinnell
   - nature and literature
   - class handout
 ---

@@ -5,8 +5,8 @@ introSummary: The Facebook Accessibility team did a series of employee profiles,
 summary: I ramble about my work at Facebook with the Business Marketing team and what I think about when I build accessible websites.
 tags:
   - accessibility
-  - html
-  - facebook
+  - HTML
+  - Facebook
   - typography
 ---
 {%- set styles = 'dd + dd { margin-block-start: var(--flow-space, 1em);' -%}

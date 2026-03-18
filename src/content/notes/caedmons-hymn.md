@@ -3,8 +3,8 @@ title: Cædmon’s Hymn
 date: 2007-08-15
 summary: A brief introduction to the oldest poem in English
 tags:
-  - bede
-  - old english
+  - Bede
+  - Old English
   - nature and literature
   - class handout
   - poetry
