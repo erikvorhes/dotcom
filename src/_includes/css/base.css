@@ -56,7 +56,7 @@
   font-feature-settings: "liga", "clig", "onum";
   
   font-size: 125%;
-  line-height: var(--type-scale);
+  line-height: minmax(pow(var(--type-scale), 3), 1.5);
   -webkit-text-size-adjust: none;
 	text-size-adjust: none;
   -webkit-font-smoothing: antialiased;
