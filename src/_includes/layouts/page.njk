@@ -41,5 +41,15 @@ const eleventyComputed = {
       {{ introSummary | renderContent('md') | safe }}
     {%- endif -%}
   </header>
+{%- if image and not courseKey -%}
+  {% if imageCaption %}
+  <figure>
+  {% endif %}
+    <img src="/social/{{ image }}" width="1200" height="630" alt="{% if imageAlt %}{{ imageAlt }}{% endif %}">
+  {% if imageCaption %}
+    <figcaption>{{ imageCaption | renderContent('md') | safe }}</figcaption>
+  </figure>
+  {% endif %}
+{%- endif -%}
 {{ content | safe }}
 </article>

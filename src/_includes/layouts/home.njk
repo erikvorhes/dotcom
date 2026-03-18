@@ -1,17 +1,20 @@
 ---
 layout: layouts/base.njk
+image: default.png
 ---
 {%- set styles -%}{% include 'css/page_specific/home.css' %}{%- endset -%}
 <style>{{ styles | cssmin | safe }}</style>
 
-<div class="flow">
-  <h1>Hello!</h1>
+<section class="intro">
+  <div class="flow">
+    <h1>Hello!</h1>
 {{ content | safe }}
-  <img src="./me.jpeg" alt="a recent picture of me">
-</div>
+  </div>
+  <img src="./me.png" alt="I appear happy (or at least content) and am wearing a shirt that says 'hypertext' on it.">
+</section>
 
 <section class="flow">
-  <h2><i>Recent notes</i></h2>
+  <h2>Recent notes</h2>
 {%- for note in collections.notes | reverse | head(5) -%}
   <article class="flow">
     <h3><a href="{{ note.url }}">{{ note.data.title | renderContent('md') | stripOuterParagraph | safe }}</a></h3>

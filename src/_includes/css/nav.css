@@ -4,10 +4,10 @@
 
 .site__nav ul {
   font-family: var(--font-family-mono);
-  font-size: 1rem;
+  font-size: .75rem;
 
   display: grid;
-  gap: 1em;
+  gap: .05rem;
   grid-template-columns: 1fr repeat(2, minmax(40px, max-content));
 }
 
@@ -54,6 +54,7 @@
   text-decoration: none;
   block-size: 100%;
   min-block-size: 40px;
+  min-inline-size: 40px;
   align-items: center;
   justify-content: center;
 }
@@ -64,10 +65,10 @@
 
 .site__nav svg {
   position: absolute;
-  inset-block-start: .1lh;
-  inset-inline-start: .5dvw;
+  inset-block-start: 0;
+  inset-inline-start: .25%;
+  inline-size: 99.5%;
   block-size: auto;
-  inline-size: 99dvw;
   opacity: 0.075;
   pointer-events: none;
   z-index: -1;

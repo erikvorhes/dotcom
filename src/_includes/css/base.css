@@ -31,7 +31,7 @@
   --foreground: var(--dark);
   --accent-overt: var(--accent-dark);
   --accent-subtle: var(--accent-light);
-  --site-inline-size: 100ch;
+  --site-inline-size: 80ch;
   --site-gutter: 5ch;
   --flow-space: 1lh;
   --font-family-text: minion-3, Georgia, serif;
@@ -121,6 +121,8 @@
 body {
   min-block-size: 100%;
   min-height: 100dvh;
+  overflow-y: scroll;
+  overflow-x: auto;
 }
 
 img,
