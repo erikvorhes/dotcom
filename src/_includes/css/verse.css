@@ -7,3 +7,12 @@
   inline-size: auto;
   margin-inline: auto;
 }
+
+.poem-title,
+.poem-title + p {
+  text-align: center;
+}
+
+.poem-title + p {
+  margin-block-start: .5lh;
+}

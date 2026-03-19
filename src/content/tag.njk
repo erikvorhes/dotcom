@@ -11,10 +11,13 @@ const eleventyExcludeFromCollections = true;
 const noindex = true;
 
 const eleventyComputed = {
-  title: async function (data) {
+  htmlTitle: async function (data) {
     const md = await this.renderContent(`Tagged '${data.tag}'`, 'md');
 
     return this.stripOuterParagraph(md);
+  },
+  plainitle: function (data) {
+    return `Tagged '${data.tag}'`;
   },
   permalink: function(data) {
     return `/has/${this.slugify(data.tag)}/`;
@@ -23,10 +26,10 @@ const eleventyComputed = {
 
 const layout = 'layouts/base.njk';
 ---
-{%- set styles -%}{% include 'css/page_specific/schedule_day.css' %}{%- endset -%}
+{%- set styles -%}{% include 'css/page_specific/content_back_nav.css' %}{%- endset -%}
 <style>{{ styles | cssmin | safe }}</style>
 
-<h1>Tagged ‘{{ tag  | renderContent('md') | stripOuterParagraph | safe }}’</h1>
+<h1>{{ htmlTitle | safe }}</h1>
 
 {%- for item in collections[ tag ] | reverse -%}
   <article class="flow">

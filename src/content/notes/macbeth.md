@@ -1,5 +1,5 @@
 ---
-title: Thoughts on Macbeth
+title: On <cite>Macbeth</cite>
 date: 2007-11-26
 summary: Thoughts on that Scottish play, with particular focus on the role the natural world plays in it.
 tags:

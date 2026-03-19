@@ -2,6 +2,8 @@
 title: ‘London,’ by William Blake
 date: 2007-08-28
 summary: Are you … experienced? You will be, after reading this 18th-century poem.
+image: blake-london.jpeg
+showImage: false
 tags:
   - Blake
   - London
@@ -12,7 +14,7 @@ tags:
 
 This is a version of the text of "London" published as a part of <cite>Songs of Innocence and Experience</cite> in 1789 and 1794:
 
-## London
+<h2 class="poem-title">London</h2>
 
 <pre class="verse">I wander thro' each charter'd street,
 Near where the charter'd Thames does flow

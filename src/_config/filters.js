@@ -61,6 +61,13 @@ export default function(eleventyConfig) {
 		return p ? p.innerHTML : content;
 	});
 
+	eleventyConfig.addFilter('innerText', function innerText(content) {
+		const doc = parse(content);
+		const p = doc.querySelector('p');
+
+		return p ? p.rawText : content;
+	});
+
 	eleventyConfig.addFilter('cssmin', function cssmin(code) {
 		try {
 			const minified = new CleanCSS({}).minify(code);
@@ -71,7 +78,7 @@ export default function(eleventyConfig) {
 		}
 	});
 
-	eleventyConfig.addFilter('jsmin', async function jsmin(code) {
+	eleventyConfig.addAsyncFilter('jsmin', async function jsmin(code) {
 		try {
 			const minified = await minify(code);
 			return minified.code;

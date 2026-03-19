@@ -1,7 +1,7 @@
 ---
 title: The more things change ...
 date: 2007-09-26
-summary: "Complaints about 'kids these days' have always been around"
+summary: Complaints about “kids these days” have always been around
 tags:
   - grammar
   - Piers Plowman

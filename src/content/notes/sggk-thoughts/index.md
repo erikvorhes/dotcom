@@ -1,5 +1,5 @@
 ---
-title: Thoughts on “Sir Gawain and the Green Knight”
+title: Thoughts on <cite>Sir Gawain and the Green Knight</cite>
 date: 2007-11-11
 image: sggk.jpeg
 showImage: false

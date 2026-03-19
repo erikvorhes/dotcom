@@ -19,7 +19,7 @@ The man commanded me to dwell in a grove of trees, under an oak tree, in a cave.
 
 It could be that a young man must always be sad-minded, hard-hearted; he must likewise have a cheerful demeanor, in addition to heart-grief, a tumult of constant sorrows. If he relies on himself for all his joy in the world, or if he is an outcast,^["an outcast" could be translated as 'stained'] far from the land of his people, that friend of mine --- weary-minded --- sits under a cliff in a frost-covered storm, surrounded by water in a desolate hall, and suffers much grief in his heart; too often he remembers a more delightful house. Woe be to those who must wait the beloved with longing.
 
-## The Original
+## In Old English
 
 <pre class="verse" lang="ang">Ic þis giedd wrece     bi me ful geomorre,
 minresylfre sið.     Ic þæt secgan mæg,

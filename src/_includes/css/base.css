@@ -31,7 +31,7 @@
   --foreground: var(--dark);
   --accent-overt: var(--accent-dark);
   --accent-subtle: var(--accent-light);
-  --site-inline-size: 80ch;
+  --site-inline-size: 82ch;
   --site-gutter: 5ch;
   --flow-space: 1lh;
   --font-family-text: minion-3, Georgia, serif;

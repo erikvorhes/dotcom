@@ -1,7 +1,8 @@
 ---
 title: Sufjan & Superman
 date: 2006-01-29
-introSummary: Or, the only album from 2005 that I bought is my album of the year, or, the power of myth, or, eating at the Berghoff was worth standing in the rain for three hours, or the beauty of long titles
+summary: Thoughts on copyright and fair use and music.
+introSummary: Or, the only album from 2005 that I bought is my album of the year, or, the power of myth, or, eating at the Berghoff was worth standing in the rain for three hours, or the beauty of long titles.
 tags:
   - music
   - Sufjan Stevens

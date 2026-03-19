@@ -27,6 +27,12 @@ const eleventyComputed = {
     }
 
     return `/was/teaching/${courseSlug}/`;
+  },
+
+  htmlTitle: async function({ title }) {
+    const md = await this.renderContent(title, 'md');
+    
+    return this.stripOuterParagraph(md); 
   }
 };
 ---
@@ -35,7 +41,7 @@ const eleventyComputed = {
 {%- endif -%}
 <article class="flow">
   <header class="{% if introSummary %}has-intro {% endif %}flow">
-    <h1>{{ title | renderContent('md') | stripOuterParagraph | safe }}</h1>
+    <h1>{{ htmlTitle | safe }}</h1>
     {% if datetime and pubDate %}<p class="pubdate"><time datetime="{{ datetime }}">{{ pubDate }}</time>{% endif %}
     {%- if introSummary -%}
       {{ introSummary | renderContent('md') | safe }}

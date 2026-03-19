@@ -6,12 +6,12 @@ introSummary: I love the way these two poems interact with each other.
 tags:
   - poetry
   - Christopher Marlowe
-  - Walter Raliegh
+  - Walter Raleigh
   - nature and literature
   - class handout
 ---
 
-## The Passionate Shepherd to His Love
+<h2 class="poem-title">The Passionate Shepherd to His Love</h2>
 
 *by Christopher Marlowe*
 
@@ -45,7 +45,7 @@ For thy delight each May morning:
 If these delights thy mind may move,
 Then live with me and be my love.</pre>
 
-## The Nymph's Reply to the Shepherd
+<h2 class="poem-title">The Nymph’s Reply to the Shepherd</h2>
 
 *by Sir Walter Raleigh*
 
@@ -66,7 +66,7 @@ Is fancy's spring, but sorrow's fall.
 
 Thy gowns, thy shoes, thy beds of roses,
 Thy cap, thy kirtle, and thy posies
-Soon break, soon wither, soon forgotten---
+Soon break, soon wither, soon forgotten —
 In folly ripe, in reason rotten.
 
 Thy belt of straw and ivy buds,

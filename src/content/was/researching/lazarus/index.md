@@ -1,7 +1,9 @@
 ---
 title: Lazarus resurrected
 date: 2005-05-16
-introSummary: "Toward a Digital Edition of the Towneley <cite>Lazarus</cite> Play\n\nHuntington MS HM 1, F129--F131"
+introSummary: |
+  Toward a Digital Edition of the Towneley <cite>Lazarus</cite> Play
+  Huntington MS HM 1, F129--F131
 summary: Thoughts on creating a digital edition of the Lazarus play from the Middle English Towneley plays
 tags:
   - Lazarus

@@ -1,5 +1,5 @@
 ---
-title: The Textual Problem of King Lear
+title: The Textual Problem of <cite>King Lear</cite>
 date: 2006-04-12
 summary: There are two distinct versions of this famous play, both worth considering.
 tags:

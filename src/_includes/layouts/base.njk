@@ -1,3 +1,16 @@
+---js
+const eleventyComputed = {
+  plainTitle: async function({ title }) {
+    if (!title) {
+      return undefined;
+    }
+
+    const md = await this.renderContent(title, 'md');
+
+    return this.innerText(md);
+  },
+};
+---
 {%- set defaultStyles -%}
   {% include 'css/base.css' %}
   {% include 'css/nav.css' %}
@@ -22,14 +35,14 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>{{ title or metadata.title | striptags }}{{ ' | Erik Vorhes' if page.url != '/' }}</title>
+  <title>{{ plainTitle or metadata.title }}{{ ' | Erik Vorhes' if page.url != '/' }}</title>
   <meta name="description" content="{{ summary or metadata.description | striptags }}">
   
   <meta name="generator" content="{{ eleventy.generator }}">
   
   <meta property="og:url" content="{{ metadata.url }}{{ page.url }}">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="{{ 'Home' if page.url == '/' else title or metadata.title }} | Erik Vorhes">
+  <meta property="og:title" content="{{ 'Home: Erik Vorhes' if page.url == '/' else plainTitle or title or metadata.title }}">
   <meta property="og:description" content="{{ summary or metadata.description | striptags }}">
   <meta property="og:image" content="{{ metadata.url }}{% if image %}{{ page.url }}{{ image }}{% else %}{% ogImage page.date %}{% endif %}">
   <meta content="og:image:alt" content="">

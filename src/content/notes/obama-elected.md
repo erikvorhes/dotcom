@@ -20,7 +20,7 @@ a metropolis of worn out colors.
 This morning is different.
 The people shine in their weariness and say to the sun:
 
-"We are awake.
+“We are awake.
 An obscure man from around here
-has stolen our hearts ---
-and we are overjoyed."</pre>
+has stolen our hearts —
+and we are overjoyed.”</pre>

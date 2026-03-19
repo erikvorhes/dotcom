@@ -14,7 +14,7 @@ tags:
 
 Both of these poems appear in <cite>Songs of Innocence and Experience</cite>. "The Lamb" also appears in the earlier-published <cite>Songs of Innocence</cite>.
 
-## The Lamb
+<h2 class="poem-title">The Lamb</h2>
 
 <pre class="verse">Little Lamb who made thee
 Dost thou know who made thee
@@ -40,7 +40,7 @@ Little Lamb God bless thee.</pre>
 
 Note the repetition and the connection to the same *Lamb* (i.e., Jesus) in <cite>Pearl</cite>. But contrast the lilting sweetness of this poem to the aggressive language in "The Tyger":
 
-## The Tyger
+<h2 class="poem-title">The Tyger</h2>
 
 <pre class="verse">Tyger Tyger. burning bright,
 In the forests of the night;
