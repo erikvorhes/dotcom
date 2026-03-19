@@ -16,11 +16,15 @@ import pluginShortcodes from './src/_config/shortCodes.js';
 export default async function (eleventyConfig) {
   // Drafts, see also _data/eleventyDataSchema.js
 	eleventyConfig.addPreprocessor('drafts', '*', (data, content) => {
-		if (data.draft) {
+    const today = new Date();
+    const pubDate = new Date(data.date);
+    const isDraft = data.draft || today < pubDate;
+
+		if (isDraft) {
 			data.title = `${data.title} (draft)`;
 		}
 
-		if(data.draft && process.env.ELEVENTY_RUN_MODE === 'build') {
+		if(isDraft && process.env.ELEVENTY_RUN_MODE === 'build') {
 			return false;
 		}
 	});

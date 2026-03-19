@@ -1,6 +1,6 @@
 ---
 title: Beginning again, again
-date: 2026-03-20
+date: 2026-03-24
 summary: The best time to build a personal website was a while ago. The second best time is now.
 introSummary: |
   Don't call it a comeback: I've been gone for years.
