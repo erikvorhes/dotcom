@@ -16,22 +16,22 @@ This is a version of the text of "London" published as a part of <cite>Songs of 
 
 <h2 class="poem-title">London</h2>
 
-<pre class="verse">I wander thro' each charter'd street,
-Near where the charter'd Thames does flow
+<pre class="verse">I wander thro’ each charter’d street,
+Near where the charter’d Thames does flow
 And mark in every face I meet
 Marks of weakness, marks of woe.
 
 In every cry of every Man.
 In every Infants cry of fear.
 In every voice; in every ban.
-The mind-forg'd manacles I hear
+The mind-forg’d manacles I hear
 
 How the Chimney-sweepers cry
 Every blacknng Church appalls.
 And the hapless Soldiers sigh
 Runs in blood down Palace walls
 
-But most thro' midnight streets I hear
+But most thro’ midnight streets I hear
 How the youthful Harlots curse
 Blasts the new born Infants tear
 And blights with plagues the Marriage hearse</pre>

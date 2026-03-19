@@ -180,39 +180,39 @@ export default async function (eleventyConfig) {
   const courses = [
     {
       camel: 'natureLiterature',
-      courseSnake: 'luc_288_081',
+      courseId: 'luc_288_081',
       tag: 'nature and literature',
       end: '2007-12-15',
     },
     {
       camel: 'shakespeare',
-      courseSnake: 'luc_274_086',
+      courseId: 'luc_274_086',
       tag: 'shakespeare',
       end: '2006-05-18',
     },
     {
       camel: 'writing1',
-      courseSnake: 'luc_105_053',
+      courseId: 'luc_105_053',
       tag: 'writing 1',
       end: '2003-12-11',
     },
     {
       camel: 'writing2',
-      courseSnake: 'luc_106_053',
+      courseId: 'luc_106_053',
       tag: 'writing 2',
       end: '2004-04-20',
     },
     {
       camel: 'writingSeminar',
-      courseSnake: 'luc_110_104',
+      courseId: 'luc_110_104',
       tag: 'writing seminar',
       end: '2007-12-11',
     },
   ];
 
-  for (const { camel, courseSnake, tag, end } of courses) {
+  for (const { camel, courseId, tag, end } of courses) {
     eleventyConfig.addCollection(`${camel}Schedule`, (collectionApi) => {
-      return collectionApi.getFilteredByTags('schedule', courseSnake);
+      return collectionApi.getFilteredByTags('schedule', courseId);
     });
     eleventyConfig.addCollection(`${camel}Handouts`, (collectionApi) => {
       const endDate = new Date(end);

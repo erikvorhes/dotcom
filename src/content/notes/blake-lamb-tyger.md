@@ -19,7 +19,7 @@ Both of these poems appear in <cite>Songs of Innocence and Experience</cite>. "T
 <pre class="verse">Little Lamb who made thee
 Dost thou know who made thee
 Gave thee life & bid thee feed.
-By the stream & o'er the mead;
+By the stream & o’er the mead;
 Gave thee clothing of delight,
 Softest clothing wooly bright;
 Gave thee such a tender voice,
@@ -27,8 +27,8 @@ Making all the vales rejoice:
 Little Lamb who made thee
 Dost thou know who made thee
 
-Little Lamb I'll tell thee,
-Little Lamb I'll tell thee:
+Little Lamb I’ll tell thee,
+Little Lamb I’ll tell thee:
 He is called by thy name,
 For he calls himself a Lamb:
 He is meek & he is mild,
@@ -63,7 +63,7 @@ What the anvil? what dread grasp,
 Dare its deadly terrors clasp?
 
 When the stars threw down their spears
-And water'd heaven with their tears:
+And water’d heaven with their tears:
 Did he smile his work to see?
 Did he who made the Lamb make thee?
 
@@ -74,7 +74,7 @@ Dare frame thy fearful symmetry?</pre>
 
 The tiger functions as something monstrous, something awful (in every sense of the word). It is worth noting that Blake was influential infuential in scholarship on John Milton's <cite>Paradise Lost</cite>, a poem "Of Man's first disobedience" (I.1), especially in advancing the idea that Satan is the poem's *hero*.
 
-As it was with "[London](/notes/blake-london)," it's worth viewing different versions of these poems at the [Blake Archive](https://www.blakearchive.org/). Reading Blake in something that approximates an "original" can profoundly influence the way we interpret them. Pay special attention to the sometimes-subtle differences in color, texture, etc., in each version.
+As it was with "[London](/notes/blake-london/)," it's worth viewing different versions of these poems at the [Blake Archive](https://www.blakearchive.org/). Reading Blake in something that approximates an "original" can profoundly influence the way we interpret them. Pay special attention to the sometimes-subtle differences in color, texture, etc., in each version.
 
 For background information on Blake, see the following entries in the <cite>Johns Hopkins Guide to Literary Theory & Criticism</cite>, a useful resource for just about any literary topic:^[This may only be available on Loyola's campus, so apologies in advance.]
 
