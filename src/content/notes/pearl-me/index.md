@@ -3,7 +3,7 @@ title: ‘Pearl’ and Middle English
 date: 2007-08-22
 summary: A few thoughts on the ‘Perle plesaunte’
 image: pearl.jpeg
-imageCaption: The opening of "Pearl," from Cotton Nero <abbr title="manuscript">MS</abbr> A.<abbr title="10">x</abbr>.
+imageCaption: The opening of "Pearl," from Cotton Nero A.x
 tags:
   - Middle English
   - Pearl

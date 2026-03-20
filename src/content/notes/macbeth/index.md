@@ -2,6 +2,9 @@
 title: On <cite>Macbeth</cite>
 date: 2007-11-26
 summary: Thoughts on that Scottish play, with particular focus on the role the natural world plays in it.
+image: macbeth.jpeg
+imageCaption: |
+  [Oxford, Bodleian Library Arch. G c.8](https://digital.bodleian.ox.ac.uk/objects/f1e35d14-e1b5-420d-b161-d2a11e06f5a2/)
 tags:
   - drama
   - Shakespeare

@@ -16,7 +16,7 @@ When I'm not working, you'll find me with my family, hiking, climbing, cross-cou
 
 <h2 id="elsewhere">Elsewhere</h2>
 
-You can find me lurking --- and sometimes contributing to _the discourse_ --- all over the internet, including but not limited to:
+You can find me lurking --- and sometimes contributing to The Discourse™ --- all over the internet, including but not limited to:
 
 * [Bluesky](https://bsky.app/profile/erikvorhes.bsky.social)
 * [Codepen](https://codepen.io/erikvorhes/)
@@ -32,12 +32,16 @@ You can find me lurking --- and sometimes contributing to _the discourse_ --- al
 
 The site colors are inspired by the [Towneley manuscript](https://hdl.huntington.org/digital/collection/p15150coll7/id/52988/).
 
-Everything is powered by web standards, along with [Eleventy](https://www.11ty.dev/), [Markdown](https://daringfireball.net/projects/markdown/), [Nunjucks](https://mozilla.github.io/nunjucks/), and [Pagefind](https://pagefind.app/). I didn't use any LLMs while assembling any part of this site. You're welcome to quote, contend with, or remix anything on here, but I'd appreciate a citation.
+Everything is powered by web standards, along with [Eleventy](https://www.11ty.dev/), [Markdown](https://daringfireball.net/projects/markdown/), [Nunjucks](https://mozilla.github.io/nunjucks/), and [Pagefind](https://pagefind.app/). The site is hosted by [Netlify](https://www.netlify.com/).
+
+I didn't use any LLMs while assembling any part of this site. You're welcome to quote, contend with, or remix anything on here, but I'd appreciate a citation.
 
 If you find an issue, feel free to [submit an issue or make a pull request](https://github.com/erikvorhes/dotcom).
 
 ### Fonts in Use
 
+Webfonts are served using [Adobe Fonts](https://fonts.adobe.com). I have far too many fonts I love; right now I'm using these:
+
 * [Minion 3](https://minion.typekit.com) for body copy and the favicon; this is an update to an old favorite, with the added bonus that it has an actual *[yogh](https://en.wikipedia.org/wiki/Yogh)* (Ȝ, ȝ);
 * [Gintronic](https://markfromberg.com/projects/gintronic) for code and a few other things; and
-* [<span lang="es">Piel</span> Script](https://www.sudtipos.com/font/piel-script) for my name, hiding in the background.
+* [<span lang="es">Piel</span> Script](https://www.sudtipos.com/font/piel-script) for my name, hiding in the background of most pages.

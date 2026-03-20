@@ -16,6 +16,6 @@ It's been over a decade since I've written anything much longer than a tweet.^[R
 
 Times --- and my own determination to write things down --- have changed. This WHOLE AI THING SOMETHING ABOUT WRITING
 
-Anyway. To kick things off, I've ported a bunch of things over from [the family website](https://erikanderica.org/), which will also be getting a facelift soon. I've also put posted a few things I've thought about elsewhere, roughly in time with when I originally wrote them.
+Anyway. To kick things off, I ported a bunch of things over from [the family website](https://erikanderica.org/),^[Also due for an update!] and I might consult [the wayback machine](https://web.archive.org) for things I've lost. I've also  included a few things I've thought about elsewhere, roughly in time with when I originally wrote them.
 
 I'm doing this thing for _me_, but if you enjoy any of it, too? All the better.

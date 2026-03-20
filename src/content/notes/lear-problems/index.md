@@ -2,6 +2,9 @@
 title: The Textual Problem of <cite>King Lear</cite>
 date: 2006-04-12
 summary: There are two distinct versions of this famous play, both worth considering.
+image: kings-lear.jpeg
+imageCaption: |
+  A pairing, from the [First Folio](https://digital.bodleian.ox.ac.uk/objects/f1e35d14-e1b5-420d-b161-d2a11e06f5a2/ "Oxford, Bodleian Library Arch. G c.8"), and from the [Second Quarto](https://internetshakespeare.uvic.ca/Library/facsimile/edition/Q2_Lr/lr/index.html).
 tags:
   - Shakespeare
   - class handout

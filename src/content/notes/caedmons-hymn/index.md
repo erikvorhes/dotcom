@@ -2,6 +2,9 @@
 title: Cædmon’s Hymn
 date: 2007-08-15
 summary: A brief introduction to the oldest poem in English
+image: hatton-43.jpeg
+imageCaption: |
+  "Cædmon's Hymn," as seen in [Oxford, Bodleian Library MS. Hatton 43](https://digital.bodleian.ox.ac.uk/objects/7850a308-0dd6-4d9a-b5b5-cbd6085b18dd/)
 tags:
   - Bede
   - Old English

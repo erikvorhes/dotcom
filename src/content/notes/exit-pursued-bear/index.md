@@ -2,6 +2,9 @@
 title: Exit, pursued by a bear
 date: 2006-04-21
 summary: The most famous (and possibly only) stage direction in Shakespeare
+image: bear.jpeg
+imageCaption: |
+  [Oxford, Bodleian Library Arch. G c.8](https://digital.bodleian.ox.ac.uk/objects/f1e35d14-e1b5-420d-b161-d2a11e06f5a2/)
 tags:
   - Shakespeare
   - class handout

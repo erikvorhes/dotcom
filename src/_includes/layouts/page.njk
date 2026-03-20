@@ -50,7 +50,7 @@ const eleventyComputed = {
 {%- if image and showImage -%}
   {% if imageCaption %}
   <figure>
-  {% endif %}
+  {% endif %}{# will need a different logic here if we put them somewhere other than with the template using this layout, maybe similar filter to logic in base.njk #}
     <img src="./{{ image }}" width="1200" height="630" alt="{% if imageAlt %}{{ imageAlt }}{% endif %}">
   {% if imageCaption %}
     <figcaption>{{ imageCaption | renderContent('md') | stripOuterParagraph | safe }}</figcaption>

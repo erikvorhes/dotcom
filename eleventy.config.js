@@ -55,7 +55,7 @@ export default async function (eleventyConfig) {
       return `<a href="#fn${id}" id="fnref${refid}">${caption}</a>`;
     };
 
-    mdLib.renderer.rules.footnote_block_open = () => '<footer class="footnotes flow">\n<h2>Footnotes</h2>\n<ol class="flow">\n';
+    mdLib.renderer.rules.footnote_block_open = () => '<footer class="footnotes flow">\n<h2>Footnotes</h2>\n<ol>\n';
     
     mdLib.renderer.rules.footnote_block_close = () => '</ol>\n</footer>\n';
 
@@ -65,7 +65,7 @@ export default async function (eleventyConfig) {
         id += ':' + tokens[idx].meta.subId;
       }
 
-      return `<li id="fn${id}">`;
+      return `<li class="flow" id="fn${id}">`;
     };
 
     mdLib.renderer.rules.footnote_anchor = (tokens, idx, options, env, slf) => {
@@ -187,7 +187,7 @@ export default async function (eleventyConfig) {
     {
       camel: 'shakespeare',
       courseId: 'luc_274_086',
-      tag: 'shakespeare',
+      tag: 'Shakespeare',
       end: '2006-05-18',
     },
     {

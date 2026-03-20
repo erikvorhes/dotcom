@@ -1,6 +1,10 @@
 ---
 title: Past work
 layout: layouts/page.njk
+image: horst-me.jpeg
+imageCaption: |
+  Horst Reil and me, celebrating my fourth birthday. I assume the cake <em lang="de">schmeckte köstlich</em>.
+showImage: true
 eleventyNavigation:
   key: Was
   title: Past work
@@ -14,6 +18,9 @@ A portfolio of sorts? I wouldn't say I've lived that many lives, but as time goe
   
 [Assumption Engine](https://assumption-engine.netlify.com/)
   ~ A post--Web-2.0 engine for making assumptions.
+
+[Erik and Erica dot org](https://erikanderica.org/)
+  ~ The family web-site, due for some updates!
 
 [Teaching](/was/teaching/)
   ~ I taught composition and courses on Shakespeare and nature in literature at Loyola University Chicago.
