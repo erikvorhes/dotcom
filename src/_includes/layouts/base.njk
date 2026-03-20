@@ -63,9 +63,9 @@ const eleventyComputed = {
   <link rel="manifest" href="/manifest.webmanifest">
 
   <link rel="me" href="https://typo.social/@erikvorhes">
-  <link rel="alternate" type="application/atom+xml" title="{{ metadata.title }}" href="/feed.atom.xml">
-  <link rel="alternate" type="application/json" title="{{ metadata.title }}" href="/feed.json">
-  <link rel="alternate" type='application/rss+xml' title="{{ metadata.title }}" href="/feed.rss.xml">
+  <link rel="alternate" type="application/atom+xml" title="{{ metadata.title }} (Atom feed)" href="/feed.atom.xml">
+  <link rel="alternate" type="application/json" title="{{ metadata.title }} (JSON feed)" href="/feed.json">
+  <link rel="alternate" type='application/rss+xml' title="{{ metadata.title }} (RSS feed)" href="/feed.rss.xml">
 
   <style>{{ defaultStyles | cssmin | safe }}</style>
   {% css 'print' %}{{ printStyles | cssmin | safe }}{% endcss %}
