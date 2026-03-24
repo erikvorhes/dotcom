@@ -1,0 +1,79 @@
+.site_nav {
+  padding-block-end: 1lh;
+}
+
+.site__nav ul {
+  font-family: var(--font-family-mono);
+  font-size: .75rem;
+
+  display: grid;
+  gap: .05rem;
+  grid-template-columns: 1fr repeat(2, minmax(40px, max-content));
+}
+
+.site__nav li:first-of-type a::after {
+  content: "_" / "";
+}
+
+@keyframes blinking-cursor {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media (prefers-reduced-motion) {
+  .site__nav li:first-of-type a::after {
+    opacity: 0.5;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .site__nav li:first-of-type a:not(:hover)::after {
+    animation: blinking-cursor 4s steps(2, jump-none) infinite;
+    opacity: 0.75;
+  }
+}
+
+.site__nav li:first-of-type a {
+  inline-size: max-content;
+}
+
+.site__nav li:not(:first-of-type) a {
+  inline-size: 100%;
+}
+
+.site__nav li:not(:first-of-type) a:not([aria-labelledby="search-label"]) {
+  font-size: 1.5rem;
+}
+
+.site__nav a {
+  display: flex;
+  text-decoration: none;
+  block-size: 100%;
+  min-block-size: 40px;
+  min-inline-size: 40px;
+  align-items: center;
+  justify-content: center;
+}
+
+.site__nav a[aria-current="page"] {
+  cursor: default;
+}
+
+.site__nav svg {
+  position: absolute;
+  inset-block-start: 0;
+  inset-inline-start: .25%;
+  inline-size: 99.5%;
+  block-size: auto;
+  opacity: 0.075;
+  pointer-events: none;
+  z-index: -1;
+}
+
+.site__nav path {
+  fill: var(--accent-subtle);
+}

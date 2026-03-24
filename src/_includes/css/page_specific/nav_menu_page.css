@@ -1,0 +1,4 @@
+.site__nav li:not(:last-of-type) {
+  pointer-events: none;
+  visibility: hidden;
+}

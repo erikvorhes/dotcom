@@ -1,0 +1,19 @@
+---
+layout: layouts/page.njk
+noindex: true
+---
+{%- set styles -%}{% include 'css/page_specific/search.css' %}{%- endset -%}
+<style>{{ styles | cssmin | safe }}</style>
+<script>onLoad(() => { new PagefindUI({ element: "#search", showSubResults: true }); });</script>
+<div class="content">
+  <section id="search"></section>
+  <section class="flow">
+    <h2><i>Tags</i></h2>
+    <ul role="list" class="taglist">
+    {%- for tag in collections | getKeys | filterTagList | sortAlphabetically -%}
+      {%- set tagUrl %}/has/{{ tag | slugify }}/{% endset -%}
+      <li><a href="{{ tagUrl }}">{{ tag | renderContent('md') | stripOuterParagraph | safe }}</a></li>
+    {%- endfor -%}
+    </ul>
+  </section>
+</div>

@@ -1,0 +1,115 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+  "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en-us">
+<head>
+  <title>{{ title }}</title>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="Author" content="Erik B. Vorhes" />
+  <style type="text/css" eleventy:ignore>
+    acronym {
+      color: red;
+      font-style: italic;
+    }
+    body {
+      margin: 1em 180px 1em 36px;
+      padding: 0;
+      color: black;
+      background: white;
+      font-family: "Times New Roman", serif;
+      font-size: 1em;
+    }
+    body.txt { margin: 1em 72px; }
+    dfn {
+      color: navy;
+      text-decoration: underline;
+    }
+    div.banner {
+      margin: 0;
+      font-size: 80%;
+      line-height: 1.1;
+      text-align: center;
+      position: fixed;
+      top: 1em;
+      left: auto;
+      width: 108px;
+      right: 36px;
+    }
+    div.banner p {
+      margin: 0;
+      padding: 3px;
+      font-family: Arial, sans-serif;
+      background: silver;
+      border: 1px solid gray;
+      color: navy;
+    }
+    div.banner a, div.banner em {
+      display: block;
+      margin: 0 3px;
+      border-top: 1px solid gray;
+    }
+    div.banner a:first-child { border-top: none; }
+    div.banner em {
+      color: black;
+      font-weight: bold;
+    }
+    div.banner a:link {
+      text-decoration: none;
+      color: navy;
+    }
+    div.banner a:visited {
+      text-decoration: none;
+      color: navy;
+    }
+    div.banner a:hover {
+      background: navy;
+      color: white;
+    }
+    div.note {
+      float: right;
+      margin: 0;
+      padding: 0;
+    }
+    h1 {
+      font-size: 200%;
+      font-weight: bold;
+      text-align: center;
+    }
+    h2 {
+      font-size: 150%;
+      font-weight: normal;
+      text-align: center;
+    }
+    object {
+      width: 100%;
+      height: 100%;
+      border: 1px solid silver;
+    }
+    p { margin: 0 0 0 1em; }
+    p.newspeech { margin: 1em 0 0 0; }
+    p.stage {
+      margin: 1em;
+      text-align: center;
+      font-style: italic;
+    }
+    p.verse { margin: 0 0 0 2em; }
+    p.end { margin: 0 0 0 3em; }
+    span.abr {
+      background: silver;
+      margin: 0;
+    }
+    span.spkr { font-variant: small-caps; }
+
+    @media print {
+      acronym, div.banner { display: none; }
+      body { margin: 1em 72px; }
+      dfn { color: black; text-decoration: none; }
+      span.abr { background: white; }
+    }
+  </style>
+</head>
+<body class="txt">
+{{ content | safe }}
+</body>
+</html>

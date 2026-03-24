@@ -1,0 +1,18 @@
+/**
+ * Adapted from https://webtypography.net/2.3.4
+ */
+.verse {
+  display: table;
+  font: inherit;
+  inline-size: auto;
+  margin-inline: auto;
+}
+
+.poem-title,
+.poem-title + p {
+  text-align: center;
+}
+
+.poem-title + p {
+  margin-block-start: .5lh;
+}

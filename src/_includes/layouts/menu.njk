@@ -1,0 +1,13 @@
+---
+layout: layouts/page.njk
+noindex: true
+---
+
+{%- if page.url == '/menu/' -%}
+{%- set menuStyles -%}{% include 'css/page_specific/nav_menu_page.css' %}{%- endset -%}
+<style>{{ menuStyles | cssmin | safe }}</style>
+{%- endif -%}
+
+{{ collections.all | eleventyNavigation | eleventyNavigationToHtml | safe }}
+
+{% include 'partials/color_scheme.njk' %}

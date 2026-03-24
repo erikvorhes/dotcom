@@ -1,0 +1,98 @@
+---js
+const eleventyComputed = {
+  plainTitle: async function({ title }) {
+    if (!title) {
+      return undefined;
+    }
+
+    const md = await this.renderContent(title, 'md');
+
+    return this.innerText(md);
+  },
+};
+---
+{%- set defaultStyles -%}
+  {% include 'css/base.css' %}
+  {% include 'css/nav.css' %}
+  {% include 'css/footer.css' %}
+  {% include 'css/content.css' %}
+  {% include 'css/dl.css' %}
+  {% include 'css/verse.css' %}
+{%- endset -%}
+{%- set printStyles -%}
+  {% include 'css/print.css' %}
+{%- endset -%}
+{%- set defaultBundledScripts -%}
+  {% include 'js/onLoad.js' %}
+  {% include 'js/focusHash.js' %}
+{%- endset -%}
+{%- set colorSchemeHandler -%}
+  {% include 'js/handleColorSchemeData.js' %}
+{%- endset -%}
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>{{ plainTitle or metadata.title }}{{ ' | Erik Vorhes' if page.url != '/' }}</title>
+  <meta name="description" content="{{ summary or metadata.description | striptags }}">
+  
+  <meta name="generator" content="{{ eleventy.generator }}">
+  
+  <meta property="og:url" content="{{ metadata.url }}{{ page.url }}">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{{ 'Home: Erik Vorhes' if page.url == '/' else plainTitle or title or metadata.title }}">
+  <meta property="og:description" content="{{ summary or metadata.description | striptags }}">
+{%- set ogPath -%}
+  {%- if image -%}{% ogImage image, page.url -%}
+  {%- else -%}{% fallbackOgImage page.date -%}
+  {%- endif -%}
+{%- endset -%}
+{%- set socialImage -%}{{ ogPath | url | absoluteUrl(metadata.url) }}{%- endset -%}
+  <meta property="og:image" content="{{ socialImage }}">
+  <meta content="og:image:alt" content="">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:site_name" content="{{ metadata.title }}">
+
+  <link rel="icon" href="/favicon.ico" sizes="32x32">
+  <link rel="icon" type="image/svg+xml" href="/icon.svg">
+  <link rel="apple-touch-icon" href="/icon-180.png" sizes="180x180">
+
+  <link rel="manifest" href="/manifest.webmanifest">
+
+  <link rel="me" href="https://typo.social/@erikvorhes">
+  <link rel="alternate" type="application/atom+xml" title="{{ metadata.title }} (Atom feed)" href="/feed.atom.xml">
+  <link rel="alternate" type="application/json" title="{{ metadata.title }} (JSON feed)" href="/feed.json">
+  <link rel="alternate" type='application/rss+xml' title="{{ metadata.title }} (RSS feed)" href="/feed.rss.xml">
+
+  <style>{{ defaultStyles | cssmin | safe }}</style>
+  {% css 'print' %}{{ printStyles | cssmin | safe }}{% endcss %}
+  <script>{{ defaultBundledScripts | jsmin | safe }}</script>
+  <link rel="stylesheet" href="https://use.typekit.net/arf4vwx.css">
+{%- if page.url == '/has/' -%}
+  <link rel="stylesheet" href="/pagefind/pagefind-ui.css">
+{%- endif -%}
+  <style>{% getBundle 'css' %}</style>
+  <link rel="stylesheet" href="{% getBundleFileUrl 'css', 'print' %}" media="print">
+  <script eleventy:ignore>{{ colorSchemeHandler | jsmin | safe }}</script>
+</head>
+<body>
+  {% include 'partials/site_nav.njk' -%}
+  <main{% if noindex %} data-pagefind-ignore="all"{% endif %}>
+{{ content | safe }}
+  </main>
+{%- if page.url != '/menu/' -%}
+  <footer class="site__footer flow">
+    <p>Copyright &copy; {% currentYear %} Erik Vorhes, all rights reserved. See the <a href="/is/#colophon">colophon</a> for more about how this all works.</p>
+    <p><i>If you notice anything amiss, <a href="https://github.com/erikvorhes/dotcom/blob/main/{{ page.inputPath }}" target="_blank" rel="noopener noreferrer">please make a pull request</a>!</i></p>
+  </footer>
+{%- endif -%}
+  <!-- Page `{{ page.url }}` was built on {% currentBuildDate %} -->
+  <script src="{% getBundleFileUrl 'js' %}"></script>
+{%- if page.url == '/has/' -%}
+  <script src="/pagefind/pagefind-ui.js" eleventy:ignore></script>
+{%- endif -%}
+</body>
+</html>

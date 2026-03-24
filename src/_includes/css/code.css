@@ -1,0 +1,9 @@
+code[class*="language-"],
+pre[class*="language-"] {
+  font-family: var(--font-family-mono);
+  font-size: calc(1em * var(--type-ratio-mono));
+}
+
+pre[class*="language-"] code[class*="language-"] {
+  font-size: 1em;
+}

@@ -1,0 +1,18 @@
+---js
+const layout = 'layouts/page.njk';
+const eleventyComputed = {
+  datetime: function(data) {
+    return this.htmlDateString(data.date);
+  },
+  pubDate: function(data) {
+    return this.readableDate(data.date);
+  },
+};
+---
+{%- set styles -%}
+  {% include 'node_modules/prismjs/themes/prism-okaidia.css' %}
+  {% include 'css/code.css' %}
+{%- endset -%}
+<style>{{ styles | cssmin | safe }}</style>
+
+{{ content | safe }}

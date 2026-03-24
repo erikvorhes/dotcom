@@ -1,0 +1,29 @@
+:root {
+  --background: white;
+  --foreground: black;
+}
+
+a::after,
+a[href^="#"],
+abbr[title] {
+  text-decoration: none;
+}
+
+a:not([href^="#"])::after {
+  content: " (" attr(href) ")";
+}
+
+abbr[title] {
+  content: " (" attr(title) ")";
+}
+
+blockquote::before,
+.footnote__backref {
+  display: none;
+}
+
+.site__nav li:first-of-type a::after,
+.site__nav li:not(:first-of-type),
+.site__nav svg {
+  display: none;
+}

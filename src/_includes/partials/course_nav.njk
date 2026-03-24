@@ -1,0 +1,15 @@
+{%- set nav = collections.all | eleventyNavigation(courseKey) -%}
+{%- set styles -%}{% include 'css/page_specific/course_nav.css' %}{%- endset -%}
+<style>{{ styles | cssmin | safe }}</style>
+<nav class="course__nav">
+  <ul role="list">
+    <li>
+      <a href="{{ courseHome }}"{% if page.url == courseHome %} aria-current="page"{% endif %}>Course home</a>
+    </li>
+  {%- for entry in nav -%}
+    <li>
+      <a href="{{ entry.url }}"{% if page.url == entry.url %} aria-current="page"{% endif %}>{{ entry.title }}</a>
+    </li>
+  {%- endfor -%}
+  </ul>
+</nav>

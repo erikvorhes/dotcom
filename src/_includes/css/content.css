@@ -1,0 +1,115 @@
+/**
+ * Adapted from https://every-layout.dev/layouts/stack/
+ */
+.flow > * + * {
+  margin-block-start: var(--flow-space, 1em);
+}
+
+article::after,
+hr::after {
+  display: block;
+  font-size: calc(1em / var(--type-scale));
+  opacity: 0.75;
+  text-align: center;
+}
+
+article::after {
+  color: var(--accent-overt);
+  content: "❧" / "";
+  margin-block: 1lh;
+}
+
+hr::after {
+  color: var(--accent-subtle);
+  content: "❦" / "";
+}
+
+figcaption,
+.pubdate {
+  font-size: calc(1rem / var(--type-scale));
+}
+
+figcaption {
+  margin-block-start: .5lh;
+  text-align: center;
+}
+
+table {
+	border-collapse: collapse;
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: "liga", "clig", "tnum";
+}
+
+sup,
+sub {
+  font-size: 1em;
+  line-height: inherit;
+  vertical-align: inherit;
+}
+
+sup {
+  font-variant-position: super;
+  font-feature-settings: "liga", "clig", "sups";
+}
+
+sub {
+  font-variant-position: sub;
+  font-feature-settings: "liga", "clig", "subs";
+}
+
+a[id^="fnref"] sup {
+  padding-inline: .25ch;
+}
+
+blockquote {
+  position: relative;
+  padding-inline-start: 2lh;
+}
+
+blockquote::before {
+  content: "“" / "";
+  opacity: 0.2;
+  position: absolute;
+  inset-block-start: -1rem;
+  inset-inline-start: 0;
+  font-size: 3lh;
+  font-weight: bold;
+}
+
+ol > li::marker,
+ul > li::marker {
+  opacity: 0.8;
+}
+
+ol > li::marker {
+  font-variant-numeric: proportional-nums;
+  font-feature-settings: "liga", "clig", "pnum";
+}
+
+th,
+td {
+  border: .05rem solid color(from currentColor srgb r g b / 0.5);
+  text-align: start;
+}
+
+thead th:first-of-type,
+tbody th {
+  text-align: right;
+}
+
+table caption {
+  font-style: italic;
+  font-weight: bold;
+}
+
+table caption,
+th,
+td {
+  padding: .5ch 1.5ch;
+}
+
+.has-intro {
+  border-block-end: 0.05rem dashed var(--accent-subtle);
+  margin-block-end: calc(2lh - 0.05rem);
+  padding-block-end: 1lh;
+}

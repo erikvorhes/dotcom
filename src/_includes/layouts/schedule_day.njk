@@ -1,0 +1,21 @@
+---
+layout: layouts/page.njk
+---
+{%- set styles -%}{% include 'css/page_specific/content_back_nav.css' %}{%- endset -%}
+<style>{{ styles | cssmin | safe }}</style>
+
+{%- if notice -%}
+  {{ notice | renderContent('md') | safe }}
+{%- endif -%}
+{%- if reading -%}
+  <h2>Reading</h2>
+  {{ reading | renderContent('md') | safe }}
+{%- endif -%}
+{%- if content -%}
+  <h2>Notes</h2>
+{{ content | safe }}
+{%- endif -%}
+
+<nav class="nav__course__day">
+  <p><a href="../#{{ date | monthDay | slugify }}">Back to the schedule</a></p>
+</nav>

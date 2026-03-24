@@ -1,0 +1,61 @@
+---js
+const layout = 'layouts/base.njk';
+
+const eleventyComputed = {
+  courseHome: function({ courseKey }) {
+    if (!courseKey) {
+      return undefined;
+    }
+
+    let courseSlug;
+    switch (courseKey) {
+      case 'luc-288-081':
+        courseSlug = 'nature-literature';
+        break;
+      case 'luc-274-086':
+        courseSlug = 'shakespeare';
+        break;
+      case 'luc-105-053':
+        courseSlug = 'writing-1';
+        break;
+      case 'luc-106-053':
+        courseSlug = 'writing-2';
+        break;
+      case 'luc-110-104':
+        courseSlug = 'writing-seminar';
+        break;
+    }
+
+    return `/was/teaching/${courseSlug}/`;
+  },
+
+  htmlTitle: async function({ title }) {
+    const md = await this.renderContent(title, 'md');
+    
+    return this.stripOuterParagraph(md); 
+  }
+};
+---
+{%- if courseKey -%}
+  {% include 'partials/course_nav.njk' %}
+{%- endif -%}
+<article class="flow">
+  <header class="{% if introSummary %}has-intro {% endif %}flow">
+    <h1>{{ htmlTitle | safe }}</h1>
+    {% if datetime and pubDate %}<p class="pubdate"><time datetime="{{ datetime }}">{{ pubDate }}</time>{% endif %}
+    {%- if introSummary -%}
+      {{ introSummary | renderContent('md') | safe }}
+    {%- endif -%}
+  </header>
+{%- if image and showImage -%}
+  {% if imageCaption %}
+  <figure>
+  {% endif %}{# will need a different logic here if we put them somewhere other than with the template using this layout, maybe similar filter to logic in base.njk #}
+    <img src="./{{ image }}" width="1200" height="630" alt="{% if imageAlt %}{{ imageAlt }}{% endif %}">
+  {% if imageCaption %}
+    <figcaption>{{ imageCaption | renderContent('md') | stripOuterParagraph | safe }}</figcaption>
+  </figure>
+  {% endif %}
+{%- endif -%}
+{{ content | safe }}
+</article>

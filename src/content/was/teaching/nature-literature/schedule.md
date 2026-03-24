@@ -1,0 +1,19 @@
+---
+title: "Nature in Literature: Schedule"
+date: 2007-08-27
+introSummary: English 288-081 --- Fall 2007, Loyola University Chicago
+summary: Class meeting schedule for a fall 2007 course at Loyola University Chicago on English literature and the natural world
+tags:
+  - nature and literature
+  - schedule
+eleventyNavigation:
+  key: Schedule
+  parent: luc-288-081
+---
+
+We will try to stick to this plan as closely as possible, but we may get ahead or fall behind. If either situation arises, expect in-class and online announcements of schedule revisions. Develop habits, therefore, of bringing your copy of the syllabus to each class meeting and of checking this page.
+
+Page references refer to <cite>Literature and the Environment</cite>, unless otherwise indicated.
+
+{%- set schedule = collections.natureLiteratureSchedule -%}
+{%- include 'partials/schedule_list.njk' -%}

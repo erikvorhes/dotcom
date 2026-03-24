@@ -1,0 +1,40 @@
+.intro > picture,
+.intro img {
+  margin-inline-start: 0;
+}
+
+.intro + .flow {
+  margin-block-start: 2lh;
+}
+
+h2 {
+  font-style: italic;
+  text-align: center;
+}
+
+@media screen and (width < 768px) {
+  .intro {
+    border-block-end: .05rem dashed var(--accent-overt);
+  }
+
+  .intro > picture {
+    margin-block-start: 1lh;
+  }
+}
+
+@media screen and (width >= 768px) {
+  .intro {
+    display: grid;
+    align-items: end;
+    gap: 1em;
+    grid-template-areas: 'pic text text';
+  }
+
+  .intro > .flow {
+    grid-area: text;
+  }
+
+  .intro > picture {
+    grid-area: pic;
+  }
+}

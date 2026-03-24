@@ -1,0 +1,49 @@
+---js
+const pagination = {
+  data: 'collections',
+  size: 1,
+  alias: 'tag',
+  filter: ['all', 'note', 'notes', 'luc_274_086', 'luc_288_081', 'luc_110_104', 'luc_105_053', 'luc_106_053', 'writing1Handouts', 'writing1Schedule', 'writing2Handouts', 'writing2Schedule', 'writingSeminarHandouts', 'writingSeminarSchedule', 'shakespeareHandouts', 'shakespeareSchedule', 'natureLiteratureHandouts', 'natureLiteratureSchedule'],
+};
+
+const eleventyExcludeFromCollections = true;
+
+const noindex = true;
+
+const eleventyComputed = {
+  htmlTitle: async function (data) {
+    const md = await this.renderContent(`Tagged '${data.tag}'`, 'md');
+
+    return this.stripOuterParagraph(md);
+  },
+  title: function (data) {
+    return `Tagged '${data.tag}'`;
+  },
+  permalink: function(data) {
+    return `/has/${this.slugify(data.tag)}/`;
+  },
+};
+
+const layout = 'layouts/base.njk';
+---
+{%- set styles -%}{% include 'css/page_specific/content_back_nav.css' %}{%- endset -%}
+<style>{{ styles | cssmin | safe }}</style>
+
+<h1>{{ htmlTitle | safe }}</h1>
+
+{%- for item in collections[ tag ] | reverse -%}
+  <article class="flow">
+    <h2><a href="{{ item.url }}">{{ item.data.title | renderContent('md') | stripOuterParagraph | safe }}</a></h2>
+  {%- if item.data.course -%}
+    <p><i>from {{ item.data.course }}</i></p>
+  {%- endif -%}
+    <p class="pubdate">published <time datetime="{{ item.date | htmlDateString }}">{{ item.date | readableDate }}</time></p>
+  {%- if item.data.summary -%}
+    {{ item.data.summary | renderContent('md') | safe }}
+  {%- endif -%}
+  </article>
+{%- endfor -%}
+
+<nav class="nav__tag__detail">
+  <p><a href="../#tags">Back to the tag list</a></p>
+</nav>
