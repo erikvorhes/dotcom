@@ -10,14 +10,16 @@ blockquote > * + * {
 }
 
 article::after,
-hr::after {
+hr::after,
+.color-scheme-form::before {
   display: block;
   font-size: calc(1em / var(--type-scale));
   opacity: 0.75;
   text-align: center;
 }
 
-article::after {
+article:not(:has(.color-scheme-form))::after,
+.color-scheme-form::before {
   color: var(--accent-overt);
   content: "❧" / "";
   margin-block: 1lh;
