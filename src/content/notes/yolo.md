@@ -1,6 +1,6 @@
 ---
 title: "‘Yolo’: Let’s get real about Latin"
-summary: Someone created a fake Latin conjugation of ‘yolo’; I think it’s lazy and incorrect.
+summary: Someone created a fake Latin conjugation of *yolo*; I think it’s lazy and incorrect.
 date: 2014-02-11
 tags:
   - language
