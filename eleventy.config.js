@@ -74,7 +74,7 @@ export default async function (eleventyConfig) {
         id += ':' + tokens[idx].meta.subId;
       }
 
-      return ` <a href="#fnref${id}" class="footnote__backref"><span class="visually-hidden">back to link to footnote ${id}</span><small aria-hidden="true">↩</small></a>`;
+      return ` <a href="#fnref${id}" class="footnote__backref"><span class="visually-hidden">back to link to footnote ${id}</span><span aria-hidden="true">↩</span></a>`;
     };
   });
 
