@@ -1,7 +1,7 @@
 ---
 title: Send help, quick
 date: 2026-01-26
-summary: From the occupied state of Minnesota.
+summary: A brief note from the occupied state of Minnesota.
 image: monarca.jpeg
 imageCaption: A monarch caterpillar, bravely facing the troubles of the world
 tags:
