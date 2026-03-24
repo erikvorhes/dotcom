@@ -1,5 +1,5 @@
 ---
-title: “Blackberry Eating,” by Galway Kinnell
+title: ‘Blackberry Eating,’ by Galway Kinnell
 date: 2007-09-01
 summary: One of my favorite poems; it is remarkably visceral.
 image: bodleian-ashmole-1504-blackberry.jpeg

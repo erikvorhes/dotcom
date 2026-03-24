@@ -5,6 +5,10 @@
   margin-block-start: var(--flow-space, 1em);
 }
 
+blockquote > * + * {
+  margin-block-start: calc(var(--flow-space, 1em) / 2);
+}
+
 article::after,
 hr::after {
   display: block;
