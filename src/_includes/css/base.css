@@ -274,7 +274,8 @@ pre,
 code,
 kbd,
 samp,
-var {
+var,
+.footnote__backref {
   font-family: var(--font-family-mono);
   font-size: calc(1em * var(--type-ratio-mono));
 }
