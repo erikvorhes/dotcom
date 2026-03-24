@@ -9,7 +9,6 @@ tags:
   - design
   - transitions
   - writing
-draft: true
 ---
 
 It's been over a decade since I've written anything much longer than a tweet.[^1] This is entirely my own doing; something always felt more important, or I convinced myself that writing my thinking down was not worth the trouble. There are so many lost thoughts, and I'd like to apologize to them, wherever they've gone.
@@ -22,4 +21,4 @@ I can't promise that anything on this little site will be any good, but then aga
 
 [^1]: RIP, Twitter.
 
-[^2]: With apologies to and appreciation of [Janet Emig's classic article on composition](https://www.jstor.org/stable/356095)!
+[^2]: With apologies to and appreciation of [Janet Emig's classic article on composition](https://www.jstor.org/stable/356095).

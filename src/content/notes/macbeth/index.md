@@ -1,5 +1,5 @@
 ---
-title: On <cite>Macbeth</cite>
+title: Notes on <cite>Macbeth</cite>
 date: 2007-11-26
 summary: Thoughts on that Scottish play, with particular focus on the role the natural world plays in it.
 image: macbeth.jpeg
@@ -63,7 +63,7 @@ Creeps in this petty pace from day to day
 To the last syllable of recorded time,
 And all our yesterdays have lighted fools
 The way to dusty death. Out, out, brief candle!
-Live's but a walking shadow, a poor player
+Life’s but a walking shadow, a poor player
 That struts and frets his hour upon the stage
 And then is heard no more. It is a tale
 Told by an idiot, full of sound and fury,
