@@ -3,6 +3,8 @@ title: The Wife’s Lament
 date: 2007-10-10
 summary: An Old English poem with the distinction of being narrated by a woman.
 introSummary: My translation of the poem
+image: exeter-115r.jpeg
+imageCaption: An excerpt from folio 115r of [the Exeter Book](https://theexeterbook.exeter.ac.uk/).
 tags:
   - Old English
   - nature and literature

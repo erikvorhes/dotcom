@@ -34,7 +34,7 @@ The site colors are inspired by the [Towneley manuscript](https://hdl.huntington
 
 Everything is powered by web standards, along with [Eleventy](https://www.11ty.dev/), [Markdown](https://daringfireball.net/projects/markdown/), [Nunjucks](https://mozilla.github.io/nunjucks/), and [Pagefind](https://pagefind.app/). The site is hosted by [Netlify](https://www.netlify.com/).
 
-I didn't use any LLMs while assembling any part of this site. You're welcome to quote, contend with, or remix anything on here, but I'd appreciate a citation.
+I didn't use any LLMs while constructing this site or what I've written on it. You're welcome to quote, contend with, or remix anything on here but I'd appreciate a citation.
 
 If you find an issue, feel free to [submit an issue or make a pull request](https://github.com/erikvorhes/dotcom).
 

@@ -2,6 +2,8 @@
 title: Focus!
 date: 2023-02-25
 summary: A bit of JavaScript to ensure your page’s IDs can be focused, even when you forget to do the work in the HTML.
+image: castle-crags-sp.jpeg
+imageCaption: Castle Crags State Park, in California, through a telescope.
 tags:
   - accessibility
   - HTML

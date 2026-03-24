@@ -2,6 +2,8 @@
 title: ‘The Lamb’ and ‘The Tyger,’ by William Blake
 date: 2007-08-30
 summary: Two of Blake’s most famous poems, as good a pairing as ever.
+image: lamb.jpeg
+showImage: false
 tags:
   - Blake
   - The Lamb

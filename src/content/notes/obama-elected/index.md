@@ -2,6 +2,8 @@
 title: This Morning
 date: 2008-11-05
 summary: A poem concerning the election of Barack Obama as President of the United States of America
+image: lion.jpeg
+imageCaption: A lion in front of the Art Institute of Chicago.
 tags:
   - Obama
   - poetry

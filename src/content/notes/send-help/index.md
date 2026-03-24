@@ -1,7 +1,9 @@
 ---
-title: SOS to the world
+title: Send help, quick
 date: 2026-01-26
-summary: Thoughts on the current state of Minnesota.
+summary: From the occupied state of Minnesota.
+image: monarca.jpeg
+imageCaption: A monarch caterpillar, bravely facing the troubles of the world
 tags:
   - Minnesota
   - I.C.E.
