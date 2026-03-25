@@ -62,6 +62,42 @@
   -webkit-font-smoothing: antialiased;
 }
 
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+::selection {
+  background-color: var(--foreground);
+  color: var(--background);
+}
+
+:not(dialog) {
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (width < 480px) {
+  :root {
+    --site-gutter: 2ch;
+  }
+
+  ul:not([role="list"]),
+  ol:not([role="list"]) {
+    padding-inline-start: 3ch;
+  }
+}
+
+@media screen and (width >= 480px) {
+  ol:not([role="list"]) ol:not([role="list"]),
+  ol:not([role="list"]) ul:not([role="list"]),
+  ul:not([role="list"]) ol:not([role="list"]),
+  ul:not([role="list"]) ul:not([role="list"]) {
+    padding-inline-start: 2lh;
+  }
+}
+
 @media screen and (width >= 768px) {
   :root {
     --type-scale: var(--scale-major-third);
@@ -100,22 +136,6 @@
       --accent-overt 300ms ease,
       --accent-subtle 300ms ease;
   }
-}
-
-*,
-::before,
-::after {
-  box-sizing: border-box;
-}
-
-::selection {
-  background-color: var(--foreground);
-  color: var(--background);
-}
-
-:not(dialog) {
-  margin: 0;
-  padding: 0;
 }
 
 body {
@@ -295,13 +315,6 @@ li {
 ul[role="list"],
 ol[role="list"] {
   list-style: none;
-}
-
-ol ol,
-ol ul,
-ul ol,
-ul ul {
-  padding-inline-start: 2lh;
 }
 
 a {
