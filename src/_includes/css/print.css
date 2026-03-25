@@ -13,11 +13,11 @@ a::after {
   opacity: calc(2 / 3);
 }
 
-a:not([href^="#"])::before {
+a:not([href^="#"], [aria-labelledby="home-label"])::before {
   content: "[";
 }
 
-a:not([href^="#"])::after {
+a:not([href^="#"], [aria-labelledby="home-label"])::after {
   content: "](" attr(href) ")";
 }
 
@@ -42,7 +42,6 @@ blockquote::before,
 .footnote__backref,
 .nav__tag__detail,
 .nav__course__day,
-.site__nav li:first-of-type a::after,
 .site__nav li:not(:first-of-type),
 .site__nav svg,
 .course__nav,
