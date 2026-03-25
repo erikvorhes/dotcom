@@ -1,6 +1,8 @@
 :root {
   --background: white;
   --foreground: black;
+
+  font-size: 12pt;
 }
 
 a,

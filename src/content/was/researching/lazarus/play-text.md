@@ -1,6 +1,9 @@
 ---
 title: The Towneley Lazarus Play
-infoSummary: Updated from a version published on May 16, 2005; this version uses better markup and avoids line numbers (for now). A future version may incorporate XML and XSLT to do magical things.
+introSummary: |
+  Updated from a version published on May 16, 2005; this version uses better markup and avoids line numbers (for now). A future version may incorporate XML and XSLT to do magical things.
+
+  Huntington MS HM 1, F129--F131
 summary: A Middle English play about Lazarus, updated from a version published on May 16, 2005.
 date: 2026-02-23
 tags:
