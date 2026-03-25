@@ -3,28 +3,49 @@
   --foreground: black;
 }
 
-a::after,
-a[href^="#"],
+a,
 abbr[title] {
   text-decoration: none;
 }
 
+a::before,
+a::after {
+  opacity: calc(2 / 3);
+}
+
+a:not([href^="#"])::before {
+  content: "[";
+}
+
 a:not([href^="#"])::after {
-  content: " (" attr(href) ")";
+  content: "](" attr(href) ")";
+}
+
+a[href^="/"]::after {
+  content: "](https://erikvorhes.com" attr(href) ")";
 }
 
 abbr[title] {
   content: " (" attr(title) ")";
 }
 
-blockquote::before,
-.footnote__backref {
-  display: none;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  break-after: avoid;
 }
 
+blockquote::before,
+.footnote__backref,
+.nav__tag__detail,
+.nav__course__day,
 .site__nav li:first-of-type a::after,
 .site__nav li:not(:first-of-type),
 .site__nav svg,
-.course__nav {
+.course__nav,
+.noprint {
   display: none;
 }

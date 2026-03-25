@@ -29,7 +29,7 @@ Office Hours
 Email
   ~ *[no longer used, as of 2008]*
 
-<h2 id="learning-outcomes">Learning outcomes</h2>
+## Learning outcomes
 
 See [the information on UCWR 110](https://www.luc.edu/writingprogram/courses/universitycorewriting/) for the official university statement of learning objectives and competencies for this course.
 
