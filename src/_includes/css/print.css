@@ -24,6 +24,7 @@ blockquote::before,
 
 .site__nav li:first-of-type a::after,
 .site__nav li:not(:first-of-type),
-.site__nav svg {
+.site__nav svg,
+.course__nav {
   display: none;
 }
