@@ -39,7 +39,7 @@ Suche gladande glory con to me glace
 As lyttel byfore þerto watz wonte.
 To calle hyr lyste con me enchace,
 Bot baysment gef myn hert a brunt.
-I seȝ hyr in so strange a place ---
+I seȝ hyr in so strange a place —
 Such a burre myȝt make myn herte blunt.</pre>
 
 > The more I sought her fair face, when I had perceived her fine form, such rejoicing glory began to glide to me as little before then was accustomed. Desire to call her began to provoke me, but confusion gave my heart a shock. I saw her in so strange a place --- such a shock could stop my heart. (169-76)
