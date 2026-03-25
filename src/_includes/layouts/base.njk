@@ -86,7 +86,7 @@ const eleventyComputed = {
 {%- if page.url != '/menu/' -%}
   <footer class="site__footer flow">
     <p>Copyright &copy; {% currentYear %} Erik Vorhes, all rights reserved. See the <a href="/is/#colophon">colophon</a> for more about how this all works.</p>
-    <p><i>If you notice anything amiss, <a href="https://github.com/erikvorhes/dotcom/blob/main/{{ page.inputPath }}" target="_blank" rel="noopener noreferrer">please make a pull request</a>!</i></p>
+    <p class="noprint"><i>If you notice anything amiss, <a href="https://github.com/erikvorhes/dotcom/blob/main/{{ page.inputPath }}" target="_blank" rel="noopener noreferrer">please make a pull request</a>!</i></p>
   </footer>
 {%- endif -%}
   <!-- Page `{{ page.url }}` was built on {% currentBuildDate %} -->
