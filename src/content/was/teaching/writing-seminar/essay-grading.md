@@ -30,6 +30,6 @@ Remember **never** to pass off someone else's work as your own! You should also 
 and what has been done is what will be done;
 there is nothing new under the sun.
 Is there a thing of which it is said,
-"See, this is new"?
+“See, this is new”?
 It has already been,
-in the ages before us.</pre>
+in the ages before us. (<abbr title="New Revised Standard Version">NRSV</abbr>)</pre>
