@@ -62,6 +62,12 @@
   -webkit-font-smoothing: antialiased;
 }
 
+@media screen and (width <= 480px) {
+  :root {
+    --site-gutter: calc(5ch / 3);
+  }
+}
+
 @media screen and (width >= 768px) {
   :root {
     --type-scale: var(--scale-major-third);
