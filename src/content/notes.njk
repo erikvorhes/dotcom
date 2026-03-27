@@ -3,18 +3,18 @@ title: Note Archive
 eleventyNavigation:
   key: Note Archive
   order: 3
-layout: layouts/page.njk
+layout: layouts/base.njk
 noindex: true
 ---
 
-<ul role="list" class="flow">
+<div class="flow">
 {%- for note in collections.notes | reverse -%}
-  <li>
-    <h2><a href="{{ note.url }}">{{ note.data.title | safe }}</a></h2>
-    <p><time datetime="{{ note.date | htmlDateString }}">{{ note.date | readableDate }}</time></p>
-  {%- if note.summary -%}
-    {{ note.data.summary | safe }}
+  <article class="flow">
+    <h2><a href="{{ note.url }}">{{ note.data.title | renderContent('md') | stripOuterParagraph | safe }}</a></h2>
+    <p class="pubdate"><time datetime="{{ note.date | htmlDateString }}">{{ note.date | readableDate }}</time></p>
+  {%- if note.data.summary -%}
+    {{ note.data.summary | renderContent('md') | safe }}
   {%- endif -%}
-  </li>
+  </article>
 {%- endfor -%}
-</ul>
+</div>

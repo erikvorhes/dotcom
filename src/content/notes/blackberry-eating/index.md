@@ -4,9 +4,9 @@ date: 2007-09-01
 summary: One of my favorite poems; it is remarkably visceral.
 introSummary: |
   Easily one of my favorite poems, with exquisite alliteration.
+# social image: Oxford, Bodleian Library MS. Ashmole 1504: https://digital.bodleian.ox.ac.uk/objects/385c0fdd-03ce-42c7-b43f-369003bee8f3/
 image: bodleian-ashmole-1504-blackberry.jpeg
-imageCaption: |
-  [Oxford, Bodleian Library MS. Ashmole 1504](https://digital.bodleian.ox.ac.uk/objects/385c0fdd-03ce-42c7-b43f-369003bee8f3/)
+showImage: false
 tags:
   - poetry
   - Galway Kinnell
@@ -28,3 +28,5 @@ many-lettered, one-syllabled lumps,
 which I squeeze, squinch open, and splurge well
 in the silent, startled, icy, black language
 of blackberry-eating in late September.</pre>
+
+<img src="./bberries.jpg" alt="ripe blackberries, still on the vine">
