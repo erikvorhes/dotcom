@@ -153,8 +153,15 @@ video,
 canvas {
   display: block;
   max-inline-size: 100%;
-  block-size: auto;
   margin-inline: auto;
+}
+
+img,
+picture,
+audio,
+video,
+canvas {
+  block-size: auto;
 }
 
 input,
@@ -333,14 +340,32 @@ abbr[title] {
 a,
 abbr[title] {
   text-decoration-color: var(--accent-subtle);
-  text-decoration-thickness: from-font;
   text-underline-offset: .1em;
   transition: text-decoration-color 300ms ease;
 }
 
+a,
+abbr[title],
+del,
+s {
+  text-decoration-thickness: from-font;
+}
+
 a:hover,
-abbr[title]:hover {
+abbr[title]:hover,
+del,
+s {
   text-decoration-color: var(--accent-overt);
+}
+
+del,
+s {
+  text-decoration-style: wavy;
+}
+
+ins {
+  font-style: italic;
+  text-decoration: none;
 }
 
 :focus-visible {
