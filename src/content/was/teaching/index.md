@@ -5,20 +5,8 @@ eleventyNavigation:
   parent: Was
 layout: layouts/page.njk
 ---
-<style>
-  .headshot {
-    float: inline-end;
-    padding-inline-start: 2lh;
-    padding-block-end: 2lh;
-  }
-  .headshot,
-  .headshot > picture,
-  .headshot > img {
-    margin: 0;
-  }
-</style>
 
-<figure class="headshot">
+<figure class="pic-end">
   <img src="./headshot.png" alt="an old, tiny headshot from when I was teaching">
 </figure>
 

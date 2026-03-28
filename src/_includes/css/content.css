@@ -119,3 +119,29 @@ td {
   margin-block-end: calc(2lh - 0.05rem);
   padding-block-end: 1lh;
 }
+
+.pic-start {
+  clear: inline-start;
+  float: inline-start;
+  padding-inline-end: 2lh;
+}
+
+.pic-end {
+  clear: inline-end;
+  float: inline-end;
+  padding-inline-start: 2lh;
+}
+
+.pic-start,
+.pic-end {
+  padding-block-end: 1lh;
+}
+
+.pic-start,
+.pic-start > picture,
+.pic-start > img,
+.pic-end,
+.pic-end > picture,
+.pic-end > img {
+  margin: 0;
+}
