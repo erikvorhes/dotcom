@@ -18,41 +18,41 @@ As I've lectured on <cite>Macbeth</cite>, I hope that I've been able to communic
 
 Near the top of my list is the human capacity for deception. We repeatedly witness Macbeth's concerns with secret assassinations and his desire for no one (aside from Lady Macbeth) to know about the Weird Sisters' prophecies. But Macbeth & Lady Macbeth both fall into the trap of self-deception, as well. Recall Lady Macbeth's flippant response to Macbeth after he has murdered Duncan (2.2.64--72):
 
-Macbeth
-  ~ Will all great Neptune's ocean wash this blood
-  ~ Clean from my hand? No, this my hand will rather
-  ~ The multitudinous seas incarnadine,
-  ~ Making the green one red.
-
-Lady Macbeth
-  ~ My hands are of your color, but I shame
-  ~ to wear a heart so white. I hear a knocking
-  ~ At the south entry. Retire we to our chamber.
-  ~ A little water clears us of this deed.
-    How easy is it, then!
-
-Lady Macbeth asserts that one can wash away the guilt of murder as easily as one washes one's hands. When we see her again near the play's conclusion, however, the falsehood of her initial claim becomes apparent (5.1.22--36, 40--41):
-
-Doctor
-  ~ What is it she does now? Look how she rubs her hands.
-
-Gentlewoman
-  ~ It is an accustomed action with her to seem thus washing her hands. I have known her continue in this a quarter of an hour.
-
-Lady Macbeth
-  ~ Yet here's a spot.
-
-Doctor
-  ~ Hark, she speaks. I will set down what comes from her, to satisfy my remembrance the more strongly.
-
-Lady Macbeth
-  ~ Out, damned spot! Out, I say! One --- two --- why then, ’tis time to do 't. Hell is murky. --- Fie, my lord, fie, a soldier, and afeard? What need we fear who knows it, when none can call our power to account? Yet who would have thought the old man to have had so much blood in him?
-
-Doctor
-  ~ Do you mark that?
-
-Lady Macbeth
-  ~ The Thane of Fife had a wife. Where is she now? --- What, will these hands ne'er be clean? --- No more o' that, my lord, no more o' that; you mar all with this starting. ... Here's the smell of the blood still. All the perfumes of Arabia will not sweeten this little hand. O, o, o!
+> Macbeth
+>   ~ Will all great Neptune's ocean wash this blood
+>   ~ Clean from my hand? No, this my hand will rather
+>   ~ The multitudinous seas incarnadine,
+>   ~ Making the green one red.
+> 
+> Lady Macbeth
+>   ~ My hands are of your color, but I shame
+>   ~ to wear a heart so white. I hear a knocking
+>   ~ At the south entry. Retire we to our chamber.
+>   ~ A little water clears us of this deed.
+>     How easy is it, then!
+> 
+> Lady Macbeth asserts that one can wash away the guilt of murder as easily as one washes one's hands. When we see her again near the play's conclusion, however, the falsehood of her initial claim becomes apparent (5.1.22--36, 40--41):
+> 
+> Doctor
+>   ~ What is it she does now? Look how she rubs her hands.
+> 
+> Gentlewoman
+>   ~ It is an accustomed action with her to seem thus washing her hands. I have known her continue in this a quarter of an hour.
+> 
+> Lady Macbeth
+>   ~ Yet here's a spot.
+> 
+> Doctor
+>   ~ Hark, she speaks. I will set down what comes from her, to satisfy my remembrance the more strongly.
+> 
+> Lady Macbeth
+>   ~ Out, damned spot! Out, I say! One --- two --- why then, ’tis time to do 't. Hell is murky. --- Fie, my lord, fie, a soldier, and afeard? What need we fear who knows it, when none can call our power to account? Yet who would have thought the old man to have had so much blood in him?
+> 
+> Doctor
+>   ~ Do you mark that?
+> 
+> Lady Macbeth
+>   ~ The Thane of Fife had a wife. Where is she now? --- What, will these hands ne'er be clean? --- No more o' that, my lord, no more o' that; you mar all with this starting. ... Here's the smell of the blood still. All the perfumes of Arabia will not sweeten this little hand. O, o, o!
 
 Lady Macbeth can't cleanse herself of her guilt. In despair she kills herself.
 

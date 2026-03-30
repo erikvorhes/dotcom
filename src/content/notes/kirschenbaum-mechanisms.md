@@ -1,7 +1,7 @@
 ---
 title: 'Book lust: <cite>Mechanisms</cite>'
 date: 2007-01-04
-summary: A new book by Matthew Kirschenbaum has piqued my interest
+summary: A forthcoming book by Matthew Kirschenbaum has piqued my interest
 tags:
   - Matthew Kirschenbaum
   - mechanisms

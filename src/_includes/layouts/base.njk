@@ -40,9 +40,9 @@ const eleventyComputed = {
   
   <meta name="generator" content="{{ eleventy.generator }}">
   
-  <meta property="og:url" content="{{ metadata.url }}{{ page.url }}">
+  <meta property="og:url" content="{{ page.url | url | absoluteUrl(metadata.url) }}">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="{{ 'Home: Erik Vorhes' if page.url == '/' else plainTitle or title or metadata.title }}">
+  <meta property="og:title" content="{{ 'Home | Erik Vorhes' if page.url == '/' else plainTitle or title or metadata.title }}">
   <meta property="og:description" content="{{ summary or metadata.description | striptags }}">
 {%- set ogPath -%}
   {%- if image -%}{% ogImage image, page.url -%}
@@ -85,14 +85,14 @@ const eleventyComputed = {
   </main>
 {%- if page.url != '/menu/' -%}
   <footer class="site__footer flow">
-    <p>Copyright &copy; {% currentYear %} Erik Vorhes, all rights reserved. See the <a href="/is/#colophon">colophon</a> for more about how this all works.</p>
+    <p>Copyright © {% currentYear %} Erik Vorhes, all rights reserved. See the <a href="/is/#colophon">colophon</a> for more about how this all works.</p>
     <p class="noprint"><i>If you notice anything amiss, <a href="https://github.com/erikvorhes/dotcom/blob/main/{{ page.inputPath }}" target="_blank" rel="noopener noreferrer">please make a pull request</a>!</i></p>
   </footer>
 {%- endif -%}
   <!-- Page `{{ page.url }}` was built on {% currentBuildDate %} -->
-  <script src="{% getBundleFileUrl 'js' %}"></script>
 {%- if page.url == '/has/' -%}
   <script src="/pagefind/pagefind-ui.js" eleventy:ignore></script>
 {%- endif -%}
+  <script src="{% getBundleFileUrl 'js' %}"></script>
 </body>
 </html>

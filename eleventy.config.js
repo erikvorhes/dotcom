@@ -82,6 +82,7 @@ export default async function (eleventyConfig) {
     './public': '/',
   });
   eleventyConfig.addPassthroughCopy('./src/content/**/*.jpeg');
+  eleventyConfig.addPassthroughCopy('./src/content/**/*.jpg');
   eleventyConfig.addPassthroughCopy('./src/content/**/*.png');
 
   // Watch CSS files
