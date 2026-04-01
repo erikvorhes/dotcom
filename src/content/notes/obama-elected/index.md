@@ -10,6 +10,8 @@ tags:
   - politics
 ---
 
+Yesterday we elected Barack Obama to be the 44th President of the United States of America --- [389 years to the day since the first African slaves arrived on our shores](http://www.theroot.com/id/48731). Maybe we're starting to heal some of those longago wounds.
+
 <pre class="verse">It is a strange thing:
 to wake up and see the sun rise,
 to know that its molten metal ascends over the lake,

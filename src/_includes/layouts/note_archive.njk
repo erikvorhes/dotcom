@@ -1,0 +1,7 @@
+---
+layout: 'layouts/base.njk'
+---
+{%- set styles -%}{% include 'css/page_specific/note_archive.css' %}{%- endset -%}
+<style>{{ styles | cssmin | safe }}</style>
+
+{{ content | safe }}

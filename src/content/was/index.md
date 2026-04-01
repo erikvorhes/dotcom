@@ -14,13 +14,13 @@ eleventyNavigation:
 A portfolio of sorts? I wouldn't say I've lived that many lives, but as time goes on, I've accumulated some experience. Here are a few things of note.
 
 "[Type News](http://typedia.com/blog/category/only/type-news/)"
-  ~ A long-running series for Typedia, written almost entirely by Grant Hutchinson and me.
+  ~ A long-running series for Typedia, written almost entirely by [Grant Hutchinson](https://splorp.me) and me.
   
 [Assumption Engine](https://assumption-engine.netlify.com/)
   ~ A post--Web-2.0 engine for making assumptions.
 
 [Erik and Erica dot org](https://erikanderica.org/)
-  ~ The family web-site, due for some updates!
+  ~ The family website! Erica's section is due for a refresh.
 
 [Teaching](/was/teaching/)
   ~ I taught composition and courses on Shakespeare and nature in literature at Loyola University Chicago.
@@ -48,3 +48,5 @@ It has been a while, but I'm always up for talking about accessibility, typograp
 * "The Moon and Mourning in <cite>Pearl</cite>." Conference of the Illinois Medieval Association, Southern Illinois University, Carbondale, Illinois, 25 <abbr title="February">Feb.</abbr> 2005.
 * "Oswald's Bones: Translation, History, and the Martyrdom of a Northumbrian King." Conference of the Southeast Medieval Association, College of Charleston, Charleston, South Carolina, 16 <abbr>Oct.</abbr> 2004.
 * "The War on Earth: God's Sovereignty and the Puritan Revolt in Milton's <cite>Lycidas</cite>." A Calling to Justice, Loyola University Chicago, Chicago, Illinois, 21 <abbr>Feb.</abbr> 2004.
+
+<!-- I gotta add in some actual design work! -->

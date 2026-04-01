@@ -1,7 +1,7 @@
 ---
 title: <cite>Harry Potter</cite> in 3 dimensions, kinda
 date: 2007-07-12
-summary: An OK movie marred by chasing technological trends
+summary: An OK movie marred by the chasing of technological trends
 tags:
   - film
   - review
