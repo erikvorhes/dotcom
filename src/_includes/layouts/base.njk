@@ -40,16 +40,12 @@ const eleventyComputed = {
   
   <meta name="generator" content="{{ eleventy.generator }}">
   
-  <meta property="og:url" content="{{ page.url | url | absoluteUrl(metadata.url) }}">
+  <meta property="og:url" content="{{ page.url | url | htmlBaseUrl(metadata.url) }}">
   <meta property="og:type" content="website">
   <meta property="og:title" content="{{ 'Home | Erik Vorhes' if page.url == '/' else plainTitle or title or metadata.title }}">
   <meta property="og:description" content="{{ summary or metadata.description | striptags }}">
-{%- set ogPath -%}
-  {%- if image -%}{% ogImage image, page.url -%}
-  {%- else -%}{% fallbackOgImage page.date -%}
-  {%- endif -%}
-{%- endset -%}
-{%- set socialImage -%}{{ ogPath | url | absoluteUrl(metadata.url) }}{%- endset -%}
+{%- set ogPath -%}{%- if image -%}{{ image }}{%- else -%}{% fallbackOgImage page.date -%}{%- endif -%}{%- endset -%}
+{%- set socialImage -%}{{ ogPath | url | htmlBaseUrl(metadata.url) }}{%- endset %}
   <meta property="og:image" content="{{ socialImage }}">
   <meta content="og:image:alt" content="">
   <meta property="og:image:width" content="1200">
