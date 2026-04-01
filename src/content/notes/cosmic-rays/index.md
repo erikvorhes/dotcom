@@ -1,7 +1,7 @@
 ---
 title: Cosmic ray detection
 date: 2019-05-28
-summary: Abram built a cosmic ray detector.
+summary: Abram built a cloud chamber to observe invisible particles.
 image: abram.jpeg
 imageCaption: 'Abram, our intrepid scientist, inspects our [cloud chamber](https://en.wikipedia.org/wiki/Cloud_chamber)'
 tags:

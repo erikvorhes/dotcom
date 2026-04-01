@@ -48,3 +48,5 @@ It has been a while, but I'm always up for talking about accessibility, typograp
 * "The Moon and Mourning in <cite>Pearl</cite>." Conference of the Illinois Medieval Association, Southern Illinois University, Carbondale, Illinois, 25 <abbr title="February">Feb.</abbr> 2005.
 * "Oswald's Bones: Translation, History, and the Martyrdom of a Northumbrian King." Conference of the Southeast Medieval Association, College of Charleston, Charleston, South Carolina, 16 <abbr>Oct.</abbr> 2004.
 * "The War on Earth: God's Sovereignty and the Puritan Revolt in Milton's <cite>Lycidas</cite>." A Calling to Justice, Loyola University Chicago, Chicago, Illinois, 21 <abbr>Feb.</abbr> 2004.
+
+<!-- I gotta add in some actual design work! -->

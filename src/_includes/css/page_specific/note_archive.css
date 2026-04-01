@@ -1,0 +1,11 @@
+.note-archive ul {
+  list-style: none;
+}
+
+.note-archive li + li {
+  margin-block-start: 1lh;
+}
+
+.note-archive a {
+  font-size: calc(1rem * pow(var(--type-scale), 1));
+}
