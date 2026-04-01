@@ -7,19 +7,6 @@ export default function(eleventyConfig) {
   });
 
   /**
-   * @param {string} imagePath -- path to the image
-   * @param {string} pageUrl -- page.url property; used if `imagePath` does not start with a slash 
-   * @returns {string}
-   */
-  eleventyConfig.addShortcode('ogImage', function ogImage(imagePath, pageUrl) {
-    if (imagePath.startsWith('/')) {
-      return imagePath;
-    }
-
-    return `${pageUrl}${imagePath}`;
-  });
-
-  /**
    * @param {string | Date} date -- ISO date string
    * @returns {string}
    */
