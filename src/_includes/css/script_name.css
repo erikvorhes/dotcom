@@ -1,0 +1,14 @@
+#script-name {
+  position: absolute;
+  inset-block-start: 0;
+  inset-inline-start: .25%;
+  inline-size: 99.5%;
+  block-size: auto;
+  opacity: 0.075;
+  pointer-events: none;
+  z-index: -1;
+}
+
+#script-name path {
+  fill: var(--accent-subtle);
+}

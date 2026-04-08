@@ -5,21 +5,21 @@
   font-size: 12pt;
 }
 
-a,
+a[href],
 abbr[title] {
   text-decoration: none;
 }
 
-a::before,
-a::after {
+a[href]::before,
+a[href]::after {
   opacity: calc(2 / 3);
 }
 
-a:not([href^="#"], [aria-labelledby="home-label"])::before {
+a[href]:not([href^="#"], [aria-labelledby="home-label"])::before {
   content: "[";
 }
 
-a:not([href^="#"], [aria-labelledby="home-label"])::after {
+a[href]:not([href^="#"], [aria-labelledby="home-label"])::after {
   content: "](" attr(href) ")";
 }
 

@@ -337,21 +337,21 @@ abbr[title] {
   text-decoration: underline dotted;
 }
 
-a,
+a[href],
 abbr[title] {
   text-decoration-color: var(--accent-subtle);
   text-underline-offset: .1em;
   transition: text-decoration-color 300ms ease;
 }
 
-a,
+a[href],
 abbr[title],
 del,
 s {
   text-decoration-thickness: from-font;
 }
 
-a:hover,
+a[href]:hover,
 abbr[title]:hover,
 del,
 s {

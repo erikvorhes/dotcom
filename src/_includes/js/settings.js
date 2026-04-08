@@ -35,7 +35,7 @@ function createAndAppendForm(el) {
   const legend = document.createElement('legend');
   const formId = 'set-color-scheme';
 
-  heading.innerText = 'Light or dark mode selection';
+  heading.innerText = 'Settings';
 
   form.setAttribute('name', formId);
   form.setAttribute('id', formId);
