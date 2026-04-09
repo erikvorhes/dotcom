@@ -12,7 +12,7 @@ tags:
   - subatomic particles
 ---
 
-One of my favorite things about Abram & Zora's school is that students are encouraged to develop Personal Learning Projects. This year Abram was interested in cosmic rays, partly inspired by our listening to the "[Bit Flip](https://radiolab.org/podcast/bit-flip)" episode of <cite>Radiolab</cite>. So we built used a bunch of household materials to build a cloud chamber, acquired some dry ice, found the darkest room in the house, and set to recording. The following video is the part that's easy to share.
+One of my favorite things about Abram & Zora's school is that students are encouraged to develop Personal Learning Projects. This year Abram was interested in cosmic rays, partly inspired by our listening to the "[Bit Flip](https://radiolab.org/podcast/bit-flip)" episode of <cite>Radiolab</cite>. So we used a bunch of household materials to build a cloud chamber, acquired some dry ice, found the darkest room in the house, and set to recording. The following video is the part that's easy to share.
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/LFq3Crbh6bI?si=PU8Y8Ott0EbvrWqs" title="Cosmic Rays (YouTube video player)" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
