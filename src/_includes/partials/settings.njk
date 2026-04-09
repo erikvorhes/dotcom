@@ -1,7 +1,7 @@
 {%- set rootId = 'color-scheme-form' -%}
-{%- set styles -%}{% include 'css/page_specific/form_color_scheme.css' %}{%- endset -%}
+{%- set styles -%}{% include 'css/page_specific/settings.css' %}{%- endset -%}
 {%- set scripts -%}
-  {% include 'js/colorSchemeForm.js' %}
+  {% include 'js/settings.js' %}
   mountFormOnLoad('{{ rootId }}');
 {%- endset -%}
 <style>{{ styles | cssmin | safe }}</style>

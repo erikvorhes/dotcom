@@ -14,7 +14,7 @@
   text-decoration: none;
 }
 
-.course__nav a:hover {
+.course__nav a[href]:hover {
   background-color: var(--accent-subtle);
 }
 
