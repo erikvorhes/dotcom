@@ -9,6 +9,7 @@
 
 .course__nav a {
   display: block;
+  font-size: .75rem;
   padding: .5lh;
   text-align: center;
   text-decoration: none;
