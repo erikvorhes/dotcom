@@ -36,6 +36,8 @@
   --flow-space: 1lh;
   --font-family-text: minion-3, Georgia, serif;
   --font-family-mono: gintronic, monospace, sans-serif;
+  --min-1px: max(.05rem, 1px);
+  --min-2px: max(.1rem, 2px);
   --scale-major-second: 1.125;
   --scale-minor-third: 1.2;
   --scale-major-third: 1.25;
