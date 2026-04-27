@@ -94,7 +94,7 @@ ol > li::marker {
 
 th,
 td {
-  border: .05rem solid color(from currentColor srgb r g b / 0.5);
+  border: var(--min-1px) solid color(from currentColor srgb r g b / 0.5);
   text-align: start;
 }
 
@@ -115,8 +115,8 @@ td {
 }
 
 .has-intro {
-  border-block-end: 0.05rem dashed var(--accent-subtle);
-  margin-block-end: calc(2lh - 0.05rem);
+  border-block-end: var(--min-1px) dashed var(--accent-subtle);
+  margin-block-end: calc(2lh - var(--min-1px));
   padding-block-end: 1lh;
 }
 

@@ -11,22 +11,22 @@
 }
 
 [name="set-color-scheme"] li {
-  border-block: .1rem double currentColor;
+  border-block: var(--min-2px) double currentColor;
   position: relative;
 }
 
 [name="set-color-scheme"] li:not(:first-child) {
-  border-inline-start: .05rem solid currentColor;
+  border-inline-start: var(--min-1px) solid currentColor;
 }
 
 [name="set-color-scheme"] li:first-child {
-  border-inline-start: .1rem double currentColor;
+  border-inline-start: var(--min-2px) double currentColor;
   border-start-start-radius: .25rem;
   border-end-start-radius: .25rem;
 }
 
 [name="set-color-scheme"] li:last-child {
-  border-inline-end: .1rem double currentColor;
+  border-inline-end: var(--min-2px) double currentColor;
   border-start-end-radius: .25rem;
   border-end-end-radius: .25rem;
 }

@@ -14,7 +14,7 @@ h2 {
 
 @media screen and (width < 768px) {
   .intro {
-    border-block-end: .05rem dashed var(--accent-overt);
+    border-block-end: var(--min-1px) dashed var(--accent-overt);
   }
 
   .intro > picture {

@@ -4,7 +4,7 @@
   --pagefind-ui-background: var(--background);
   --pagefind-ui-border: currentColor;
   --pagefind-ui-tag: var(--accent-subtle);
-  --pagefind-ui-border-width: .1rem;
+  --pagefind-ui-border-width: var(--min-2px);
   --pagefind-ui-border-radius: .25rem;
   --pagefind-ui-image-border-radius: 0;
   --pagefind-ui-image-box-ratio: 0;

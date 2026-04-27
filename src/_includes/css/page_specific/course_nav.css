@@ -1,5 +1,5 @@
 .course__nav ul {
-  border-block: .05rem solid var(--accent-subtle);
+  border-block: var(--min-1px) solid var(--accent-subtle);
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(calc(var(--site-inline-size) / 8), 1fr));
   inline-size: 100%;
