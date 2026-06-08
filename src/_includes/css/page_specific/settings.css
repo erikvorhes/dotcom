@@ -11,7 +11,7 @@
 }
 
 [name="set-color-scheme"] li {
-  border-block: var(--min-2px) double currentColor;
+  border-block: var(--min-3px) double currentColor;
   position: relative;
 }
 
@@ -20,13 +20,13 @@
 }
 
 [name="set-color-scheme"] li:first-child {
-  border-inline-start: var(--min-2px) double currentColor;
+  border-inline-start: var(--min-3px) double currentColor;
   border-start-start-radius: .25rem;
   border-end-start-radius: .25rem;
 }
 
 [name="set-color-scheme"] li:last-child {
-  border-inline-end: var(--min-2px) double currentColor;
+  border-inline-end: var(--min-3px) double currentColor;
   border-start-end-radius: .25rem;
   border-end-end-radius: .25rem;
 }

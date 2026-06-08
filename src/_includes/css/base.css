@@ -38,6 +38,7 @@
   --font-family-mono: gintronic, monospace, sans-serif;
   --min-1px: max(.05rem, 1px);
   --min-2px: max(.1rem, 2px);
+  --min-3px: max(.15rem, 3px);
   --scale-major-second: 1.125;
   --scale-minor-third: 1.2;
   --scale-major-third: 1.25;
@@ -58,7 +59,7 @@
   font-feature-settings: "liga", "clig", "onum";
   
   font-size: 125%;
-  line-height: minmax(pow(var(--type-scale), 3), 1.5);
+  line-height: 1.5;
   -webkit-text-size-adjust: none;
 	text-size-adjust: none;
   -webkit-font-smoothing: antialiased;
