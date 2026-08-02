@@ -30,9 +30,9 @@ Near the top of my list is the human capacity for deception. We repeatedly witne
 >   ~ At the south entry. Retire we to our chamber.
 >   ~ A little water clears us of this deed.
 >     How easy is it, then!
-> 
-> Lady Macbeth asserts that one can wash away the guilt of murder as easily as one washes one's hands. When we see her again near the play's conclusion, however, the falsehood of her initial claim becomes apparent (5.1.22--36, 40--41):
-> 
+ 
+Lady Macbeth asserts that one can wash away the guilt of murder as easily as one washes one's hands. When we see her again near the play's conclusion, however, the falsehood of her initial claim becomes apparent (5.1.22--36, 40--41):
+ 
 > Doctor
 >   ~ What is it she does now? Look how she rubs her hands.
 > 
