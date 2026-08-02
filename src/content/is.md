@@ -22,7 +22,7 @@ Everything is powered by web standards, along with [Eleventy](https://www.11ty.d
 
 All of the content and site logic exists [on GitHub](https://github.com/erikvorhes/dotcom); feel free to file an issue if something is broken or incorrect. You're even welcome to submit a <abbr title="pull request">PR</abbr> if you're feeling especially helpful.
 
-I didn't use any LLMs while constructing this site or what I've written on it. You're welcome to quote, contend with, or remix anything on here but I'd appreciate a citation --- and please let me know what you're doing with it!
+I didn't use any LLMs while constructing this site or when writing for it.^[Well, at least not knowlingly. AI is embedded in everything, it seems.] You're welcome to quote, contend with, or remix anything on here but I'd appreciate a citation --- and please let me know what you're doing with it; the internet is better when it is a web of connections and shared knowlege.^[One day maybe I'll take the time to add commenting functionality.]
 
 ### Fonts in Use
 
