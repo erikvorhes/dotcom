@@ -9,6 +9,7 @@ tags:
   - John Milton
   - Lycidas
   - September 11
+  - Covid-19
 ---
 
 I still remember September 11, 2001, and its aftermath vividly; hell, we're still dealing with the fallout of a response shrouded in fear and endless revenge. But these days I'm much more concerned about how around 3,000 people are dying every couple days in large part because our president* has repeatedly lied about the pandemic and hampered our ability to deal with it effectively.
