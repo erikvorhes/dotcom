@@ -7,6 +7,7 @@ tags:
   - memory
   - nature and literature
   - class handout
+  - September 11
 ---
 
 One of my students asked whether the significance of the date influenced the reading that I had [assigned for today](/was/teaching/nature-literature/2007-09-11/). The short answer was (and is) "No." I also made a crack that Rudy Giuliani's campaign referenced September 11, 2001, more than enough for all of us.
