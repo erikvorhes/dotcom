@@ -1,6 +1,6 @@
 ---
 title: Contagion
-date: 2016-09-11
+date: 2020-09-11
 summary: 'Responding to crises, badly'
 tags:
   - terrorism
