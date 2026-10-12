@@ -17,7 +17,7 @@ It's [Indigenous Peoples' Day](https://en.wikipedia.org/wiki/Indigenous_Peoples%
 
 ## <cite>The Buffalo Hunter Hunter</cite>
 
-If I've interacted with you at all in real life, I've probably tried to slip <cite>The Buffalo Hunter Hunter</cite> into conversation. Way back when it was announced, I put it on hold at the library; various folks whose opinions I respect seemed very excited by this book. Once my turn in line came up, and I started reading it, I understood why they'd recommended it. I won't go into much detail here, because it's probably worth knowing very little about it before you start reading it. The novel involves the discovery of an old journal and large excerpts from that journal, including a story related to the journal-keeper. It's a doubly-nested story, and Stephen Graham Jones sticks the landing. As much as the novel itself is entertaining, it's also deeply profound and deftly indicts the reader in the many supernatural and human horrors.
+If I've interacted with you at all in real life, I've probably tried to slip <cite>The Buffalo Hunter Hunter</cite> into conversation. Way back when it was announced, I put it on hold at the library; various folks whose opinions I respect seemed very excited by this book. Once my turn in line came up and I started reading it, I understood why they'd recommended it. I won't go into much detail here, because it's probably worth knowing very little about it before you start reading it. The novel involves the discovery of an old journal and large excerpts from that journal, including a story related to the journal-keeper and his encounters with a member --- or perhaps former member --- of the Blackfeet people. It's a doubly-nested story, and Jones sticks the landing. As much as the novel itself is entertaining, it's also deeply profound and deftly indicts the reader in the many supernatural and human horrors.
 
 ## <cite>The Only Good Indians</cite>
 
@@ -25,7 +25,7 @@ I read this novel partly because I had just read <cite>The Buffalo Hunter Hunter
 
 ## See also
 
-Christopher Buehlman isn't an indigenous author, but his <cite>The Lesser Dead</cite> appears in Jones' acknowledgements for <cite>The Buffalo Hunter Hunter</cite>, and it's a fantastic, grisly vampire novel set in New York City in 1978. It's the kind of book that really needs to be read twice. Alas, my "to read" pile grows daily, so I'm not sure when that second read-through will happen for me. I'm reminded of the words of the Teacher:
+Christopher Buehlman isn't an indigenous author, but his <cite>The Lesser Dead</cite> appears in Jones' acknowledgements for <cite>The Buffalo Hunter Hunter</cite>,^[To any authors who read this, note that at least one person will read your acknowledgements and follow some of the threads they offer.] and it's a fantastic, grisly vampire novel set in New York City in 1978. It's the kind of book that really needs to be read twice. Alas, my "to read" pile grows daily, so I'm not sure when that second read-through will happen for me. I'm reminded of the words of the Teacher:
 
 > Of making many books there is no end, and much study is a weariness of the flesh. (Ecclesiastes 12.12, <abbr title="New Revised Standard Version (Updated Edition)">NRSV</abbr>)
 
