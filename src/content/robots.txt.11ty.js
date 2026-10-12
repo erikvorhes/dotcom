@@ -3,32 +3,34 @@ class Robots {
     return {
       permalink: 'robots.txt',
       eleventyExcludeFromCollections: true,
-      aiBots: [
+      bots: [
+        'anthropic-ai',
+        'Claude-Web',
+        'ClaudeBot',
+        'Claude-SearchBot',
+        'Claude-User',
         'GPTBot',
         'ChatGPT-User',
+        'OAI-SearchBot',
         'Google-Extended',
         'PerplexityBot',
         'Amazonbot',
-        'ClaudeBot',
-        'Omgilibot',
         'FacebookBot',
-        'Applebot',
-        'anthropic-ai',
+        'Applebot-Extended',
         'Bytespider',
-        'Claude-Web',
         'Diffbot',
         'ImagesiftBot',
-        'Omgilibot',
         'Omgili',
+        'Omgilibot',
         'YouBot',
       ],
     }
   }
 
-  render({ aiBots }) {
-    const remapped = aiBots.map(botName => `User-agent: ${botName}\nDisallow: /`);
+  render({ bots }) {
+    const remapped = bots.map(botName => `User-agent: ${botName}`);
     
-    return `${remapped.join('\n\n')}\n\nUser-agent: *\nDisallow: /404.html\n\nUser-agent: *\nAllow: /\n`;
+    return `${remapped.join('\n')}\nDisallow: /\n\nUser-agent: *\nDisallow: /404.html\n\nUser-agent: *\nAllow: /\n`;
   }
 }
 
