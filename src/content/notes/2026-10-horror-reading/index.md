@@ -1,7 +1,7 @@
 ---
 title: The horror.
 date: 2026-10-12
-summary: It's nearing spooky season and Indigenous Peoples' Day, and I've been reading books written and recommended by Stephen Graham Jones.
+summary: It is nearly spooky season and is Indigenous Peoples' Day, and I've been reading books written and recommended by Stephen Graham Jones.
 image: waterton.jpeg
 imageCaption: A view of sky and rock and water in [Waterton Lakes National Park](https://www.pc.gc.ca/fr/pn-np/ab/waterton/index), Alberta, Canada
 tags:
