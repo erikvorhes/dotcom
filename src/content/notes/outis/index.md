@@ -45,3 +45,5 @@ I'm troubled by the absense of women aside from mostly bit parts, and the remova
 The Viking longships are a cool oddity. The filmic "intertextuality" is cool. The Cyclops is terrifying but an obvious missed opportunity.
 
 Other pieces that I've enjoyed.
+
+Something about Stephen Yeager & the medieval (including that he notes things like Chaucer's Troilus being obviously not in the ancient eastern Mediterranean).

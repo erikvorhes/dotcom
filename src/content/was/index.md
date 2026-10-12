@@ -35,9 +35,10 @@ A portfolio of sorts? I wouldn't say I've lived that many lives, but as time goe
 
 ## Talks and presentations
 
-It has been a while, but I'm always up for talking about accessibility, typography, web development, and a number of other topics.
+I'm always up for talking about accessibility, typography, web development, and a number of other topics.
 
-* "Accessibilitype!" [Web Afternoon](https://speakerdeck.com/erikvorhes/accessibilitype-web-afternoon), 4 <abbr title="October">Oct.</abbr> 2013, and [TypeCon2013: Portl&](https://speakerdeck.com/erikvorhes/accessibilitype-typecon2013-portl-and), 25 <abbr title="August">Aug.</abbr> 2013.
+* "AI and Christian Ethics." Oak Grove Presbyterian Church, 4 <abbr title="October">Oct</abbr>. 2026
+* "Accessibilitype!" [Web Afternoon](https://speakerdeck.com/erikvorhes/accessibilitype-web-afternoon), 4 <abbr>Oct.</abbr> 2013, and [TypeCon2013: Portl&](https://speakerdeck.com/erikvorhes/accessibilitype-typecon2013-portl-and), 25 <abbr title="August">Aug.</abbr> 2013.
 * "[Press Checks in the Age of Web Type](https://speakerdeck.com/erikvorhes/press-checks-in-the-age-of-web-type)." TypeCon2012: MKE SHIFT, 4 <abbr>Aug.</abbr> 2012.
 * "[Meet the New Web Typgraphy: Same as the Old Web Typography](https://speakerdeck.com/erikvorhes/meet-the-new-web-typography-same-as-the-old-web-typography)." <abbr title="American Institute of Graphic Arts">AIGA</abbr> Chicago: The New Web Typography, 6 <abbr>Oct.</abbr> 2011.
 * "[Beyond Accessibility](https://web.archive.org/web/20100416042208/http://www.tanagrampartners.com:80/our-work/areas-interest/beyond-accessibility/)." Tanagram Partners, <abbr title="September">Sept.</abbr> 2008.
