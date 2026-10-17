@@ -2,7 +2,7 @@
 title: "Notflix [<i lang=\"la\">sic</i>]"
 date: 2026-10-17
 image: first-time.jpeg
-imageCaption: "From <cite>The Ballad of Buster Scruggs</cite>, streaming now! James Franco, soon to be hanged, says, \"First time?\""
+imageCaption: "A view of Los Angeles from Griffith Observatory."
 summary: Thoughts on being part of the most recent layoffs at Netflix.
 tags:
   - Netflix
@@ -17,6 +17,11 @@ I remember enjoying an unusually warm October evening around a fire with friends
 
 Wednesday morning, the emails started coming. Mass layoffs were the plan, ostensibly to keep the business strong and growing. I'm not sure how general layoffs achieve those goals, aside from cutting payroll and therefore pleasing shareholders and The Market.^[Number go up!] A few hours later, I was in a video meeting with a bunch of other folks, including a couple brilliant people I'd worked with. Our time at Netflix was done. I'm glad we had time to say good-bye to our now-former colleagues.
 
+<figure>
+<img src="first-time.jpeg" alt aria-labelledby="scruggs-caption">
+<figcaption id="scruggs-caption">From <cite>The Ballad of Buster Scruggs</cite> --- streaming now! --- James Franco, soon to be hanged, says, “First time?”</figcaption>
+</figure>
+
 Layoffs are a weird thing. This isn't the first time I've been at a company that has done this kind of thing, but it was the first time I was on this end of the deal. They are rough for the people let go _and_ for the people who stay. When you stay, you get to deal with the emotional fallout of losing colleagues and with the prospect of having to do the same (or more) with less. When you go, you're left with something that is hard for our narrative-desiring brains to comprehend: at an individual level, there's not much you can do, but you can't help but feel like a failure.
 
 Not long after receiving the news, I [posted on all the socials](https://bsky.app/profile/erikvorhes.bsky.social/post/3mxu5fxs3xk2d "this is the Bluesky skeet") a statement for myself and for anyone else going through this kind of thing:
@@ -27,7 +32,7 @@ Then after getting a few things tidied up, I also shared all the stickers on my 
 
 <img src="puter.jpeg" alt="My laptop, with a bunch of stickers on it.">
 
-* Minnesota Youth Ski League
+* [Minnesota Youth Ski League](https://www.myxc.org)
 * Rory the [Aurora](https://mnaurora.com)saurus
 * a “meat raffle” ticket
 * Lake Superior
