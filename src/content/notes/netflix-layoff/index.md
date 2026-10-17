@@ -29,8 +29,9 @@ Then after getting a few things tidied up, I also shared all the stickers on my 
 
 * Minnesota Youth Ski League
 * Rory the [Aurora](https://mnaurora.com)saurus
-* a “meat raffle” ticket; Lake Superior
-* "Make lefse, not war"
+* a “meat raffle” ticket
+* Lake Superior
+* "make lefse, not war"
 * one of the Netflix offices in Los Angeles, with the Hollywood sign
 * a raccoon and an opossum, high-fiving each other, with the words, "More trash can, less trash can't"
 * an exclamation point
@@ -40,7 +41,7 @@ Then after getting a few things tidied up, I also shared all the stickers on my 
 * one of the phrases from my [<i lang="la">alma mater</i>](https://wp.stolaf.edu), "Fram! Fram!" 'Onward! Onward!'
 * a blue one with butterflies that says, "We love our Somali neighbors"
 * a llama in sunglasses, saying "<i lang="es">Hola</i>," from [Concordia Language Villages](concordialanguagevillages.org)
-* [The Scottish play](https://erikvorhes.com/has/macbeth/)
+* [the Scottish play](https://erikvorhes.com/has/macbeth/)
 * one of the other Netflix offices in LA
 * yet another of the Netflix offices in LA
 * a neon version of Derpy and Sussie, stars of <cite>KPop Demon Hunters</cite> (on streaming now!)
