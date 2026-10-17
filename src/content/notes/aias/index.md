@@ -5,6 +5,7 @@ summary: 'I am a dad, after all.'
 tags:
   - ajax
   - joke
+  - JavaScript
 ---
 
 Behold, the hottest advancement in website technology:
