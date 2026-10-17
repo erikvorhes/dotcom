@@ -1,6 +1,6 @@
 ---
 title: AI and Christian Ethics
-date: 2026-10-13
+date: 2026-10-19
 draft: true
 image: murderbot.jpg
 imageCaption: 'Murderbot is tired of all this.'
@@ -11,11 +11,17 @@ tags:
   - AI
 ---
 
-On October 4, I had the privilege of speaking with some very engaged people at Oak Grove Presbyterian Church in Bloomington, Minnesota. Here are some notes and reflections, along with some materials I used to inform my talk.^[As you might expect, these views may not reflect those of my employer.]
+On October 4, I had the privilege of speaking with some very engaged people at Oak Grove Presbyterian Church in Bloomington, Minnesota. Here are some notes and reflections, along with some materials I used to inform my talk.^[As you might expect, these views may not reflect those of any past or future employer.]
 
-I started with an anecdote about [<cite>Piers Plowman</cite>](https://bookshop.org/a/128625/9780393975598)
+I started with an anecdote about [<cite>Piers Plowman</cite>](https://bookshop.org/a/128625/9780393975598). It's a wildly complex and compelling poem. The crux of it here is that the narrator exists during a time of great upheaval --- in his case, after the plague --- and is concerned with the question, "How can I save my soul?" We, too, feel like we are living through or on the precipice of a time of great upheaval and struggle to know how to contend with what is in front of us.
 
+## What we talk about when we talk about AI
 
+A lot of things we use fall into the category of "artificial intelligence," partly because it has been a field of study since at least the 1950s. So I wanted to develop a shared understanding about different kinds of AI. 
+
+## The promise and threat of AI
+
+## Christian ethics and AI
 
 Resources:
 
@@ -40,6 +46,6 @@ Aaron Swartz: https://en.wikipedia.org/wiki/United_States_v._Swartz
 
 Book Rec: [<cite>More Everything Forever</cite>](https://bookshop.org/a/128625/9781541619593), by Adam Becker
 
-Missing: Corey Doctorow, non-white folks, more women
+Missing: Cory Doctorow: https://pluralistic.net/2026/09/18/surprise/#wow-signal -- this is very good.
 
 Funny: https://youtu.be/3TNpOD6bov8?si=g1craPBg6megSzpQ
