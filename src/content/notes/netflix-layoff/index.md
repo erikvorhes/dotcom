@@ -19,7 +19,7 @@ Wednesday morning, the emails started coming. Mass layoffs were the plan, ostens
 
 <figure>
 <img src="first-time.jpeg" alt aria-labelledby="scruggs-caption">
-<figcaption id="scruggs-caption">From <cite>The Ballad of Buster Scruggs</cite> --- streaming now! --- James Franco, soon to be hanged, says, “First time?”</figcaption>
+<figcaption id="scruggs-caption">From <cite>The Ballad of Buster Scruggs</cite> — streaming now! — James Franco, soon to be hanged, says, “First time?”</figcaption>
 </figure>
 
 Layoffs are a weird thing. This isn't the first time I've been at a company that has done this kind of thing, but it was the first time I was on this end of the deal. They are rough for the people let go _and_ for the people who stay. When you stay, you get to deal with the emotional fallout of losing colleagues and with the prospect of having to do the same (or more) with less. When you go, you're left with something that is hard for our narrative-desiring brains to comprehend: at an individual level, there's not much you can do, but you can't help but feel like a failure.
