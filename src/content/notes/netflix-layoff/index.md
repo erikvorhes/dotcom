@@ -1,7 +1,7 @@
 ---
 title: "Notflix [<i lang=\"la\">sic</i>]"
 date: 2026-10-17
-image: first-time.jpeg
+image: griffith.jpeg
 imageCaption: "A view of Los Angeles from Griffith Observatory."
 summary: Thoughts on being part of the most recent layoffs at Netflix.
 tags:
