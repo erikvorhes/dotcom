@@ -46,7 +46,7 @@ Then after getting a few things tidied up, I also shared all the stickers on my 
 * a neon version of Derpy and Sussie, stars of <cite>KPop Demon Hunters</cite> (on streaming now!)
 * Totoro
 
-I like loading up my laptops with stickers to make them easily distinguishable.
+I like loading up my laptops with stickers to make my metallic slab easily distinguishable from all the others.
 
 ## What's next?
 
