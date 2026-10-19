@@ -1,8 +1,9 @@
 ---
 title: AI and Christian Ethics
-date: 2026-10-19
+date: 2026-10-20
 draft: true
-image: murderbot.jpg
+image: murderbot.jpeg
+imageAlt: 'Murderbot leans its? his? head against a wall.'
 imageCaption: 'Murderbot is tired of all this.'
 summary: "I had the honor of speaking with folks at Oak Grove Presbyterian Church about a topic I've been wrestling with for a while."
 tags:
