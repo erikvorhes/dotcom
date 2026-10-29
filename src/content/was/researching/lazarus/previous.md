@@ -20,9 +20,9 @@ Thank you for your time, and for your interest!
 
 ## The Manuscript
 
-The Towneley manuscript (Huntington MS HM 1) is unique and contains one of the four extant biblical cycle dramas in medieval English literature. Cawley and Stevens believe the manuscript to be dated between 1475 and 1500 (CS xv), although the plays themselves could be (and probably are) older than the manuscript. The Townely cycle contains thirty-one plays in one scribe's hand; these are followed by a fragmentary "Hanging of Judas," which is believed to be in a later "sixteenth-century hand" (CS 651).
+The Towneley manuscript (Huntington MS HM 1) is unique and contains one of the four extant biblical cycle dramas in medieval English literature. Cawley and Stevens believe the manuscript to be dated between 1475 and 1500 (CS xv), although the plays themselves could be (and probably are) older than the manuscript. The Towneley cycle contains thirty-one plays in one scribe's hand; these are followed by a fragmentary "Hanging of Judas," which is believed to be in a later "sixteenth-century hand" (CS 651).
 
-Each play begins with a highly stylized initial capital, and the manuscript employs black and red ink. Red ink is uusally used to mark a line between speaking parts; speech designations are almost flush right on each page. The few stage directions in the manuscript are usually in Latin and also marked in the right margin. An additional peculiarity to the manuscript are markings between rhyming couplets and triplets. (I hope to demonstrate this when the digitized manuscript is on-line.) For further analysis of the manuscript, please see the introductions to AC and Fax.
+Each play begins with a highly stylized initial capital, and the manuscript employs black and red ink. Red ink is usually used to mark a line between speaking parts; speech designations are almost flush right on each page. The few stage directions in the manuscript are usually in Latin and also marked in the right margin. An additional peculiarity to the manuscript are markings between rhyming couplets and triplets. (I hope to demonstrate this when the digitized manuscript is on-line.) For further analysis of the manuscript, please see the introductions to AC and Fax.
 
 ## Lazarus
 
@@ -30,10 +30,11 @@ While an editorial project dealing with one play from a "cycle" can be a useful 
 
 ## Textuality, Theory, Theology?
 
-What got me interested in doing an electronic edition of the play was this textual problem. One experiences a hermeneutic dilemma when encountering the play: how is one to read something so displaced from its traditionally established reality? One of the things that one cannot do with a traditional, bound edition of the manuscript, is to rearrange the book's contents (without, that is, a destructive nature and a razor blade or wet piece of string). Rearranging plays in hypertext is less of a challenge, and you can view my rough starts in the "<em lang="gr">chronos</em> text" and "<em lang="gr">kairos</em> text" version that I have compiled, which (when you're online) do the rearranging for you. I believe that this "deformance" (to ape Jerome McGann) exposes the trouble the play has in navigating time in general. This is far from the only interpretive start, however, and I merely wish at this point to open the door.
+What got me interested in doing an electronic edition of the play was this textual problem. One experiences a hermeneutic dilemma when encountering the play: how is one to read something so displaced from its traditionally established reality? One of the things that one cannot do with a traditional, bound edition of the manuscript, is to rearrange the book's contents (without, that is, a destructive nature and a razor blade or wet piece of string). Rearranging plays in hypertext is less of a challenge, and you can view my rough starts in the "<i lang="gr">chronos</i> text" and "<i lang="gr">kairos</i> text" version that I have compiled, which (when you're online) do the rearranging for you. I believe that this "deformance" (to ape Jerome McGann) exposes the trouble the play has in navigating time in general. This is far from the only interpretive start, however, and I merely wish at this point to open the door.
 
 Hypertext provides other opportunities as well. It pushes texts into a social space far more open than traditional printed matter. With the right technology, one can alter editorial practice so that it no longer is the task of the few, but instead the task of the many. What was a private text becomes a social text. The comments pages, when they are online, should help move this edition in that more social direction.
-Navigating the Lazarus Text
+
+## Navigating the Lazarus Text
 
 My edition of the Lazarus play attempts to begin to take account of inherent textual sociality. All texts are saturated with prior interpretations, prior understandings; I hope to make my edition a transparent acknowledgement of that reality. I began by transcribing from the facsimile edition that Cawley and Stevens published in 1976; at some point I hope to visit the Huntington library in order to verify my transcription against the manuscript itself. In the meantime, I have attempted to incorporate and acknowledge some of the decisions made by my editorial predecessors (Sur., EP, and CS), but this is an ongoing task. Their contributions can most frequently be found in the "notes" attached directly to the edition, and their contributions will continue to expand within those notes.
 
@@ -45,7 +46,8 @@ Aside from punctuation (the MS lacks punctuation), I have attempted to remain fa
 4. It is possible to print the text (I recommend the `mastertext.html` file), but none of these apparatuses will appear on the printed page. This is partly to conserve paper, but also to provide a "clean" copy for performance.
 
 Any difficulty navigating the site should of course be directed to me. I will try to make everything as hassle-free as possible.
-Future Goals
+
+## Future Goals
 
 I have several short-term goals for this project:
 
